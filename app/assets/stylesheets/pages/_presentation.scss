@@ -1,11 +1,11 @@
-.image-presentation {
-  height: 90vh;
+.background-presentation {
+  background-image: image-url("presentation-img.png");
   background-size: cover !important;
 }
 
 @media screen and (max-width: 992px) {
-  .image-presentation {
-  display: none;
+  .background-presentation {
+  background-image: none;
   }
 }
 
@@ -17,6 +17,8 @@
 .content-description {
   width: 80%;
   margin: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
   h2 {
     margin-top: 60px;
     margin-bottom: 30px;
@@ -37,15 +39,4 @@
   }
 }
 
-.team-description {
-  width: 86%;
-  margin: auto;
-  h4 {
-    margin-top: 60px;
-    margin-bottom: 30px;
-  }
-  p {
-    text-align: justify;
-    font-weight: 300 !important;
-  }
-}
+
