@@ -1,15 +1,25 @@
-<div class="banner" style="background-image: url('<%= image_path('actualites.png') %>');">
+<div class="actualites" style="background-image: url('<%= image_path('actualites.png') %>');">
+  <h1 class="text-center">ACTUALITÉS</h1>
   <div class="container">
     <div class="row">
     <% @articles.each do |article|  %>
       <div class="col-md-3 col-xs-12">
-            <div class="card">
-            <p style="color: black;"><%= article.date %></p>
-            <p style="color: black;"><%= article.title %></p>
-            <p style="color: black;"><%= article.content %></p>
-            </div>
+        <div class="card">
+          <div class="date">
+            <%= article.date%>
+          </div>
+          <div class="content-card">
+            <h3><%= article.title %></h3>
+            <p><%= article.content.first(60) %>...</p>
+          </div>
+          <%= link_to article_path(article) do %>
+          <div class="btn-card">
+            Lire la suite
+          </div>
+          <% end %>
+        </div>
       </div>
-              <% end %>
+    <% end %>
     </div>
   </div>
 </div>
