@@ -5,6 +5,12 @@
  * ------------------------------------- */
 
 // Paddings
+
+
+body {
+  color: #18243e;
+}
+
 .padded {
   padding-top: 5em;
   padding-bottom: 5em;
@@ -25,5 +31,10 @@
 }
 
 .wrapper {
-  height: 100vh;
+  max-width: 100%;
 }
+
+.row {
+  max-width: 100%;
+}
+
