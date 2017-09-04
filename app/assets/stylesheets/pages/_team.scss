@@ -5,6 +5,15 @@
   margin-bottom: 80px;
   h4 {
     margin-bottom: 30px;
+    position: relative;
+  }
+  h4:after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    left: 0%;
+    border-bottom: 4px solid #18243e;
+    bottom: -5px;
   }
   p {
     text-align: justify;

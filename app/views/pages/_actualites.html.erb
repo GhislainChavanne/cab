@@ -1,26 +1,30 @@
 <div class="actualites" style="background-image: url('<%= image_path('actualites.png') %>');">
-  <h1 class="text-center">ACTUALITÉS</h1>
+  <h2 class="text-center">ACTUALITÉS</h2>
+  <p>Retrouvez toutes les actualités du cabinet Chavanne & Witt Avocats</p>
   <div class="container">
     <div class="row">
-    <% @articles.each do |article|  %>
-      <div class="col-md-3 col-xs-12">
-        <div class="card">
-          <div class="date">
-            <%= article.date%>
+      <% @articles.each do |article|  %>
+        <div class="col-md-3 col-xs-12">
+          <div class="card">
+            <div class="date">
+              <%= article.date%>
+            </div>
+            <div class="content-card">
+              <h3><%= article.title %></h3>
+              <p><%= article.content.first(60) %>...</p>
+            </div>
+            <%= link_to article_path(article) do %>
+            <div class="btn-card">
+              Lire la suite
+            </div>
+            <% end %>
           </div>
-          <div class="content-card">
-            <h3><%= article.title %></h3>
-            <p><%= article.content.first(60) %>...</p>
-          </div>
-          <%= link_to article_path(article) do %>
-          <div class="btn-card">
-            Lire la suite
-          </div>
-          <% end %>
         </div>
-      </div>
-    <% end %>
+      <% end %>
     </div>
+    <a href="/articles">
+    <h4 style="color: white; text-align: center; font-weight: lighter; letter-spacing: 2px; font-style: italic;">TOUT</h4>
+    </a>
   </div>
 </div>
 

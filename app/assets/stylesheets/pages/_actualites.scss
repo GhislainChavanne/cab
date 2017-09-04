@@ -1,9 +1,28 @@
 .actualites {
   padding: 40px;
   background-size: cover !important;
-  h1 {
+  h2 {
+    margin-top: 65px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 2px;
     color: white;
-    margin-bottom: 40px;
+  }
+  h2:after{
+    content: "";
+    position: absolute;
+    width: 4%;
+    height: 1px;
+    bottom: -10px;
+    left: 48%;
+    border-bottom: 5px solid white;
+  }
+  p {
+    color: white;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    text-align: center;
   }
 }
 
