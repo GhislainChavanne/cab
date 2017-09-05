@@ -3,6 +3,23 @@
   margin-bottom: 30px;
 }
 
+.partenaires h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 2px;
+  }
+  h2:after{
+    content: "";
+    position: absolute;
+    width: 4%;
+    height: 1px;
+    bottom: -10px;
+    left: 48%;
+    border-bottom: 5px solid #18243e;
+}
+
 .top-partenaire {
   height: 150px;
   width: 100%;
