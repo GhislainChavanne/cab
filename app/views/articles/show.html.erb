@@ -1,9 +1,13 @@
-<div class="wrapper" style="margin-top: 150px;">
+<div class="wrapper" style="margin-top: 150px; margin-bottom: 80px;">
   <div class="container">
     <div class="row">
       <div class="col-md-4">
         <div class="title-article">
           <h2><%= @article.title  %></h2>
+        </div>
+        <div>
+          <a href="/articles" style="text-decoration: none; color: #18243e;"><p><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Retour au blog</p></a>
+          <p><i class="fa fa-share" aria-hidden="true"></i> Partager cet article</p>
         </div>
       </div>
       <div class="col-md-8">
@@ -17,3 +21,4 @@
 
 
 
+<%= render 'pages/contact' %>

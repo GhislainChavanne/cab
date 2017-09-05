@@ -63,3 +63,31 @@
   align-items: center;
   justify-content: space-around;
 }
+
+.title-article {
+    background-color: #18243e;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+  h2 {
+    position: relative;
+    margin-top: 0px;
+    color: white;
+  }
+  h2:after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    left: 45%;
+    border-bottom: 4px solid white;
+    bottom: -5px;
+  }
+}
+
+.title-content {
+  p {
+
+  }
+}

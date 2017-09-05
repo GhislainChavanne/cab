@@ -60,26 +60,4 @@
 }
 
 
-.title-article {
-  h2 {
-    position: relative;
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 0px;
-  }
-  h2:after{
-    content: "";
-    position: absolute;
-    width: 10%;
-    left: 45%;
-    border-bottom: 4px solid #18243e;
-    bottom: -5px;
-  }
-}
 
-.title-content {
-  p {
-    border-left: 1px solid black;
-    padding-left: 20px;
-  }
-}
