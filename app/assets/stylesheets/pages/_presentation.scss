@@ -1,9 +1,16 @@
 .background-presentation {
   background-image: image-url("presentation-img.png");
-  background-size: cover !important;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+  .background-presentation {
+  background-image: image-url("responsive-presentation.png");
+  }
+}
+
+@media screen and (max-width: 993px) {
   .background-presentation {
   background-image: none;
   }
@@ -34,7 +41,7 @@
     bottom: -10px;
     left: 45%;
     border-bottom: 5px solid #18243e;
-  }
+}
   h5 {
     text-align: justify;
     line-height: 25px;

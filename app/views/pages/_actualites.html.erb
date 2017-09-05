@@ -1,6 +1,7 @@
-<div class="actualites" style="background-image: url('<%= image_path('actualites.png') %>');">
+<div class="wrapper actualites" style="background-image: url('<%= image_path('actualites.png') %>');">
   <h2 class="text-center">ACTUALITÉS</h2>
   <p>Retrouvez toutes les actualités du cabinet Chavanne & Witt Avocats</p>
+  <div class="container">
     <div class="row">
       <% @articles.each do |article|  %>
         <div class="col-md-3 col-xs-12">
@@ -24,5 +25,6 @@
     <a href="/articles">
     <h4 style="color: white; text-align: center; font-weight: lighter; letter-spacing: 2px; font-style: italic;">TOUT</h4>
     </a>
+    </div>
 </div>
 

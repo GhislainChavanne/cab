@@ -1,0 +1,37 @@
+.card-partenaire {
+  height: 500px;
+  background-color: #18243e;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+
+.top-partenaire {
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-size: cover !important;
+}
+
+.content-partenaire {
+  position: absolute;
+  top: 180px;
+  color: white;
+  left: 20px;
+  right: 20px;
+}
+
+.btn-partenaire {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left:0px;
+  border-top: 1px solid white;
+  height: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}

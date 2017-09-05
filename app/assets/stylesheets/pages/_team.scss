@@ -24,11 +24,19 @@
 
 .background-team-clem {
   background-image: image-url("clem.png");
-  background-size: cover !important;
+  background-size: cover;
   background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+  .background-team-clem {
+  background-size: 100%;
+  background-position: right center;
+  }
+}
+
+@media screen and (max-width: 993px) {
   .background-team-clem {
   background-image: none;
   }
@@ -36,10 +44,18 @@
 
 .background-team-mat {
   background-image: image-url("mat.png");
-  background-size: cover !important;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+  .background-team-mat {
+  background-size: 100%;
+  background-position: left center;
+  }
+}
+
+@media screen and (max-width: 993px) {
   .background-team-mat {
   background-image: none;
   }

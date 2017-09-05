@@ -10,7 +10,6 @@
 body {
 color: #18243e;
 font-variant-ligatures: none;
-
 }
 
 .padded {
@@ -36,9 +35,31 @@ font-variant-ligatures: none;
   max-width: 100%;
 }
 
+.container {
+  width: 90%;
+  margin: auto;
+}
+
 .row {
   width: 100%;
   margin: 0px;
+}
+
+.title-blue {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 2px;
+  }
+  .title-blue:after{
+    content: "";
+    position: absolute;
+    width: 4%;
+    height: 1px;
+    bottom: -10px;
+    left: 48%;
+    border-bottom: 5px solid #18243e;
 }
 
 

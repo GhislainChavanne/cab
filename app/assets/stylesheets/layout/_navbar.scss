@@ -9,6 +9,7 @@
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
+  max-width: 100%;
 }
 
 .navbar-center {
@@ -20,23 +21,18 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1100px) {
-  .navbar-center {
-  width: 75%;
-  }
-}
-
-@media screen and (max-width: 997px) {
+@media screen and (max-width: 1200px) {
   .navbar-center {
   width: 85%;
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 997px) {
   .navbar-center {
   width: 100%;
   }
 }
+
 
 .contact-navbar {
   line-height: 15px;
