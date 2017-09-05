@@ -1,34 +1,11 @@
 .card-partenaire {
-  height: 500px;
   background-color: #162139;
-  position: relative;
   margin-bottom: 30px;
-}
-
-@media screen and (max-width: 547px) {
-  .card-partenaire {
-  height: 540px;
-  }
-}
-
-@media screen and (max-width: 485px) {
-  .card-partenaire {
-  height: 620px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .card-partenaire {
-  height: 680px;
-  }
 }
 
 .top-partenaire {
   height: 150px;
-  background-color: white;
-  position: absolute;
-  left: 0;
-  right: 0;
+  width: 100%;
   background-size: cover !important;
   display: flex;
   align-items: center;
@@ -39,22 +16,20 @@
 }
 
 .content-partenaire {
-  position: absolute;
-  top: 180px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: white;
-  left: 20px;
-  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   p {
     font-weight: 300;
     text-align: justify;
+    margin-top: 30px;
   }
 }
 
 .btn-partenaire {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  left:0px;
+  width: 100%;
   border-top: 1px solid white;
   height: 40px;
   display:flex;

@@ -54,12 +54,10 @@
 }
 
 .card {
-  height: 270px;
   background-color: white;
   width: 100%;
   margin-bottom: 20px;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  position: relative;
   border-radius: 2px;
 }
 
@@ -81,10 +79,6 @@
 }
 
 .btn-card {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  left:0px;
   border-top: 1px solid #e8ecf0;
   height: 40px;
   display:flex;
