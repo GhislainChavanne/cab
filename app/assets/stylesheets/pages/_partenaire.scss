@@ -5,6 +5,17 @@
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 547px) {
+  .card-partenaire {
+  height: 540px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .card-partenaire {
+  height: 580px;
+  }
+}
 
 .top-partenaire {
   height: 150px;
@@ -13,6 +24,12 @@
   left: 0;
   right: 0;
   background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 30%;
+  }
 }
 
 .content-partenaire {

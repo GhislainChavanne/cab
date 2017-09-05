@@ -62,4 +62,8 @@ font-variant-ligatures: none;
     border-bottom: 5px solid #18243e;
 }
 
+p, h1, h2, h3, h4 {
+  font-feature-settings: 'lnum' 1;
+}
+
 

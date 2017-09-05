@@ -31,8 +31,7 @@
 
 @media screen and (max-width: 1200px) {
   .background-team-clem {
-  background-size: 100%;
-  background-position: right center;
+  background-image: image-url("responsive-clem.png");
   }
 }
 
@@ -50,8 +49,7 @@
 
 @media screen and (max-width: 1200px) {
   .background-team-mat {
-  background-size: 100%;
-  background-position: left center;
+  background-image: image-url("responsive-mat.png");
   }
 }
 
