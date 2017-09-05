@@ -1,0 +1,26 @@
+<div class="wrapper actualites" style="background-color: #162139;">
+  <h2 class="text-center" style="margin-top: 120px;">ACTUALITÉS</h2>
+  <p>Retrouvez toutes les actualités du cabinet Chavanne & Witt Avocats</p>
+  <div class="container">
+    <div class="row">
+      <% @articles.each do |article|  %>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="card">
+            <div class="date">
+              <%= article.date%>
+            </div>
+            <div class="content-card">
+              <h3><%= article.title %></h3>
+              <p><%= article.content.first(60) %>...</p>
+            </div>
+            <%= link_to article_path(article) do %>
+            <div class="btn-card">
+              Lire la suite
+            </div>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
