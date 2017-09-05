@@ -19,9 +19,36 @@
     border-bottom: 5px solid white;
   }
   p {
-    color: white;
+    color: #18243e;
     margin-bottom: 25px;
-    font-weight: lighter;
+    font-weight: 370;
+    text-align: center;
+  }
+}
+
+.actualites-index {
+  padding: 40px;
+  background-size: cover !important;
+  h2 {
+    margin-bottom: 30px;
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 2px;
+    color: #18243e;
+  }
+  h2:after{
+    content: "";
+    position: absolute;
+    width: 4%;
+    height: 1px;
+    bottom: -10px;
+    left: 48%;
+    border-bottom: 5px solid #18243e;
+  }
+  p {
+    color: #18243e;
+    margin-bottom: 25px;
+    font-weight: 370;
     text-align: center;
   }
 }
@@ -33,6 +60,7 @@
   margin-bottom: 20px;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   position: relative;
+  border-radius: 2px;
 }
 
 .date {
@@ -64,16 +92,17 @@
   justify-content: space-around;
 }
 
+
 .title-article {
     background-color: #18243e;
     padding: 15px;
     margin-bottom: 40px;
-  h2 {
+  h3 {
     position: relative;
     margin-top: 0px;
     color: white;
   }
-  h2:after{
+  h3:after{
     content: "";
     position: absolute;
     width: 10%;
@@ -91,4 +120,14 @@
 
 .article-content {
   text-align: justify;
+}
+
+
+.card-title {
+  background-color: white;
+  padding: 30px;
+}
+.card-content {
+  background-color: white;
+  padding: 30px;
 }
