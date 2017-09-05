@@ -1,10 +1,10 @@
-<div class="wrapper" style="padding-bottom: 80px; background-color: #f2f3f3; padding: 40px;">
+<div class="wrapper" style="padding-bottom: 80px; background-color: #f2f3f3; padding: 40px; height: 100%;">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <div class="card-title">
-          <div class="title-article">
-            <h3 class="text-center">L'actualité</h3>
+          <div class="logo-article" style="background-image: url('<%= image_path('banner.png') %>');">
+            <%= image_tag "logo-white.png" %>
           </div>
           <div class="option-article text-center">
             <a href="/articles" style="text-decoration: none; color: #18243e;"><p><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Retour au blog</p></a>
@@ -20,7 +20,7 @@
             <h3 class="text-center"><%= @article.title  %></h3>
           </div>
            <p><%= @article.content %></p>
-            <div class="hidden-lg hidden-md">
+            <div class="hidden-lg">
               <a href="/articles" style="text-decoration: none; color: #18243e;"><p><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Retour au blog</p></a>
               <p><i class="fa fa-share" aria-hidden="true"></i> Partager cet article</p>
               <a href="/" style="text-decoration: none; color: #18243e;"><p><i class="fa fa-home" aria-hidden="true"></i></i> Retour à l'acceuil</p></a>
@@ -32,5 +32,3 @@
   </div>
 </div>
 
-
-<%= render 'pages/contact' %>

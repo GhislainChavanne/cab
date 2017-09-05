@@ -22,6 +22,13 @@
   }
 }
 
+@media screen and (max-width: 993px) {
+  .team-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+}
+
 .background-team-clem {
   background-image: image-url("clem.png");
   background-size: cover;
@@ -29,7 +36,7 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1270px) {
   .background-team-clem {
   background-image: image-url("responsive-clem.png");
   }
@@ -41,13 +48,30 @@
   }
 }
 
+.avatar {
+  img {
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #18243e;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .avatar {
+  display: none;
+  }
+}
+
+
 .background-team-mat {
   background-image: image-url("mat.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1270px) {
   .background-team-mat {
   background-image: image-url("responsive-mat.png");
   }
