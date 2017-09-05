@@ -35,11 +35,18 @@ letter-spacing: 1.1px;
 
 .container {
   max-width: 100%;
+  padding: 0px;
 }
 
 .row {
   width: 100%;
   margin: 0px;
+  padding: 0px
+}
+
+.wrapper {
+  max-width: 100%;
+  padding: 0px;
 }
 
 p, h1, h2, h3, h4 {
