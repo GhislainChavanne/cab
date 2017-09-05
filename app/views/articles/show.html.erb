@@ -3,16 +3,20 @@
     <div class="row">
       <div class="col-md-4">
         <div class="title-article">
-          <h2><%= @article.title  %></h2>
+          <h2 class="text-center"><%= @article.title  %></h2>
         </div>
-        <div>
+        <div class="option-article">
           <a href="/articles" style="text-decoration: none; color: #18243e;"><p><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Retour au blog</p></a>
           <p><i class="fa fa-share" aria-hidden="true"></i> Partager cet article</p>
         </div>
       </div>
       <div class="col-md-8">
-        <div class="title-content">
+        <div class="article-content">
          <p><%= @article.content %></p>
+          <div class="hidden-lg hidden-md">
+            <a href="/articles" style="text-decoration: none; color: #18243e;"><p><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Retour au blog</p></a>
+            <p><i class="fa fa-share" aria-hidden="true"></i> Partager cet article</p>
+          </div>
         </div>
       </div>
     </div>

@@ -67,10 +67,7 @@
 .title-article {
     background-color: #18243e;
     padding: 15px;
-    display: flex;
-    align-items: center;
     margin-bottom: 40px;
-    text-align: center;
   h2 {
     position: relative;
     margin-top: 0px;
@@ -86,8 +83,12 @@
   }
 }
 
-.title-content {
-  p {
-
+@media screen and (max-width: 991px) {
+  .option-article {
+  display: none;
   }
+}
+
+.article-content {
+  text-align: justify;
 }
