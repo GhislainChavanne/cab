@@ -2,6 +2,7 @@ class ContactsController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :new, :create ]
   def new
     @contact = Contact.new
+    @articles = Article.order('created_at DESC').first(4)
   end
 
   def create

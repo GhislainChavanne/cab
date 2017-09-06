@@ -4,6 +4,13 @@
       <div class="col-md-6">
         <div class="card-contact">
           <h2>CONTACT</h2>
+            <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+              <%= f.input :nom, :required => true, :placeholder=> "Nom" %>
+              <%= f.input :sujet, :required => true, :placeholder=> "Prénom" %>
+              <%= f.input :email, :required => true, :placeholder=> "Email"%>
+              <%= f.input :message, :required => true, :placeholder=> "Société" %>
+              <%= f.button :submit, 'Go !', :class=> "btn btn-primary text-center" %>
+            <% end %>
         </div>
       </div>
       <div class="col-md-6">
