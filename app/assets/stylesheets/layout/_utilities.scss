@@ -60,5 +60,9 @@ p, h1, h2, h3, h4 {
 }
 }
 
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: blue;
+}
+
 
 

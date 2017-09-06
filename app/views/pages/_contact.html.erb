@@ -9,7 +9,7 @@
               <%= f.input :email, :required => true, :placeholder=> "Votre email" %>
               <%= f.input :sujet, :required => true, :placeholder=> "Sujet"%>
               <div class="textarea text-center">
-                <%= f.text_area(:message)%>
+                <%= f.text_area(:message, placeholder: "Votre message")%>
               </div>
               <div class="btn-form text-center">
                 <%= f.button :submit, 'Envoyer', :class => "btn-details"%>
