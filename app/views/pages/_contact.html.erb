@@ -8,7 +8,7 @@
               <%= f.input :nom, :required => true, :placeholder=> "Nom" %>
               <%= f.input :sujet, :required => true, :placeholder=> "Prénom" %>
               <%= f.input :email, :required => true, :placeholder=> "Email"%>
-              <%= f.input :message, :required => true, :placeholder=> "Société" %>
+              <%= f.text_area(:message, "data-provide" => "markdown")%>
               <%= f.button :submit, 'Go !', :class=> "btn btn-primary text-center" %>
             <% end %>
         </div>
