@@ -1,9 +1,10 @@
 .card-contact {
   background-color: white;
-  padding: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
+  position: relative;
   h2 {
+    padding-top: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
     font-weight: bolder;
@@ -22,6 +23,7 @@
   }
   h4 {
     font-weight: 300;
+    padding-top: 20px;
   }
   h5 {
     font-weight: 300;
@@ -30,5 +32,48 @@
   iframe {
     width: 100%;
     height: 300px;
+    padding: 20px;
   }
 }
+
+
+.form-horizontal {
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+  input {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  letter-spacing: 1.1px;
+    border: 1px solid #ddd2d2;
+  }
+  label {
+    display: none;
+  }
+  .textarea textarea {
+    height: 163px;
+    width: 95%;
+    margin: auto;
+    letter-spacing: 1.1px;
+    border: 1px solid #ddd2d2;
+    margin-bottom: 30px;
+  }
+  .btn-form {
+    border-top: 1px solid #ddd2d2;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    .btn-details {
+      border: none;
+    }
+  }
+}
+
+.btn-form:hover {
+  background-color: #e6e6e6;
+}
+
