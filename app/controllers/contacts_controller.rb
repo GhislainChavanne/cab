@@ -11,7 +11,7 @@ class ContactsController < ApplicationController
       flash.now[:notice] = 'Merci pour votre message, Chavanne & Witt Avocats vous repondra dans les plus brefs délais !'
     else
       flash.now[:error] = "Le message n'a pas pu être envoyé"
-      render :new
+      render :create
     end
   end
 end
