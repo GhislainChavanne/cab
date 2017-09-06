@@ -1,5 +1,5 @@
 Rails.application.configure do
-  config.action_mailer.default_url_options = { host: "https://aperoboulot.herokuapp.com/" }
+  config.action_mailer.default_url_options = { host: "https://chavannewitt.herokuapp.com/" }
   # Settings specified here will take precedence over those in config/application.rb.
   config.action_mailer.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
