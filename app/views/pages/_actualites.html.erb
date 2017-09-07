@@ -7,10 +7,10 @@
         <div class="col-lg-3 col-md-6 col-xs-12">
           <div class="card">
             <div class="date">
-              <%= article.date%>
+              <%= article.date.strftime("%d. %m. %Y")%>
             </div>
             <div class="content-card">
-              <h3><%= article.title %></h3>
+              <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
               <p><%= article.content.first(60) %>...</p>
             </div>
             <%= link_to article_path(article) do %>

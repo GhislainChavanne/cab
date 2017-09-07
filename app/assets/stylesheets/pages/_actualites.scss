@@ -1,6 +1,7 @@
 .actualites {
   padding: 40px;
   background-size: cover !important;
+  margin-bottom: 50px;
   h2 {
     margin-top: 65px;
     margin-bottom: 30px;
@@ -57,7 +58,10 @@
   background-color: white;
   margin-bottom: 20px;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  border-radius: 2px;
+  h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
 }
 
 .date {
@@ -69,9 +73,10 @@
 }
 
 .content-card {
+  margin-top: 25px;
   padding-right: 20px;
   padding-left: 20px;
-  height: 248px;
+  height: 180px;
   p {
     color: #18243e;
     text-align: justify;
@@ -93,7 +98,7 @@
 
 @media screen and (max-width: 408px) {
   .content-card {
-  height: 250px;
+  height: 200px;
   }
 }
 
@@ -103,8 +108,13 @@
   display:flex;
   align-items: center;
   justify-content: space-around;
+  color: #18243e;
 }
 
+.btn-card:hover {
+  color: white;
+  background-color: #2580c6;
+}
 
 .title-article {
     background-color: #18243e;
