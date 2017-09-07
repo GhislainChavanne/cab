@@ -1,34 +1,29 @@
-<div class="wrapper" style="padding-bottom: 80px; background-color: #f2f3f3; padding: 40px; height: 100%;">
+<div class="wrapper article-show">
+  <%= link_to root_path, class: "" do %>
+    <%= image_tag "logo-blog.png" %>
+  <% end %>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card-title">
-          <div class="logo-article" style="background-image: url('<%= image_path('banner.png') %>');">
-            <%= image_tag "logo-white.png" %>
-          </div>
-          <div class="option-article text-center">
-            <a href="/articles" style="text-decoration: none; color: #18243e;"><p><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Retour au blog</p></a>
-            <p><i class="fa fa-share" aria-hidden="true"></i> Partager cet article</p>
-            <a href="/" style="text-decoration: none; color: #18243e;"><p><i class="fa fa-home" aria-hidden="true"></i></i> Retour à l'acceuil</p></a>
-          </div>
-        </div>
+    <div class="article-title">
+      <h3 class="text-center"><%= @article.title.upcase.tr('æ-ý','Æ-Ý') %></h3>
+    </div>
+    <div class="article-content">
+      <p><%= @article.content %></p>
+      <div class="option-article">
+        <i class="fa fa-share-alt-square" aria-hidden="true"></i>
       </div>
-      <div class="col-md-8">
-        <div class="card-content">
-          <div class="article-content">
-          <div class="title-article">
-            <h3 class="text-center"><%= @article.title  %></h3>
-          </div>
-           <p><%= @article.content %></p>
-            <div class="hidden-lg">
-              <a href="/articles" style="text-decoration: none; color: #18243e;"><p><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Retour au blog</p></a>
-              <p><i class="fa fa-share" aria-hidden="true"></i> Partager cet article</p>
-              <a href="/" style="text-decoration: none; color: #18243e;"><p><i class="fa fa-home" aria-hidden="true"></i></i> Retour à l'acceuil</p></a>
-            </div>
-          </div>
-        </div>
+    </div>
+      <div class="article-path">
+        <%= link_to @articles.previous(@article) do %>
+        Prev <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+        <% end %>
+        <%= link_to @articles.next(@article) do %>
+        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Next
+        <% end %>
       </div>
+    <div class="article-menu">
+      <a href="/"><p><i class="fa fa-home" aria-hidden="true"></i> Accueil</p></a>
+      <a href="/articles"><p><i class="fa fa-gavel" aria-hidden="true"></i> Notre Blog</p></a>
+      <a href=""><p><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Nous contacter</p></a>
     </div>
   </div>
 </div>
-
