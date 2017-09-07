@@ -1,16 +1,19 @@
-<div class="wrapper actualites-index" style="padding-bottom: 80px; background-color: #f2f3f3;">
-  <h2 class="text-center">ACTUALITÉS</h2>
-  <p>Retrouvez toutes les actualités du cabinet Chavanne & Witt Avocats</p>
+<div class="wrapper actualites-index" style="background-image: url('<%= image_path('actualites.png') %>');">
+<%= link_to root_path, class: "" do %>
+<%= image_tag "logo-blog.png" %>
+<% end %>
   <div class="container">
     <div class="row">
+      <h2 class="">ACTUALITÉS</h2>
+      <p style="padding-left: 15px;">Retrouvez toutes les actualités du cabinet Chavanne & Witt Avocats</p>
       <% @articles.each do |article|  %>
         <div class="col-lg-3 col-md-6 col-xs-12">
           <div class="card">
             <div class="date">
-              <%= article.date%>
+              <%= article.date.strftime("%d. %m. %Y")%>
             </div>
             <div class="content-card">
-              <h3><%= article.title %></h3>
+              <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
               <p><%= article.content.first(60) %>...</p>
             </div>
             <%= link_to article_path(article) do %>
@@ -23,4 +26,7 @@
       <% end %>
     </div>
   </div>
+        <div class="pagination">
+       <p><%= paginate @articles, outer_window: 3 %></p>
+      </div>
 </div>
