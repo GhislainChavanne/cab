@@ -146,6 +146,26 @@
   }
 }
 
+.btn-blog {
+  width: 115px;
+  background-color: none;
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 1.1px;
+  margin: auto;
+  padding: 12px;
+  border: 1px solid white;
+  margin-top: 25px;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  text-decoration: none;
+}
+
+.btn-blog:hover {
+  text-decoration: none;
+}
+
+
 .option-article {
   margin-top: 40px;
 }
