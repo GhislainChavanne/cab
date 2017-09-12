@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home, :contact ]
+  skip_before_action :authenticate_user!
 
   def home
     @articles = Article.order('date DESC').first(4)
