@@ -88,3 +88,28 @@
     color: #a5a5a5;
 }
 
+.menu-contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  img {
+    width: 400px;
+  }
+}
+
+.background-menu-contact {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  a {
+    border: 1px solid #162241;
+    padding: 20px;
+    color: #162241;
+    background-color: white;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+    font-size: 20px;
+    text-decoration: none;
+  }
+}

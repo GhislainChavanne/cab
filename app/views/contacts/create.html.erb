@@ -1,10 +1,8 @@
-<div class="wrapper" style="margin-top: 70px;">
-    <div class="text-center" style="padding-top: 50px; padding-bottom: 50px; font-size: 30px; letter-spacing: 3px;">
-      <% flash.each do |key, value| %>
-        <div>
-          <%= value %>
-        </div>
-      <% end %>
+<div class="wrapper menu-contact" style="background-image: url('<%= cl_image_path("img-contact_npehc9.png") %>');">
+    <div class="background-menu-contact">
+      <%= link_to "ACCUEIL", root_path  %>
+      <%= link_to "BLOG", articles_path  %>
     </div>
-  </div>
+    <%= cl_image_tag("logo-white_dsazw2.png") %>
+</div>
 
