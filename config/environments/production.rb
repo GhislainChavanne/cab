@@ -3,7 +3,7 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.action_mailer.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
-    :address => 'smtp.gmail.com',
+    :address => 'smtp.sendgrid.net',
     :port => '587',
     :authentication => :plain,
     :user_name => ENV["SENDGRID_USERNAME"],
@@ -13,6 +13,7 @@ Rails.application.configure do
   }
   # Code is not reloaded between requests.
   config.cache_classes = true
+
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
