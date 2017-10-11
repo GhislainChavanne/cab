@@ -11,6 +11,9 @@
               <div class="textarea text-center">
                 <%= f.text_area(:message, placeholder: "Votre message")%>
               </div>
+              <div class= "hidden">
+                <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+              </div>
               <div class="btn-form text-center">
                 <%= f.button :submit, 'Envoyer', :class => "btn-details"%>
               </div>
