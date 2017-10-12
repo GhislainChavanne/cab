@@ -24,9 +24,10 @@
   }
 }
 
-@media screen and (max-width: 950px) {
-  .banner img {
-  width: 80%;
+
+@media screen and (max-width: 767px) {
+.banner {
+  height: 100vh;
   }
 }
 
