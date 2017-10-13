@@ -39,24 +39,4 @@ $(window).scroll(function(event) {
 
 });
 
-$(window).scroll(function(event) {
 
-  $(".hideme2").each(function(i, el) {
-    var el = $(".team-description");
-    if (el.visible(true)) {
-      el.addClass("come-in");
-    }
-  });
-
-});
-
-$(window).scroll(function(event) {
-
-  $(".hideme3").each(function(i, el) {
-    var el = $(".team-description");
-    if (el.visible(true)) {
-      el.addClass("come-in");
-    }
-  });
-
-});
