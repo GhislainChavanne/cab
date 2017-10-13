@@ -100,6 +100,13 @@
   }
 }
 
+
+@media screen and (max-width: 420px) {
+.menu-contact {
+  width: 300px;
+  }
+}
+
 .background-menu-contact {
   position: absolute;
   top: 50px;
@@ -114,3 +121,10 @@
     text-decoration: none;
   }
 }
+
+#name_error {
+  visibility: hidden;
+  margin: 0px;
+  position: absolute;
+}
+
