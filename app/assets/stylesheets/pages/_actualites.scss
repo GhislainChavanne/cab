@@ -1,8 +1,8 @@
 .actualites {
-  padding: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-size: cover !important;
   h2 {
-    margin-top: 65px;
     margin-bottom: 30px;
     font-weight: bolder;
     position: relative;
@@ -162,6 +162,9 @@
 
 .btn-blog:hover {
   text-decoration: none;
+  color: #0b1938;
+  background-color: white;
+  transition: background 0.3s ease;
 }
 
 
