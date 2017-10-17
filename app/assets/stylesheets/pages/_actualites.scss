@@ -1,7 +1,14 @@
+.wrapper-actualites {
+  height: 90vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+}
+
 .actualites {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-size: cover !important;
+  min-width: 100%;
   h2 {
     margin-bottom: 30px;
     font-weight: bolder;
@@ -99,6 +106,11 @@
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .wrapper-actualites {
+  height: auto;
+  }
+}
 
 @media screen and (max-width: 1199px) {
   .content-card {

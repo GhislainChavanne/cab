@@ -6,7 +6,7 @@
 $( document ).ready(function() {
   $(document).on('click', '#btn', function(event){
       event.preventDefault();
-      var offset = - 60;
+      var offset = - 70;
 
       $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top + offset
