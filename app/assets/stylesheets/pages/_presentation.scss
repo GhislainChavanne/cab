@@ -7,19 +7,6 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1300px) {
-  .background-presentation {
-  background-image: image-url("responsive-presentation.png");
-  }
-}
-
-@media screen and (max-width: 993px) {
-  .background-presentation {
-  background-image: none;
-  height: auto;
-  }
-}
-
 .presentation-description {
   display: flex;
   align-items: center;
@@ -28,6 +15,8 @@
 .content-description {
   width: 80%;
   margin: auto;
+  background: white;
+  padding: 20px;
   h2 {
     margin-bottom: 30px;
     font-weight: bolder;
@@ -54,6 +43,25 @@
     text-align: justify;
     font-weight: 300 !important;
     font-size: 14px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .background-presentation {
+  height: auto;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .background-presentation {
+  height: auto;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .background-presentation {
+  background-image: none;
+  height: auto;
   }
 }
 

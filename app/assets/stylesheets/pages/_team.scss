@@ -1,8 +1,7 @@
 .team-description {
   width: 75%;
   margin: auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  background: white;
   h4 {
     margin-bottom: 30px;
     position: relative;
@@ -19,13 +18,7 @@
     text-align: justify;
     font-weight: 300 !important;
     font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 993px) {
-  .team-description {
-  margin-top: 20px;
-  margin-bottom: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -34,18 +27,9 @@
   background-size: cover;
   background-position: right bottom;
   background-repeat: no-repeat;
-}
-
-@media screen and (max-width: 1300px) {
-  .background-team-clem {
-  background-image: image-url("responsive-clem.png");
-  }
-}
-
-@media screen and (max-width: 993px) {
-  .background-team-clem {
-  background-image: none;
-  }
+  height: 90vh;
+  display: flex;
+  align-items: center;
 }
 
 .avatar {
@@ -58,28 +42,69 @@
   }
 }
 
-@media screen and (min-width: 993px) {
-  .avatar {
-  display: none;
-  }
-}
-
-
 .background-team-mat {
   background-image: image-url("mat.png");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1226px) {
+  .team-description {
+  padding: 20px;
+  width: 85%;
+  }
+}
+
+@media screen and (max-width: 1226px) {
+  .background-team-clem {
+  height: auto;
+  }
+}
+
+@media screen and (max-width: 1226px) {
   .background-team-mat {
-  background-image: image-url("responsive-mat.png");
+  height: auto;
   }
 }
 
 @media screen and (max-width: 993px) {
   .background-team-mat {
   background-image: none;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .background-team-clem {
+  background-image: none;
+  }
+}
+
+
+@media screen and (max-width: 993px) {
+  .team-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .avatar {
+  display: none;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .background-team-clem {
+  height: auto;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .background-team-mat {
+  height: auto;
   }
 }
 

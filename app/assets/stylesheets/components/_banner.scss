@@ -25,6 +25,14 @@
   }
 }
 
+@media screen and (max-height: 600px) {
+  .banner {
+  img {
+    width: 30%;
+  }
+  }
+}
+
 
 .banner h1 {
   font-size: 50px;

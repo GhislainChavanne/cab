@@ -5,6 +5,12 @@
   align-items: center;
 }
 
+@media screen and (max-height: 600px) {
+  .wrapper-actualites {
+  height: auto;
+  }
+}
+
 .actualites {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -318,6 +324,8 @@
     text-decoration: none;
   }
 }
+
+
 
 @media screen and (max-width: 1200px) {
   .article-menu {
