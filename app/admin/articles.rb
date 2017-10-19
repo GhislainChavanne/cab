@@ -1,5 +1,6 @@
 
 ActiveAdmin.register Article do
+
   permit_params :title, :content, :date, :description
 
   menu label: "1. ACTUS"
@@ -20,6 +21,14 @@ ActiveAdmin.register Article do
       f.actions
     end
   end
+
+action_item :view_site do
+  link_to "SITE", "/"
+end
+
+action_item :view_site do
+  link_to "BLOG", "/articles"
+end
 
 end
 
