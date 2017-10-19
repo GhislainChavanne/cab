@@ -166,6 +166,13 @@
   }
 }
 
+@media screen and (max-width: 410px) {
+  .collab h3 {
+  font-size: 20px;
+  text-align: center;
+  }
+}
+
 .collab-team {
   width: 80%;
   margin: auto;
@@ -181,7 +188,6 @@
     font-size: 14px;
     padding-right: 20px;
 }
-
 
 .card-collab {
   flex: 0 0 50%;

@@ -25,10 +25,34 @@
   }
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 400px) {
   .banner {
   img {
     width: 30%;
+  }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+  img {
+    width: 400px;
+  }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .banner {
+  img {
+    width: 350px;
+  }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .banner {
+  img {
+    width: 250px;
   }
   }
 }
