@@ -7,6 +7,7 @@
   <div class="container">
     <div class="article-title">
       <h3 class="text-center"><%= @article.title.upcase.tr('æ-ý','Æ-Ý') %></h3>
+      <h4>CHAVANNE & WITT AVOCATS</h4>
     </div>
     <div class="article-content">
       <p><strong><%= @article.description %></strong></p>
@@ -26,7 +27,7 @@
     <div class="article-menu">
       <a href="/"><p><i class="fa fa-home" aria-hidden="true"></i> Accueil</p></a>
       <a href="/articles"><p><i class="fa fa-gavel" aria-hidden="true"></i> Notre Blog</p></a>
-      <a href=""><p><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Nous contacter</p></a>
+      <a href="/contacts"><p><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Nous contacter</p></a>
     </div>
   </div>
 </div>
