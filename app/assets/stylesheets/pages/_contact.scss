@@ -47,9 +47,9 @@
   margin-bottom: 30px;
   position: relative;
   h2 {
-    padding-top: 20px;
+    padding-top: 35px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     font-weight: bolder;
     position: relative;
     letter-spacing: 2px;
@@ -73,6 +73,7 @@
     padding-right: 10px;
     font-weight: 300;
     margin-bottom: 22px;
+    text-align: center;
   }
   iframe {
     width: 100%;
@@ -138,13 +139,25 @@
 }
 
 .menu-contact {
+  color: white;
+  text-align: center;
   height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
+   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
   img {
     width: 400px;
+  }
+  p {
+    color: white;
   }
 }
 
