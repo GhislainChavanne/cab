@@ -20,6 +20,12 @@
     font-size: 14px;
     padding-right: 20px;
   }
+  a {
+    color: #18243e;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+  }
 }
 
 .background-team-clem {
@@ -194,4 +200,10 @@
   padding: 20px;
   border-radius: 3px;
 }
+
+.popover-content {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.2px;
+}
+
 
