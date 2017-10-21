@@ -8,20 +8,20 @@
       <p style="padding-left: 15px;">Retrouvez toutes les actualités du cabinet Chavanne & Witt Avocats</p>
       <% @articles.each do |article|  %>
         <div class="col-lg-3 col-md-6 col-xs-12">
-          <div class="card">
-            <div class="date">
-              <%= article.date.strftime("%d. %m. %Y")%>
+            <div class="card">
+              <div class="date">
+                <%= article.date.strftime("%d. %m. %Y")%>
+              </div>
+              <div class="content-card">
+                <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
+                <p><%= article.description.first(60) %>...</p>
+              </div>
+              <%= link_to article_path(article) do %>
+              <div class="btn-card">
+                Lire la suite
+              </div>
+              <% end %>
             </div>
-            <div class="content-card">
-              <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
-              <p><%= article.content.first(60) %>...</p>
-            </div>
-            <%= link_to article_path(article) do %>
-            <div class="btn-card">
-              Lire la suite
-            </div>
-            <% end %>
-          </div>
         </div>
       <% end %>
     </div>
