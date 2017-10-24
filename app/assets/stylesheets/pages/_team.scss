@@ -145,23 +145,19 @@
   }
 }
 
-@media screen and (max-height: 600px) {
-  .background-team-clemence {
-  height: auto;
-  }
-}
 
 
 .collab {
   padding-bottom: 50px;
   padding-top: 50px;
-    h3 {
-    margin-bottom: 30px;
-    font-weight: bolder;
+  width: 70%;
+  margin: top;
+    h4 {
+    margin-bottom: 40px;
     position: relative;
     letter-spacing: 2px;
   }
-  h3:after{
+  h4:after{
     content: "";
     position: absolute;
     width: 4%;
@@ -173,37 +169,35 @@
 }
 
 @media screen and (max-width: 410px) {
-  .collab h3 {
+  .collab h4 {
   font-size: 20px;
   text-align: center;
   }
 }
 
-.collab-team {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row;
+#demo p {
+  text-align: justify;
+  font-weight: 300 !important;
+  font-size: 14px;
+  padding-right: 20px;
 }
 
-
-.card-collab p {
-    text-align: justify;
-    font-weight: 300 !important;
-    font-size: 14px;
-    padding-right: 20px;
-}
-
-.card-collab {
-  flex: 0 0 50%;
-  padding: 20px;
-  border-radius: 3px;
-}
 
 .popover-content {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1.2px;
 }
 
+.avatar-clemence  {
+    img {
+    width: 200px;
+    margin: auto;
+  }
+}
+
+.clemence-row {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
 

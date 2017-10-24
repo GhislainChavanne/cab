@@ -1,13 +1,12 @@
 <% content_for :meta_title, "#{@article.title} / #{DEFAULT_META["meta_product_name"]}" %>
 
-<div class="wrapper article-show">
+<div class="wrapper article-show" style="background-image: url('<%= cl_image_path("actualites_pcaclw.png") %>');">
   <%= link_to root_path, class: "" do %>
-    <%= image_tag "logo-blog.png" %>
+    <%= cl_image_tag("logo-white_dsazw2.png") %>
   <% end %>
   <div class="container">
     <div class="article-title">
       <h3 class="text-center"><%= @article.title.upcase.tr('æ-ý','Æ-Ý') %></h3>
-      <h4>CHAVANNE & WITT AVOCATS</h4>
     </div>
     <div class="article-content">
       <p><strong><%= @article.description %></strong></p>
