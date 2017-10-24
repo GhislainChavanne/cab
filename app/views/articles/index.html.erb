@@ -1,11 +1,12 @@
 <div class="wrapper actualites-index" style="background-image: url('<%= cl_image_path("actualites_pcaclw.png") %>');">
-<%= link_to root_path, class: "" do %>
+<div class="img-right text-center">
+  <%= link_to root_path, class: "" do %>
   <%= cl_image_tag("logo-white_dsazw2.png") %>
-<% end %>
+  <% end %>
+</div>
   <div class="container">
     <div class="row">
       <h2 class="">ACTUALITÉS</h2>
-      <p style="padding-left: 15px;">Retrouvez toutes les actualités du cabinet Chavanne & Witt Avocats</p>
       <% @articles.each do |article|  %>
         <div class="col-lg-3 col-md-6 col-xs-12">
             <div class="card">
