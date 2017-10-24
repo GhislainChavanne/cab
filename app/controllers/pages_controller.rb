@@ -6,4 +6,7 @@ class PagesController < ApplicationController
     @contact = Contact.new
   end
 
+  def mentions
+  end
+
 end
