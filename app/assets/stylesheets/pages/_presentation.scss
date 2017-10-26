@@ -15,8 +15,7 @@
 .content-description {
   width: 80%;
   margin: auto;
-  background: white;
-  padding: 20px;
+  padding: 25px;
   h2 {
     margin-bottom: 30px;
     font-weight: bolder;
@@ -52,15 +51,11 @@
   }
 }
 
-@media screen and (max-width: 1300px) {
-  .background-presentation {
-  height: auto;
-  }
-}
 
 @media screen and (max-width: 993px) {
   .background-presentation {
   background-image: none;
+  height: auto;
   }
 }
 
