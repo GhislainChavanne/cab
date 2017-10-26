@@ -77,6 +77,18 @@
   }
 }
 
+@media screen and (max-width: 1266px) {
+  .background-team-clem {
+  background-image: image-url("responsive-clem.png");
+  }
+}
+
+@media screen and (max-width: 1266px) {
+  .background-team-mat {
+  background-image: image-url("responsive-mat.png");
+  }
+}
+
 @media screen and (max-width: 1226px) {
   .background-team-clem {
   height: auto;

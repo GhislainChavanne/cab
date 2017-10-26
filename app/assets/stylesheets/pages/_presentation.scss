@@ -45,6 +45,12 @@
   }
 }
 
+@media screen and (max-width: 1266px) {
+  .background-presentation {
+  background-image: image-url("responsive-pres.png");
+  }
+}
+
 @media screen and (max-height: 600px) {
   .background-presentation {
   height: auto;
