@@ -1,34 +1,13 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
-en:
+fr:
   navbar:
-  btn1: "FIRMS"
-  btn2: "LAYWERS"
-  btn3: "ACTUALITIES"
+  btn1: "CABINET"
+  btn2: "AVOCATS"
+  btn3: "ACTUALITÉS"
   btn4: "CONTACT"
 
   home:
-  title1: "FIRM"
-  title2: "ACTUALITIES"
+  title1: "CABINET"
+  title2: "ACTUALITÉS"
   title3: "CONTACT"
   presentation1: "Après s'être rencontrés au Chili et avoir été ensemble Secrétaires de la Conférence en 2015, "
   presentation2: "Clémence Witt et Matthieu Chavanne"
@@ -37,12 +16,5 @@ en:
   presentation5: "Le cabinet Chavanne & Witt Avocats assiste ses clients, particuliers ou personnes morales, "
   presentation6: "dans tous les domaines du droit pénal"
   presentation7: " (droit pénal général, droit pénal des affaires et droit pénal international) et à tous les stades de la procédure (enquête, instruction, jugement)."
-
-  date:
-    formats:
-      long: "%d-%m-%Y"
-  time:
-    formats:
-      long: "%d-%m-%Y"
 
 

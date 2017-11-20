@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   devise_for :users
-  root to: 'pages#home'
-  get 'mentions',  to: 'pages#mentions'
+  scope '(:locale)', locale: /en/ do
+    root to: 'pages#home'
+      get 'mentions',  to: 'pages#mentions'
+  end
   resources :articles, only: [:index, :show]
   match '/contacts',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]

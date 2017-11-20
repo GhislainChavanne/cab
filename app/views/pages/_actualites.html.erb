@@ -1,6 +1,6 @@
 <div class="wrapper wrapper-actualites" id="actualites" style="background-image: url('<%= cl_image_path("actualites_pcaclw.png") %>');">
   <div class="wrapper actualites">
-    <h2 class="text-center">ACTUALITÉS</h2>
+    <h2 class="text-center"><%= I18n.t('.title2') %></h2>
     <div class="container" style="padding-top: 20px;">
       <div class="row">
         <% @articles.each do |article|  %>
