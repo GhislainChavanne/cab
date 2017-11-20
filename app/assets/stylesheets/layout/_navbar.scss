@@ -18,6 +18,7 @@
   width: 70%;
   margin: auto;
   align-items: center;
+  position: relative;
   a {
     text-decoration: none;
     color: #18243e;
@@ -30,6 +31,35 @@
     transition: background 0.3s ease;
   }
 }
+
+.translation {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  a {
+    margin-right: 10px;
+    color: #18243e;
+    font-weight: bold;
+    border-bottom: 2px solid #18243e;
+    text-decoration: none;
+  }
+  a:hover {
+    font-style: italic;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .translation {
+    display: flex;
+    flex-flow: column;
+    top: 5px;
+    right: 5px;
+    a {
+      margin-bottom: 5px;
+    }
+  }
+}
+
 
 @media screen and (max-width: 1200px) {
   .navbar-center {

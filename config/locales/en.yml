@@ -20,24 +20,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  navbar:
-  btn1: "FIRMS"
-  btn2: "LAYWERS"
-  btn3: "ACTUALITIES"
-  btn4: "CONTACT"
-
-  home:
-  title1: "FIRM"
-  title2: "ACTUALITIES"
-  title3: "CONTACT"
-  presentation1: "Après s'être rencontrés au Chili et avoir été ensemble Secrétaires de la Conférence en 2015, "
-  presentation2: "Clémence Witt et Matthieu Chavanne"
-  presentation3: " ont créé le cabinet Chavanne & Witt Avocats en septembre 2017. "
-  presentation4: "Titulaires d'une double formation (Science Po Paris / ESSEC), ils ont été formés par les meilleurs avocats pénalistes parisiens et travaillent indifféremment en espagnol, anglais et français."
-  presentation5: "Le cabinet Chavanne & Witt Avocats assiste ses clients, particuliers ou personnes morales, "
-  presentation6: "dans tous les domaines du droit pénal"
-  presentation7: " (droit pénal général, droit pénal des affaires et droit pénal international) et à tous les stades de la procédure (enquête, instruction, jugement)."
-
   date:
     formats:
       long: "%d-%m-%Y"

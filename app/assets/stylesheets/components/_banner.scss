@@ -19,6 +19,22 @@
   }
 }
 
+.translation-banner {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  a {
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+  }
+  a:hover {
+    font-style: italic;
+  }
+}
+
 @media screen and (max-height: 400px) {
   .banner {
   img {
