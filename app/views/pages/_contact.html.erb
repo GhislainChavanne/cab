@@ -6,11 +6,11 @@
         <div class="card-contact">
           <h2>CONTACT</h2>
             <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-              <%= f.input :nom, :required => true, :placeholder=> "Votre nom", :error_html => { :id => "name_error"} %>
-              <%= f.input :email, :required => true, :placeholder=> "Votre email", :error_html => { :id => "name_error"} %>
-              <%= f.input :sujet, :required => true, :placeholder=> "Sujet", :error_html => { :id => "name_error"}%>
+              <%= f.input :nom, :required => true, :placeholder=> I18n.t('.form1'), :error_html => { :id => "name_error"} %>
+              <%= f.input :email, :required => true, :placeholder=> I18n.t('.form2'), :error_html => { :id => "name_error"} %>
+              <%= f.input :sujet, :required => true, :placeholder=> I18n.t('.form3'), :error_html => { :id => "name_error"}%>
               <div class="textarea text-center">
-                <%= f.text_area(:message, placeholder: "Votre message")%>
+                <%= f.text_area(:message, placeholder: I18n.t('.form4'))%>
               </div>
               <div class= "hidden">
                 <%= f.input :nickname, :hint => 'Leave this field blank!' %>

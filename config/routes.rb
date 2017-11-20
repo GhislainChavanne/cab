@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   devise_for :users
-  scope '(:locale)', locale: /en/ do
+  scope '(:locale)', locale: /en|es/ do
     root to: 'pages#home'
       get 'mentions',  to: 'pages#mentions'
   end

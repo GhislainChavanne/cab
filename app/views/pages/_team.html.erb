@@ -6,12 +6,16 @@
         <%= image_tag "avatar-clem.png" %>
       </div>
         <h4>Clémence Witt</h4>
-        <p>Diplômée de Sciences Po Paris, Master Carrières Judiciaires et Juridiques (2008), d'un Master II Droits de l'homme et droit humanitaire (Université Panthéon-Assas, 2010) et d'un certificat de sciences criminologiques, Clémence Witt est avocate au Barreau de Paris depuis 2012.<br> <br>
-        Elle a vécu au Chili, aux États-Unis et au Cambodge, où elle a passé un an dans l'équipe de défense de Khieu Samphân dirigée par Jacques Vergès, devant les Chambres extraordinaires mises en place par l’ONU. <br><br>
-        En France, elle a travaillé dès 2009 pour le Bâtonnier Pierre-Olivier Sur (cabinet FTMS), se spécialisant en droit pénal et dans les affaires internationales : affaire Arafat, défense de Baghdadi Mahmoudi en Libye, affaire Versini au Mexique, dossier de Pascal Mazurier en Inde, procès des "Disparus du Novotel" en Côte d'Ivoire... En 2015, Clémence Witt est élue Secrétaire de la Conférence : elle intervient à ce titre dans de nombreux dossiers criminels et plaide régulièrement devant la cour d'assises. <br> <br>
-        Clémence Witt a également été conseiller du Bâtonnier, à l’Ordre des avocats de Paris, pour les affaires pénales internationales.
+        <p>
+          <%= I18n.t('.team-clem1') %>
+        <br><br>
+          <%= I18n.t('.team-clem2') %>
+        <br><br>
+          <%= I18n.t('.team-clem3') %>
+        <br><br>
+          <%= I18n.t('.team-clem4') %>
         </p>
-        <p style="text-align: center; color: #2580c6; margin-top: 20px;">Droit pénal général - Droit pénal des affaires- Droit pénal international - Droit du sport <br> Langues de travail : français, anglais, espagnol <br></p>
+        <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-clem1') %><br><%= I18n.t('.competences-clem2') %><br></p>
         <div class="text-center">
           <a type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:witt@cw-avocats.com' title='test add link'>witt@cw-avocats.com</a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
           <a type="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="+33.6.66.88.87.95"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
@@ -32,12 +36,15 @@
       <div class="avatar">
         <%= image_tag "avatar-mat.png" %>
       </div>
-        <h4>Matthieu Chavanne </h4>
-        <p>Diplômé de l'ESSEC, cursus droit (promotion 2008) et d’un Master II Contentieux, Arbitrage et Modes alternatifs de règlement des conflits (Université Panthéon-Assas, 2009), Matthieu Chavanne est avocat au Barreau de Paris depuis 2011.<br><br>
-        Après avoir travaillé au sein du cabinet Gide Loyrette Nouel, à Paris et Istanbul, Matthieu Chavanne a rejoint l'équipe de droit pénal / droit pénal des affaires du Cabinet BG2V, dirigée par Karim Beylouni. En 2015, Matthieu Chavanne est élu Secrétaire de la Conférence : il est intervenu à ce titre dans près d'une cinquantaine de dossiers criminels et a plaidé à plusieurs reprises devant la cour d'assises. <br> <br>
-        Matthieu Chavanne a également été chargé de travaux dirigés en droit pénal des affaires à l'Université Paris Descartes. Il enseigne au sein du cours de droit des affaires de l'ESSEC depuis deux ans.
+        <h4>Matthieu Chavanne</h4>
+        <p>
+          <%= I18n.t('.team-mat1') %>
+        <br><br>
+          <%= I18n.t('.team-mat2') %>
+        <br><br>
+          <%= I18n.t('.team-mat3') %>
         </p>
-        <p style="text-align: center; color: #2580c6; margin-top: 20px;">Droit pénal général - Droit pénal de affaires - Contentieux civil et commercial <br> Langues de travail : français, anglais, espagnol</p>
+        <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-mat1') %><br><%= I18n.t('.competences-mat2') %></p>
         <div class="text-center">
           <a type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:chavanne@cw-avocats.com' title='test add link'>chavanne@cw-avocats.com</a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
           <a type="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="+33.6.59.96.73.48"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
@@ -55,8 +62,8 @@
     <div class="row clemence-row">
       <div class="col-md-6 col-xs-12">
         <div id="demo">
-          <p>Elève-avocate depuis janvier 2017, Camille Tardé est diplômée de Sciences Po Paris, Master Droit économique (promotion 2016). Après plusieurs stages en administration (Services du Premier ministre, STIF), elle a choisi de se spécialiser en droit pénal et a travaillé pour le cabinet Henri Leclerc & Associés pendant près d’un an. Elle a également effectué un stage au sein des chambres correctionnelles 8-1 et 8-2 de la Cour d’appel de Paris.</p>
-          <p style="text-align: center; color: #2580c6; margin-top: 20px;">Droit pénal général - droit pénal de affaires- Droit économique <br> Langues de travail : français, anglais, allemand <br></p>
+          <p><%= I18n.t('.team-cam1') %></p>
+          <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-cam1') %><br><%= I18n.t('.competences-cam2') %></p>
           <div class="text-center">
             <a href="https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/" cursor="pointer" target="_blank" style="margin: 5px; color: #162139"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
           </div>
