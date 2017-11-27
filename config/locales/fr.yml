@@ -34,6 +34,7 @@ fr:
   form2: "Votre Email"
   form3: "Sujet"
   form4: "Votre Message"
+  form5: "Envoyer"
 
   footer:
   mentions: "Mentions Légales"

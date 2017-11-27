@@ -35,6 +35,7 @@ Desde su titulación como abogados, han recibido capacitación por parte de los 
   form2: "Email"
   form3: "Asunto"
   form4: "Mensaje"
+  form5: "Enviar"
 
   footer:
   mentions: "notas legales"

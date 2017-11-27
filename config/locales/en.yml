@@ -63,6 +63,7 @@ After several internships in public administration (Prime Minister Services), sh
   form2: "Email"
   form3: "Subjet"
   form4: "Your Message"
+  form5: "Send"
 
   footer:
   mentions: "Legal Notice"
