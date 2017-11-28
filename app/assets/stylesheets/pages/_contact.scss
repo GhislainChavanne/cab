@@ -109,6 +109,10 @@
   label {
     display: none;
   }
+  input:focus {
+    border: 3px solid #18243e;
+    outline: none;
+  }
   .textarea textarea {
     height: 163px;
     width: 95%;
@@ -117,6 +121,10 @@
     border: 1px solid #ddd2d2;
     margin-bottom: 30px;
     padding: 10px;
+  }
+  textarea:focus {
+    border: 3px solid #18243e;
+    outline: none;
   }
   .btn-form {
     border-top: 1px solid #ddd2d2;

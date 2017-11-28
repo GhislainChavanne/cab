@@ -26,11 +26,19 @@
 }
 
 #btn:hover {
-    color: #2580c6;
-    font-style: italic;
-    border-bottom: 5px solid #2580c6;
-    padding-bottom: 23px;
-    transition: background 0.3s ease;
+  color: #2580c6;
+  font-style: italic;
+  border-bottom: 5px solid #2580c6;
+  padding-bottom: 23px;
+  transition: background 0.3s ease;
+}
+
+#btn-navbar-actu:hover {
+  color: #2580c6;
+  font-style: italic;
+  border-bottom: 5px solid #2580c6;
+  padding-bottom: 23px;
+  transition: background 0.3s ease;
 }
 
 .translation {
