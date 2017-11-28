@@ -12,15 +12,14 @@
       <p><strong><%= @article.description %></strong></p>
       <%= @article.content.html_safe %>
       <div class="option-article">
-        <i class="fa fa-share-alt-square" aria-hidden="true"></i>
       </div>
     </div>
       <div class="article-path">
         <%= link_to @articles.previous(@article) do %>
-        Prev <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+        <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
         <% end %>
         <%= link_to @articles.next(@article) do %>
-        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Next
+        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
         <% end %>
       </div>
     <div class="article-menu">
