@@ -32,6 +32,9 @@ en:
   btn2: "LAWYERS"
   btn3: "NEWS"
   btn4: "CONTACT"
+  btn5: "HOME"
+  btn6: "NEWS"
+  btn7: "CONTACT"
 
   home:
   title1: "LAW FIRM"

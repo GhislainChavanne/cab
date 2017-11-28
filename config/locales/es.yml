@@ -4,6 +4,9 @@ es:
   btn2: "ABOGADOS"
   btn3: "NOTICIAS"
   btn4: "CONTACTO"
+  btn5: "EL BUFETE"
+  btn6: "ACTUALIDADES"
+  btn7: "CONTACTO"
 
   home:
   title1: "EL BUFETE"

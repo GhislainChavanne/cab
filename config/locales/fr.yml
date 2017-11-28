@@ -4,6 +4,9 @@ fr:
   btn2: "AVOCATS"
   btn3: "ACTUALITÉS"
   btn4: "CONTACT"
+  btn5: "ACCUEIL"
+  btn6: "ACTUALITÉS"
+  btn7: "CONTACT"
 
   home:
   title1: "CABINET"
