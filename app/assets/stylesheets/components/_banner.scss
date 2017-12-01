@@ -1,7 +1,8 @@
 .banner {
   color: white;
   text-align: center;
-  height: 100vh;
+  height: calc(100vh - 70px);
+  margin-top: 70px;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
@@ -34,6 +35,20 @@
     font-style: italic;
   }
 }
+
+@media screen and (min-height: 767px) {
+  .translation-banner {
+  display: none;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+  margin-top: 0px;
+  height: 100vh;
+  }
+}
+
 
 @media screen and (max-height: 400px) {
   .banner {
