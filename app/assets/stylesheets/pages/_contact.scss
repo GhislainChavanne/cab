@@ -105,29 +105,36 @@
   margin-bottom: 10px;
   letter-spacing: 1.1px;
   border: 1px solid #ddd2d2;
+    border: 2px solid #e7ecf1;
+    box-shadow: none;
+    border-radius: 0px;
   }
   label {
     display: none;
   }
   input:focus {
-    border: 3px solid #18243e;
+    border: 2px solid #2580c6;
     outline: none;
+    box-shadow: none;
   }
   .textarea textarea {
     height: 163px;
     width: 95%;
     margin: auto;
     letter-spacing: 1.1px;
-    border: 1px solid #ddd2d2;
     margin-bottom: 30px;
     padding: 10px;
+    border: 2px solid #e7ecf1;
+    box-shadow: none;
+    border-radius: 0px;
   }
   textarea:focus {
-    border: 3px solid #18243e;
+    border: 2px solid #2580c6;
     outline: none;
+    box-shadow: none;
   }
   .btn-form {
-    border-top: 1px solid #ddd2d2;
+    border-top: 2px solid #ddd2d2;
     margin-bottom: 0px;
     position: absolute;
     bottom: 0px;
