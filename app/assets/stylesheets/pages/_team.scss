@@ -1,5 +1,5 @@
 .team-description {
-  width: 75%;
+  width: 65%;
   margin: auto;
   h4 {
     margin-bottom: 30px;
@@ -77,13 +77,13 @@
   }
 }
 
-@media screen and (min-height: 690px) {
+@media screen and (min-height: 730px) {
   .background-team-clem {
   background-image: image-url("responsive-clem.png");
   }
 }
 
-@media screen and (min-height: 690px) {
+@media screen and (min-height: 730px) {
   .background-team-mat {
   background-image: image-url("responsive-mat.png");
   }
