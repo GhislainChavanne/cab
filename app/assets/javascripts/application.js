@@ -21,3 +21,8 @@ $( document ).ready(function() {
 $(function () {
   $('[data-toggle="popover"]').popover({html:true})
 })
+
+$(document).ready(function() {
+  $('#file-input').hide().fadeIn(2000);
+});
+
