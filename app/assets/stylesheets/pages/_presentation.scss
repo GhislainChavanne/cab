@@ -13,9 +13,10 @@
 }
 
 .content-description {
-  width: 80%;
+  width: 65%;
   margin: auto;
-  padding: 25px;
+  padding-bottom: 40px;
+  padding-top: 40px;
   h2 {
     margin-bottom: 30px;
     font-weight: bolder;
@@ -48,22 +49,15 @@
 @media screen and (max-width: 1266px) {
   .background-presentation {
   background-image: image-url("responsive-pres.png");
-  }
-}
-
-@media screen and (max-width: 1226px) {
-  .background-presentation {
   height: auto;
   }
 }
 
-
-@media screen and (max-height: 600px) {
+@media screen and (min-height: 850px) {
   .background-presentation {
   height: auto;
   }
 }
-
 
 @media screen and (max-width: 993px) {
   .background-presentation {
