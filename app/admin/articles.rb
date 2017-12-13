@@ -1,6 +1,4 @@
-
 ActiveAdmin.register Article do
-
   permit_params :title, :content, :date, :description
 
   menu label: "1. ACTUS"
