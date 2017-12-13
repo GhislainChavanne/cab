@@ -105,8 +105,11 @@
 }
 
 @media screen and (max-width: 993px) {
-  .background-team-clemence {
-  background-image: none;
+  .team-description {
+  width: 65%;
+  p {
+    padding-right: 0px;
+  }
   }
 }
 
