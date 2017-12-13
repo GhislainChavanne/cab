@@ -1,8 +1,7 @@
 .banner {
   color: white;
   text-align: center;
-  height: calc(100vh - 70px);
-  margin-top: 70px;
+  height: calc(100vh);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
@@ -41,14 +40,6 @@
   display: none;
 }
 }
-
-@media screen and (max-width: 767px) {
-  .banner {
-  margin-top: 0px;
-  height: 100vh;
-  }
-}
-
 
 @media screen and (max-height: 400px) {
   .banner {
