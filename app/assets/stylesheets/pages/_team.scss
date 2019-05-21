@@ -39,6 +39,16 @@
   align-items: center;
 }
 
+.background-team-cam {
+  background-image: image-url("cam.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
 .background-team-mat {
   background-image: image-url("mat.png");
   background-size: cover;

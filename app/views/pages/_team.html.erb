@@ -56,25 +56,33 @@
   </div>
 </div>
 
-
-<div class="wrapper">
-  <div class="container collab text-center">
-    <h4>Camille Tardé</h4>
-    <div class="row clemence-row">
-      <div class="col-md-6 col-xs-12">
-        <div id="demo">
-          <p><%= I18n.t('.team-cam1') %></p>
-          <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-cam1') %><br><%= I18n.t('.competences-cam2') %></p>
-          <div class="text-center">
-            <a href="https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/" cursor="pointer" target="_blank" style="margin: 5px; color: #162139"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 avatar-clemence">
+<div class="wrapper background-team-cam" id="avocats">
+  <div class="row">
+    <div class="col-md-7">
+      <div class="team-description">
+      <div class="avatar">
         <%= image_tag "avatar-clemence.png" %>
       </div>
+        <h4>Camille Tardé</h4>
+        <p>
+          <%= I18n.t('.team-cam1') %>
+        <br><br>
+          <%= I18n.t('.team-cam2') %>
+        <br><br>
+          <%= I18n.t('.team-cam3') %>
+        </p>
+        <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-cam1') %><br><%= I18n.t('.competences-cam2') %><br></p>
+        <div class="text-center">
+          <a type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:tarde@cw-avocats.com' title='test add link'>tarde@cw-avocats.com</a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+          <a type="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="+33.7.50.91.30.03"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/?originalSubdomain=fr" cursor="pointer" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5">
     </div>
   </div>
+</div>
 
   <div class="container collab text-center">
     <h4>Charlotte Mancini</h4>
