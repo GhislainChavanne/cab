@@ -102,6 +102,10 @@ GEM
       warden (~> 1.2.3)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.7.5)
+    dotenv-rails (2.7.5)
+      dotenv (= 2.7.5)
+      railties (>= 3.2, < 6.1)
     erubi (1.8.0)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -278,6 +282,7 @@ DEPENDENCIES
   bootstrap-sass
   cloudinary
   devise
+  dotenv-rails
   figaro
   font-awesome-sass
   inherited_resources!
@@ -302,4 +307,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
