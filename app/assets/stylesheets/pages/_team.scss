@@ -29,12 +29,22 @@
   }
 }
 
+.description-carla {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.description-anais {
+  width: 40%;
+  margin: 0 auto;
+}
+
 .background-team-clem {
   background-image: image-url("clem.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right top;
-  height: auto;
+  height: calc(100vh - 74px);
   display: flex;
   align-items: center;
 }
@@ -44,7 +54,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right top;
-  height: auto;
+  height: calc(100vh - 74px);
   display: flex;
   align-items: center;
 }
@@ -53,7 +63,17 @@
   background-image: image-url("mat.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: auto;
+  height: calc(100vh - 74px);
+  display: flex;
+  align-items: center;
+}
+
+.background-team-carla-anais {
+  background-image: image-url("carla-anais.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 74px);
   display: flex;
   align-items: center;
 }
@@ -63,13 +83,18 @@
 }
 
 .avatar {
+  margin-bottom: 64px;
   img {
-    width: 100px;
-    border-radius: 50%;
-    text-align: center;
-    border: 2px solid #18243e;
-    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+    width: 100%;
+    // border-radius: 50%;
+    // text-align: center;
+    // border: 2px solid #18243e;
+    // box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   }
+}
+
+.avatar.anais, .avatar.carla {
+  margin-bottom: -30px;
 }
 
 .avatar-clem {
@@ -82,83 +107,125 @@
   }
 }
 
-@media screen and (max-width: 1226px) {
-  .team-description {
-  width: 85%;
+@media screen and (max-width: 1367px) {
+  .background-presentation {
+    height: auto;
   }
-}
-
-
-@media screen and (max-width: 1266px) {
   .background-team-clem {
-  background-image: image-url("responsive-clem.png");
+    height: auto;
   }
-}
-
-@media screen and (max-width: 1266px) {
   .background-team-mat {
-  background-image: image-url("responsive-mat.png");
+    height: auto;
   }
-}
-
-
-@media screen and (max-width: 993px) {
-  .background-team-mat {
-  background-image: none;
-  }
-}
-
-@media screen and (max-width: 993px) {
   .background-team-cam {
-  background-image: none;
+    height: auto;
+  }
+  .background-team-carla-anais {
+    background-size: auto;
+    min-height: unset;
   }
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1136px) {
+  .team-description {
+    width: 85%;
+  }
+  .background-team-carla-anais {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .background-team-clem {
+    background-image: image-url("clem-mobile.jpg");
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .background-team-mat {
+  background-image: image-url("mat-mobile.png");
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .team-description-mobile {
+    width: 65%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .background-team-mat {
+    background-image: none;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .background-team-cam {
+    background-image: none;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1136px) {
   .background-team-clem {
   background-image: none;
-  }
-}
-
-@media screen and (max-width: 993px) {
-  .team-description {
-  width: 65%;
-  p {
-    padding-right: 0px;
-  }
-  }
-}
-
-
-@media screen and (max-width: 993px) {
-  .team-description {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  }
-}
-
-@media screen and (min-width: 993px) {
-  .avatar {
-  display: none;
-  }
-}
-
-@media screen and (max-height: 600px) {
-  .team-description {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  }
-}
-
-@media screen and (max-height: 600px) {
-  .background-team-clem {
   height: auto;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .team-description {
+    width: 100%;
+    p {
+      padding-right: 0px;
+    }
+  }
+  .team-description-carla-mobile h4 {
+    // width: 40%;
+    margin-left: 30%;
+    text-align: right;
+    &:after {
+      // width: 30%;
+      left: unset;
+      right: 0%;
+    }
+  }
+}
+
+@media screen and (min-width: 1136px) {
+  .avatar {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .team-description {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .team-description-carla-mobile h4 {
+    // width: 40%;
+    // margin-left: 30%;
+    // text-align: right;
+    &:after {
+      width: 20%;
+      // left: unset;
+      // right: 0%;
+    }
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .background-team-clem {
+    height: auto;
   }
 }
 
 @media screen and (max-height: 600px) {
   .background-team-mat {
-  height: auto;
+    height: auto;
   }
 }
 
@@ -214,10 +281,10 @@
 
 @media screen and (max-width: 993px) {
   .avatar-clemence img {
-  border-radius: 50%;
-  width: 100px;
-  margin-top: 30px;
-  border: 2px solid #18243e;
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 30px;
+    border: 2px solid #18243e;
   }
 }
 

@@ -8,7 +8,7 @@
 
 @media screen and (max-height: 600px) {
   .wrapper-contact {
-  height: auto;
+    height: auto;
   }
 }
 
@@ -31,25 +31,30 @@
 
 @media screen and (max-width: 1199px) {
   .wrapper-contact {
-  height: auto;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 1199px) {
   .wrapper-contact-new {
-  height: auto;
+    height: auto;
   }
 }
 
 .card-contact {
+  background-image: image-url("clem-et-mat.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: white;
   margin-top: 30px;
   margin-bottom: 30px;
-  position: relative;
+  // min-height: 80vh;
+  // position: relative;
   h2 {
-    padding-top: 35px;
-    margin-top: 20px;
-    margin-bottom: 45px;
+    // padding-top: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     font-weight: bolder;
     position: relative;
     letter-spacing: 2px;
@@ -72,7 +77,7 @@
     padding-left: 10px;
     padding-right: 10px;
     font-weight: 300;
-    margin-bottom: 22px;
+    margin-bottom: 8px;
     text-align: center;
   }
   iframe {
@@ -89,23 +94,28 @@
   }
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1136px) {
   .card-contact {
-  padding: 15px;
+    background-image: none;
+    padding: 15px;
   }
+}
+
+.contact-form {
+  padding: 30px 0;
 }
 
 .form-horizontal {
   padding: 20px;
-  margin-top: 20px;
+  // margin-top: 20px;
   position: relative;
   input {
-  width: 90%;
-  margin: auto;
-  margin-bottom: 10px;
-  letter-spacing: 1.1px;
-  border: 1px solid #ddd2d2;
-    border: 2px solid #e7ecf1;
+    width: 90%;
+    margin: auto;
+    letter-spacing: 1.1px;
+    // margin-bottom: 5px;
+    // border: 1px solid #ddd2d2;
+    border: 2px solid $light-gray;
     box-shadow: none;
     border-radius: 0px;
   }
@@ -118,13 +128,14 @@
     box-shadow: none;
   }
   .textarea textarea {
-    height: 163px;
-    width: 95%;
+    height: 155px;
+    width: 90%;
     margin: auto;
     letter-spacing: 1.1px;
-    margin-bottom: 30px;
-    padding: 10px;
-    border: 2px solid #e7ecf1;
+    margin-bottom: 8px;
+    padding: 20px;
+    font-size: 12px;
+    border: 2px solid $light-gray;
     box-shadow: none;
     border-radius: 0px;
   }
@@ -134,19 +145,33 @@
     box-shadow: none;
   }
   .btn-form {
-    border-top: 2px solid #ddd2d2;
-    margin-bottom: 0px;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    height: 40px;
+    // border-top: 2px solid #ddd2d2;
+    border: 2px solid $light-gray;
+    width: 90%;
+    margin: auto;
+    padding: 8px;
+    font-size: 12px;
+    // height: 40px;
+    // margin-bottom: 0px;
+    // position: absolute;
+    // bottom: 0px;
+    // left: 0px;
+    // right: 0px;
     .btn-details {
       border: none;
       width: 100%;
       height: 100%;
       button:focus {outline:0;}
     }
+  }
+  .form-group {
+    margin-right: unset;
+    margin-left: unset;
+    margin-bottom: 8px;
+  }
+  .form-control {
+    padding: 20px;
+    font-size: 12px;
   }
 }
 

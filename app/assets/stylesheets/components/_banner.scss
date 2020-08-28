@@ -35,10 +35,23 @@
   }
 }
 
+.chevron {
+  position: absolute;
+  bottom: 0;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1136px) {
+  .chevron {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .translation-banner {
-  display: none;
-}
+    display: none;
+  }
 }
 
 @media screen and (max-height: 400px) {
