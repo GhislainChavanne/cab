@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  height: 90vh;
+  height: 80vh;
 }
 
 .presentation-description {
@@ -46,27 +46,27 @@
   }
 }
 
-@media screen and (max-width: 1266px) {
-  .background-presentation {
-  background-image: image-url("responsive-pres.png");
-  height: auto;
-  }
-}
+// @media screen and (max-width: 1266px) {
+//   .background-presentation {
+//   background-image: image-url("presentation-img.png");
+//   height: auto;
+//   }
+// }
 
 @media screen and (min-height: 850px) {
   .background-presentation {
-  height: auto;
+  // height: auto;
   }
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1136px) {
   .background-presentation {
   background-image: none;
   height: auto;
   }
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1136px) {
   .content-description {
   margin-top: 30px;
   margin-bottom: 30px;

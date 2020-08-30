@@ -54,6 +54,12 @@ p, h1, h2, h3, h4, h5 {
   margin: auto;
 }
 
+@media screen and (min-width: 1136px) {
+  .d-flex {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+}
 
 @media (min-width: 983px) {
 .container .row .wrapper {
@@ -65,5 +71,10 @@ p, h1, h2, h3, h4, h5 {
     color: blue;
 }
 
+@media screen and (max-width: 1136px) {
+  .col-lg-8, .col-lg-6 {
+    padding: unset;
+  }
+}
 
 
