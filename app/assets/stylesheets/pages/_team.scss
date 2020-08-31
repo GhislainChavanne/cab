@@ -1,5 +1,5 @@
 .team-description {
-  width: 65%;
+  width: 70%;
   margin: auto;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -43,17 +43,7 @@
   background-image: image-url("clem.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right top;
-  height: calc(100vh - 74px);
-  display: flex;
-  align-items: center;
-}
-
-.background-team-cam {
-  background-image: image-url("cam.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right top;
+  background-position: left;
   height: calc(100vh - 74px);
   display: flex;
   align-items: center;
@@ -63,6 +53,17 @@
   background-image: image-url("mat.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: right;
+  height: calc(100vh - 74px);
+  display: flex;
+  align-items: center;
+}
+
+.background-team-cam {
+  background-image: image-url("cam.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
   height: calc(100vh - 74px);
   display: flex;
   align-items: center;
@@ -76,6 +77,19 @@
   min-height: calc(100vh - 74px);
   display: flex;
   align-items: center;
+}
+
+.team-description-carla-mobile h4 {
+  margin-left: 30%;
+  text-align: right;
+  &:after {
+    left: unset;
+    right: 0%;
+  }
+}
+
+.descriptions-stagiaires .team-description p {
+  padding-right: 0;
 }
 
 .popover a {
@@ -94,7 +108,7 @@
 }
 
 .avatar.anais, .avatar.carla {
-  margin-bottom: -30px;
+  margin-bottom: 0px;
 }
 
 .avatar-clem {
@@ -110,6 +124,7 @@
 @media screen and (max-width: 1367px) {
   .background-presentation {
     height: auto;
+    min-height: 60vh;
   }
   .background-team-clem {
     height: auto;
@@ -119,83 +134,132 @@
   }
   .background-team-cam {
     height: auto;
+    min-height: 60vh;
   }
   .background-team-carla-anais {
-    background-size: auto;
+    // background-size: auto;
     min-height: unset;
+  }
+  .descriptions-stagiaires {
+    padding: unset;
   }
 }
 
-@media screen and (max-width: 1136px) {
+// TABLET
+@media screen and (max-width: 1024px) {
+  .team-description {
+    width: 75%;
+  }
+  .descriptions-stagiaires .team-description {
+    width: 40%;
+  }
+  .background-team-clem {
+    background-image: image-url("clem-tablet.png");
+    background-position: right;
+  }
+  .background-team-mat {
+    background-image: image-url("mat-tablet.png");
+    background-position: left;
+  }
+  .background-team-cam {
+    background-image: image-url("cam-tablet.png");
+    background-position: right;
+  }
+  .descriptions-stagiaires {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .team-description {
+    width: 82%;
+  }
+  .descriptions-stagiaires .team-description {
+    width: 82%;
+  }
+  .background-team-clem, .background-team-mat, .background-team-cam {
+    background-position: center;
+  }
+  .team-description-mobile p {
+    padding-right: unset;
+  }
+  .descriptions-stagiaires {
+    padding: unset;
+  }
+}
+
+// MOBILE
+@media screen and (max-width: 812px) {
+  .team-description.description-anais {
+    width: 100%;
+    padding-top: 0;
+  }
+  .team-description-anais-mobile {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .team-description.description-carla {
+    width: 100%;
+    padding-top: 0;
+  }
+  .team-description-carla-mobile {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 737px) {
   .team-description {
     width: 85%;
   }
-  .background-team-carla-anais {
-    background-image: none;
-  }
-}
-
-@media screen and (max-width: 1136px) {
-  .background-team-clem {
-    background-image: image-url("clem-mobile.jpg");
-  }
-}
-
-@media screen and (max-width: 1136px) {
-  .background-team-mat {
-  background-image: image-url("mat-mobile.png");
-  }
-}
-
-@media screen and (max-width: 1136px) {
   .team-description-mobile {
     width: 65%;
     margin: auto;
   }
-}
-
-@media screen and (max-width: 1136px) {
-  .background-team-mat {
-    background-image: none;
+  .background-team-clem {
+    background-image: image-url("clem-mobile.jpg");
     height: auto;
   }
-}
-
-@media screen and (max-width: 1136px) {
+  .background-team-mat {
+    background-image: image-url("mat-mobile.png");
+    height: auto;
+  }
   .background-team-cam {
     background-image: none;
     height: auto;
   }
-}
-
-@media screen and (max-width: 1136px) {
-  .background-team-clem {
-  background-image: none;
-  height: auto;
+  .background-team-clem, .background-team-mat, .background-team-cam {
+    background-image: none;
   }
 }
 
-@media screen and (max-width: 1136px) {
+@media screen and (max-width: 737px) {
   .team-description {
     width: 100%;
     p {
       padding-right: 0px;
     }
   }
-  .team-description-carla-mobile h4 {
-    // width: 40%;
-    margin-left: 30%;
-    text-align: right;
-    &:after {
-      // width: 30%;
-      left: unset;
-      right: 0%;
-    }
+  .background-team-carla-anais {
+    background-image: none;
+  }
+  .team-description-carla-mobile, .team-description-anais-mobile {
+    width: 80%;
+    margin: 0 auto;
+  }
+  // .avatar-stagiaire {
+  //   display: none;
+  // }
+}
+
+@media screen and (min-width: 992px) {
+  .avatar-stagiaire {
+    display: none;
   }
 }
 
-@media screen and (min-width: 1136px) {
-  .avatar {
+@media screen and (min-width: 737px) {
+  .avatar-avocat{
     display: none;
   }
 }
@@ -205,31 +269,20 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .team-description-carla-mobile h4 {
-    // width: 40%;
-    // margin-left: 30%;
-    // text-align: right;
-    &:after {
-      width: 20%;
-      // left: unset;
-      // right: 0%;
-    }
-  }
 }
 
 @media screen and (max-height: 600px) {
-  .background-team-clem {
+  .background-team-clem, .background-team-mat {
     height: auto;
   }
-}
-
-@media screen and (max-height: 600px) {
-  .background-team-mat {
-    height: auto;
+  .description-carla, .description-anais {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .team-description-carla-mobile h4:after {
+    width: 20%;
   }
 }
-
-
 
 .collab {
   padding-bottom: 50px;
