@@ -94,6 +94,12 @@
   }
 }
 
+@media screen and (min-width: 1136px) {
+  .avatar-contact {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1136px) {
   .card-contact {
     background-image: none;

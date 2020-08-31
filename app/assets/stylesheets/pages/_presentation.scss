@@ -2,6 +2,7 @@
   background-image: image-url("presentation-img.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
   display: flex;
   align-items: center;
   height: 80vh;
@@ -59,7 +60,7 @@
   }
 }
 
-@media screen and (max-width: 1136px) {
+@media screen and (max-width: 737px) {
   .background-presentation {
   background-image: none;
   height: auto;
