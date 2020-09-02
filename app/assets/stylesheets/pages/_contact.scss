@@ -94,13 +94,26 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   .avatar-contact {
     display: none;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1275px) {
+  .card-contact {
+    background-position: left;
+  }
+}
+
+@media screen and (max-width: 1124px) {
+  .card-contact {
+    background-image: image-url("clem-et-mat-tablet.png");
+    background-position: left;
+  }
+}
+
+@media screen and (max-width: 991px) {
   .card-contact {
     background-image: none;
     padding: 15px;
