@@ -3,13 +3,22 @@ class Article < ApplicationRecord
   validates :content, presence: true
   validates :description, presence: true
   validates :date, presence: true
+  # validates :editor, presence: true
   paginates_per 8
 
-def self.next(article)
-  where('id < ?', article.id).last
-end
+  def self.editor
+    ['Clémence Witt', 'Matthieu Chavanne', 'Camille Tardé', 'Anaïs Sarron']
+  end
 
-def self.previous(article)
-  where('id > ?', article.id).first
-end
+  def self.coeditor
+    ['Clémence Witt', 'Matthieu Chavanne', 'Camille Tardé', 'Anaïs Sarron']
+  end
+
+  def self.next(article)
+    where('id < ?', article.id).last
+  end
+
+  def self.previous(article)
+    where('id > ?', article.id).first
+  end
 end
