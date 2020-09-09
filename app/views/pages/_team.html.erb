@@ -19,6 +19,7 @@
           <%= I18n.t('.team-clem6') %>
         </p>
         <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-clem1') %><br><%= I18n.t('.competences-clem2') %><br><%= I18n.t('.competences-clem3') %><br></p>
+        <%= link_to "Actualités et publications", articles_path(editor: "Clémence Witt"), class: "btn-articles"  %>
         <div class="text-center">
           <a type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:witt@cw-avocats.com' title='test add link'>witt@cw-avocats.com</a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/clémence-witt-a38578153/" cursor="pointer" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
@@ -47,7 +48,9 @@
         <br><br>
           <%= I18n.t('.team-mat7') %>
         </p>
+        <%= link_to "les articles", articles_path(editor: "Matthieu Chavanne")  %>
         <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-mat1') %><br><%= I18n.t('.competences-mat2') %><br><%= I18n.t('.competences-mat3') %></p>
+        <%= link_to "Actualités et publications", articles_path(editor: "Matthieu Chavanne"), class: "btn-articles"  %>
         <div class="text-center">
           <a type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:chavanne@cw-avocats.com' title='test add link'>chavanne@cw-avocats.com</a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/matthieu-chavanne-b5693534/?ppe=1" cursor="pointer" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
@@ -79,6 +82,7 @@
           <%= I18n.t('.team-cam3') %>
         </p>
         <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-cam1') %><br><%= I18n.t('.competences-cam2') %><br><%= I18n.t('.competences-cam3') %><br></p>
+        <%= link_to "Actualités et publications", articles_path(editor: "Camille Tardé"), class: "btn-articles"  %>
         <div class="text-center">
           <a type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:tarde@cw-avocats.com' title='test add link'>tarde@cw-avocats.com</a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/?originalSubdomain=fr" cursor="pointer" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
