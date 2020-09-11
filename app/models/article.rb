@@ -14,6 +14,10 @@ class Article < ApplicationRecord
     ['Clémence Witt', 'Matthieu Chavanne', 'Camille Tardé', 'Anaïs Sarron']
   end
 
+  def self.category
+    ['Presse', 'Publications', 'Archives']
+  end
+
   def self.next(article)
     where('id < ?', article.id).last
   end

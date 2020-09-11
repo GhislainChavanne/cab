@@ -1,5 +1,5 @@
 ActiveAdmin.register Article do
-  permit_params :title, :editor, :coeditor, :content, :date, :description
+  permit_params :title, :editor, :coeditor, :category, :content, :date, :description
 
   menu label: "1. ACTUS"
 
@@ -8,6 +8,7 @@ ActiveAdmin.register Article do
     column :title
     column :editor
     column :coeditor
+    column :category
     column :date
     actions
   end
@@ -17,6 +18,7 @@ ActiveAdmin.register Article do
       input :title, placeholder: "Titre"
       input :editor, as: :select, collection: Article.editor, prompt: "Rédacteur de l'article"
       input :coeditor, as: :select, collection: Article.coeditor, prompt: "Co-rédacteur de l'article"
+      input :category, as: :select, collection: Article.category, prompt: "Catégorie de l'article"
       input :description, placeholder: "Intro"
       input :content, placeholder: "Contenu"
       input :date, :as => :datepicker, :html_option => { value: Time.now }

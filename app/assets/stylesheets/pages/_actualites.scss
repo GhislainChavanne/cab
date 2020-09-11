@@ -117,12 +117,17 @@
   }
 }
 
-.date {
-  color: #2580c6;
-  text-align: center;
+.card-header {
   padding: 10px;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
   font-family: "roboto";
+  color: #2580c6;
 }
 
 .content-card {
