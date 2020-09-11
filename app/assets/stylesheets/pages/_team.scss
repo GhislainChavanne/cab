@@ -145,6 +145,12 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .descriptions-stagiaires {
+    padding: 0 40px;
+  }
+}
+
 // TABLET
 @media screen and (max-width: 1024px) {
   .team-description {
@@ -182,6 +188,9 @@
   }
   .team-description-mobile p {
     padding-right: unset;
+  }
+  .background-team-carla-anais {
+    background-image: none;
   }
   .descriptions-stagiaires {
     padding: unset;
@@ -278,6 +287,10 @@
   .description-carla, .description-anais {
     width: 100%;
     margin: 0 auto;
+  }
+  .team-description-anais-mobile, .team-description-carla-mobile {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .team-description-carla-mobile h4:after {
     width: 20%;
