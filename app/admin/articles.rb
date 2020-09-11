@@ -5,10 +5,10 @@ ActiveAdmin.register Article do
 
   index do
     selectable_column
-    column :title
-    column :editor
-    column :coeditor
-    column :category
+    column "Titre", :title
+    column "Rédacteur", :editor
+    column "Co-rédacteur", :coeditor
+    column "Catégorie", :category
     column :date
     actions
   end
@@ -16,8 +16,8 @@ ActiveAdmin.register Article do
   form do |f|
     inputs 'Details' do
       input :title, placeholder: "Titre"
-      input :editor, as: :select, collection: Article.editor, prompt: "Rédacteur de l'article"
-      input :coeditor, as: :select, collection: Article.coeditor, prompt: "Co-rédacteur de l'article"
+      input :editor, as: :select, collection: Article.editor, prompt: "Rédacteur de l'article", label: "Rédacteur"
+      input :coeditor, as: :select, collection: Article.coeditor, prompt: "Co-rédacteur de l'article", label: "Co-rédacteur"
       input :category, as: :select, collection: Article.category, prompt: "Catégorie de l'article"
       input :description, placeholder: "Intro"
       input :content, placeholder: "Contenu"
