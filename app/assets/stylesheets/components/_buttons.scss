@@ -20,9 +20,9 @@
   text-decoration: none;
 }
 
-.btn-category:hover {
+.btn-articles:hover, .btn-category:hover {
   text-decoration: none;
-  color: #0b1938;
-  background-color: white;
+  color: white;
+  background-color: $blue;
   transition: background 0.3s ease;
 }

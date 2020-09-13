@@ -27,11 +27,17 @@
           </div>
         <% end %>
       </div>
-      <a href="/articles" style="text-decoration: none;">
-      <div class="btn-blog">
-        BLOG
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <%= link_to "Presse", articles_path(category: "Presse"), class: "btn-category"  %>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <%= link_to "Publications", articles_path(category: "Publications"), class: "btn-category"  %>
+        </div>
+        <div class="col-xs-12 col-lg-4">
+          <%= link_to "Archives", articles_path(category: "Archives"), class: "btn-category"  %>
+        </div>
       </div>
-      </a>
     </div>
   </div>
 </div>
