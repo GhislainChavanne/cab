@@ -7,6 +7,8 @@ class ArticlesController < ApplicationController
         OR articles.coeditor ILIKE :editor \
       "
       @articles = Article.where(sql_query, editor: "%#{params[:editor]}").order('date DESC').page params[:page]
+    elsif params[:category]
+      @articles = Article.where(category: params[:category]).order('date DESC').page params[:page]
     else
       @articles = Article.all.order('date DESC').page params[:page]
     end
