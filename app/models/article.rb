@@ -3,7 +3,8 @@ class Article < ApplicationRecord
   validates :content, presence: true
   validates :description, presence: true
   validates :date, presence: true
-  # validates :editor, presence: true
+  validates :editor, presence: true
+  validates :category, presence: true
   paginates_per 8
 
   def self.editor
