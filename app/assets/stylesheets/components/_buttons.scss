@@ -20,7 +20,7 @@
   text-decoration: none;
 }
 
-.btn-articles:hover, .btn-category:hover {
+.btn-articles:hover, .btn-category:hover, .btn-articles:focus, .btn-category:focus {
   text-decoration: none;
   color: white;
   background-color: $blue;
