@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
-ruby '2.4.1'
+ruby '2.6.6'
 
 gem 'devise'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'puma'
-gem 'rails', '5.0.3'
+gem 'rails', '~> 6.1.3'
 gem 'redis'
 gem 'cloudinary'
-gem 'pg', '~> 0.20.0'
+gem 'pg', '~> 1.2.3'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
@@ -22,7 +22,6 @@ gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'mail_form'
 gem 'kaminari'
 gem 'dotenv-rails', groups: [:development, :test]
-
 
 group :development, :test do
   gem 'better_errors'
