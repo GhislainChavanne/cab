@@ -46,7 +46,9 @@
         <br><br>
           <%= I18n.t('.team-mat5') %><strong><%= I18n.t('.team-mat6') %></strong>
         <br><br>
-          <%= I18n.t('.team-mat7') %>
+          <%= I18n.t('.team-mat7').html_safe %>
+        <br><br>
+          <%= I18n.t('.team-mat8') %>
         </p>
         <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-mat1') %><br><%= I18n.t('.competences-mat2') %><br><%= I18n.t('.competences-mat3') %></p>
         <%= link_to "Actualités et publications", articles_path(editor: "Matthieu Chavanne"), class: "btn-articles"  %>
@@ -92,49 +94,33 @@
   </div>
 </div>
 
-<div class="wrapper background-team-carla-anais" id="avocats">
+<div class="wrapper background-team-anais">
   <div class="row">
-    <div class="col-md-2 col-lg-3">
-    </div>
-    <div class="col-12 col-md-8 col-lg-6">
-      <div class="d-flex descriptions-stagiaires">
-        <div class="team-description description-anais">
-          <div class="avatar avatar-stagiaire anais">
-            <%= image_tag "anais-mobile.png" %>
-          </div>
-          <div class="team-description-mobile team-description-anais-mobile">
-            <h4>Anaïs Sarron</h4>
-            <p>
-              <%= I18n.t('.team-anais1') %>
-            <br><br>
-              <%= I18n.t('.team-anais2') %>
-            </p>
-            <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-anais1') %><br><%= I18n.t('.competences-anais2') %></p>
-            <div class="text-center">
-              <a href="https://www.linkedin.com/in/ana%C3%AFs-sarron-b4905a90/?originalSubdomain=fr" cursor="pointer" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="team-description description-carla">
-          <div class="avatar avatar-stagiaire carla">
-            <%= image_tag "carla-mobile.png" %>
-          </div>
-          <div class="team-description-mobile team-description-carla-mobile">
-            <h4>Carla Monterastelli</h4>
-            <p>
-              <%= I18n.t('.team-carla1') %>
-            <br><br>
-              <%= I18n.t('.team-carla2') %>
-            </p>
-            <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-carla1') %><br><%= I18n.t('.competences-carla2') %></p>
-            <div class="text-center">
-              <a href="https://www.linkedin.com/in/carla-monterastelli-ab2969b7/?originalSubdomain=fr" cursor="pointer" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-            </div>
-          </div>
+    <div class="col-sm-7 col-lg-8 presentation-description">
+      <div class="team-description">
+      <div class="avatar avatar-stagiaire anais">
+        <%= image_tag "anais-mobile.png", style: 'width: 100%; position: left' %>
+      </div>
+      <div class="team-description-mobile">
+        <br>
+        <h4>Anaïs Sarron</h4>
+        <p>
+          <%= I18n.t('.team-anais1') %>
+        <br><br>
+          <%= I18n.t('.team-anais2') %>
+        <br><br>
+          <%= I18n.t('.team-anais3') %>
+        </p>
+        <p style="text-align: center; color: #2580c6; margin-top: 20px;"><%= I18n.t('.competences-anais1') %><br><%= I18n.t('.competences-anais2') %></p>
+        <%#= link_to "Actualités et publications", articles_path(editor: "Matthieu Chavanne"), class: "btn-articles"  %>
+        <div class="text-center">
+          <a type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:sarron@cw-avocats.com' title='test add link'>sarron@cw-avocats.com</a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/matthieu-chavanne-b5693534/?ppe=1" cursor="pointer" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
         </div>
       </div>
+      </div>
     </div>
-    <div class="col-md-2 col-lg-3">
+    <div class="col-sm-5 col-lg-4">
     </div>
   </div>
 </div>

@@ -22,71 +22,71 @@
 en:
   date:
     formats:
-      long: "%d-%m-%Y"
+      long: '%d-%m-%Y'
   time:
     formats:
-      long: "%d-%m-%Y"
+      long: '%d-%m-%Y'
 
   navbar:
-  btn1: "LAW FIRM"
-  btn2: "LAWYERS"
-  btn3: "NEWS"
-  btn4: "CONTACT"
-  btn5: "HOME"
-  btn6: "NEWS"
-  btn7: "CONTACT"
+  btn1: 'LAW FIRM'
+  btn2: 'LAWYERS'
+  btn3: 'NEWS'
+  btn4: 'CONTACT'
+  btn5: 'HOME'
+  btn6: 'NEWS'
+  btn7: 'CONTACT'
 
   home:
-  title1: "LAW FIRM"
-  title2: "NEWS"
-  title3: "CONTACT"
-  presentation1: "After meeting each other in Chile and being both elected “Secrétaires de la Conférence” in 2015,  "
-  presentation2: "Clémence Witt and Matthieu Chavanne "
-  presentation3: "created the law firm Chavanne & Witt Avocats in September 2017."
-  presentation4: "Holders of a double training (Sciences Po Paris / ESSEC), they firstly worked with two renowned criminal lawyers. They practice equally in Spanish, English and French."
-  presentation5: "Chavanne & Witt Avocats assists its clients, natural or legal persons, "
-  presentation6: "in all areas of criminal law "
-  presentation7: "(general criminal law, business criminal law and international criminal law) and at every stage of the proceedings (police investigation, judicial investigation and judgment phase)."
-  team-clem1: "Clémence Witt graduated from the Master “Legal and Judiciary Career” at the Sciences Po Paris Law School (2008) and from a Master II in Human and Humanitarian Rights (Panthéon-Assas University, 2010). She also obtained a criminological sciences certificate. She is a lawyer at the Paris Bar since 2012."
-  team-clem2: "She lived in Chile, in the United States and in Cambodia, where she spent one year in the defense team conducted by Jacques Vergès before the Extraordinary Chambers set up by the United Nations."
-  team-clem3: "Between 2009 and 2017, she worked for the President of the Paris Bar Pierre-Olivier Sur, mainly in "
-  team-clem4: "criminal law, business criminal law and international criminal law"
-  team-clem5: ", both in France and abroad (Argentina, Burkina Faso, Ivory Coast, India, Lebanon, Libya, Mexico, Tunisia). She also served as his advisor for international criminal affairs at the Paris Bar Council (2014-2015)."
-  team-clem6: "In 2015, Clémence Witt was elected “Secrétaire de la Conférence”: she therefore intervenes in a lot of criminal cases and pleads regularly before the Criminal Court. She is currently a lecturer in substantive and procedural criminal law at Sciences Po as well as a sports agent (“mandataire sportive”)."
-  competences-clem1: "General criminal law – Business criminal law – International criminal law – Sports law."
-  competences-clem2: "Working languages : French, English, Spanish."
-  competences-clem3: "French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA)."
-  team-mat1: "Matthieu Chavanne graduated from the ESSEC Business School (class of 2008) and from a Master II in Litigation and Criminal Law (Panthéon-Assas University, 2009). He is a lawyer at the Paris Bar since 2011."
-  team-mat2: "After having worked in finance (KPMG, « Transaction Services » department) and in international business law firms (Shearman & Sterling LLP, Gide Loyrette Nouel AARPI), Matthieu Chavanne joined the "
-  team-mat3: "business criminal law "
-  team-mat4: "team of BG2V between 2012 and 2017."
-  team-mat5: "In 2015, Matthieu Chavanne was elected “Secrétaire de la Conférence”: in this capacity, he intervened in nearly fifty criminal cases and pleaded several times before the Criminal Court. He therefore has developed a recognized practice in "
-  team-mat6: "criminal law."
-  team-mat7: "Matthieu Chavanne was a tutor at the University of Paris Descartes in business criminal law. He teaches business law at the ESSEC Business School for three years."
-  competences-mat1: "General criminal law – Business criminal law – Medical litigation."
-  competences-mat2: "Working languages: French, English, Spanish."
-  competences-mat3: "French Association of Criminal Lawyers (ADAP), French Association of Criminal Law (AFDP), European Criminal Bar Association (ECBA)."
-  team-cam1: "Camille Tardé graduated from the Master in Economic Law at the Sciences Po Paris Law School (2016). She is a lawyer at the Paris Bar since 2018. "
-  team-cam2: "After several experiences in public administrations (Prime Minister Services, Paris area public transport network), she chose to specialize in criminal law and interned alongside criminal lawyers (within the Henri Leclerc & Associés law firm as well as at Le Borgne Saint-Palais Associés). She also worked for several judges of the Criminal Chambers of the Paris Court of Appeals (Chambers 8-1 and 8-2)."
-  team-cam3: "Since her admission to the Bar in November 2018, she works as an associate at the law firm Chavanne & Witt Avocats."
-  competences-cam1: "General criminal law – Business criminal law – Economic law."
-  competences-cam2: "Working languages : French, English, German."
-  competences-cam3: "French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA)."
-  team-carla1: "Trainee lawyer since January 2020, Carla Monterastelli graduated from the Master in Economic Law at Sciences Po Paris Law School (major in “Economic Litigation and Arbitration”, class of 2018.)"
-  team-carla2: "She worked several times as an intern in the field of criminal law: alongside the magistrates of the Public Prosecutor’s office of the High Court of Paris, alongside the Liaison Judge at the French Embassy in the United States and at the Organization for Economic Co-operation and Development (OECD), within the anti-corruption division."
-  competences-carla1: "General criminal law - International criminal law - Business criminal law - Economic law."
-  competences-carla2: "Working languages: French, English, Italian."
-  team-anais1: "Trainee lawyer since January 2018, Anaïs Sarron graduated from the Master in Economic Law at the Sciences Po Paris Law School (major in “Global Governance Studies”, class of 2017), and from the LLM in International and Transnational Criminal Law at the University of Amsterdam (UvA, class of 2019)."
-  team-anais2: "She worked several times as an intern in the field of criminal law: within the criminal law firm Thierry Lévy et Associés, alongside the prosecutors of the Public Ministry before the Investigating Chamber of the Paris Court of Appeals, and within the NGO “Parmi les Présents” which promotes alternatives to imprisonment."
-  competences-anais1: "General criminal law - International criminal law - Business criminal law - Economic law."
-  competences-anais2: "Working languages: French, English, Portuguese, Italian, Spanish."
-  form1: "Name"
-  form2: "Email"
-  form3: "Subjet"
-  form4: "Your Message"
-  form5: "Send"
+  title1: 'LAW FIRM'
+  title2: 'NEWS'
+  title3: 'CONTACT'
+  presentation1: 'After meeting each other in Chile and being both elected “Secrétaires de la Conférence” in 2015,  '
+  presentation2: 'Clémence Witt and Matthieu Chavanne '
+  presentation3: 'created the law firm Chavanne & Witt Avocats in September 2017.'
+  presentation4: 'Holders of a double training (Sciences Po Paris / ESSEC), they firstly worked with two renowned criminal lawyers. They practice equally in Spanish, English and French.'
+  presentation5: 'Chavanne & Witt Avocats assists its clients, natural or legal persons, '
+  presentation6: 'in all areas of criminal law '
+  presentation7: '(general criminal law, business criminal law and international criminal law) and at every stage of the proceedings (police investigation, judicial investigation and judgment phase).'
+  team-clem1: 'Clémence Witt graduated from the Master “Legal and Judiciary Career” at the Sciences Po Paris Law School (2008) and from a Master II in Human and Humanitarian Rights (Panthéon-Assas University, 2010). She also obtained a criminological sciences certificate. She is a lawyer at the Paris Bar since 2012.'
+  team-clem2: 'She lived in Chile, in the United States and in Cambodia, where she spent one year in the defense team conducted by Jacques Vergès before the Extraordinary Chambers set up by the United Nations.'
+  team-clem3: 'Between 2009 and 2017, she worked for the President of the Paris Bar Pierre-Olivier Sur, mainly in '
+  team-clem4: 'criminal law, business criminal law and international criminal law'
+  team-clem5: ', both in France and abroad (Argentina, Burkina Faso, Ivory Coast, India, Lebanon, Libya, Mexico, Tunisia). She also served as his advisor for international criminal affairs at the Paris Bar Council (2014-2015).'
+  team-clem6: 'In 2015, Clémence Witt was elected “Secrétaire de la Conférence”: she therefore intervenes in a lot of criminal cases and pleads regularly before the Criminal Court. She is currently a lecturer in substantive and procedural criminal law at Sciences Po as well as a sports agent (“mandataire sportive”).'
+  competences-clem1: 'General criminal law – Business criminal law – International criminal law – Sports law.'
+  competences-clem2: 'Working languages : French, English, Spanish.'
+  competences-clem3: 'French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA).'
+  team-mat1: 'Matthieu Chavanne graduated from the ESSEC Business School (class of 2008) and from a Master II in Litigation and Criminal Law (Panthéon-Assas University, 2009). He is a lawyer at the Paris Bar since 2011.'
+  team-mat2: 'After having worked in finance (KPMG, « Transaction Services » department) and in international business law firms (Shearman & Sterling LLP, Gide Loyrette Nouel AARPI), Matthieu Chavanne joined the '
+  team-mat3: 'business criminal law '
+  team-mat4: 'team of BG2V between 2012 and 2017.'
+  team-mat5: 'In 2015, Matthieu Chavanne was elected “Secrétaire de la Conférence”: in this capacity, he intervened in nearly fifty criminal cases and pleaded several times before the Criminal Court. He therefore has developed a recognized practice in '
+  team-mat6: 'criminal law.'
+  team-mat7: 'Lastly, since 2017, Matthieu Chavanne devotes part of his activity to <strong>healthcare litigation</strong>'
+  team-mat8: 'Matthieu Chavanne was a tutor at the University of Paris Descartes in business criminal law. He teaches business law at the ESSEC Business School for three years.'
+  competences-mat1: 'General criminal law – Business criminal law – Medical litigation.'
+  competences-mat2: 'Working languages: French, English, Spanish.'
+  competences-mat3: 'French Association of Criminal Lawyers (ADAP), French Association of Criminal Law (AFDP), European Criminal Bar Association (ECBA).'
+  team-cam1: 'Camille Tardé graduated from the Master in Economic Law at the Sciences Po Paris Law School (2016). She is a lawyer at the Paris Bar since 2018. '
+  team-cam2: 'After several experiences in public administrations (Prime Minister Services, Paris area public transport network), she chose to specialize in criminal law and interned alongside criminal lawyers (within the Henri Leclerc & Associés law firm as well as at Le Borgne Saint-Palais Associés). She also worked for several judges of the Criminal Chambers of the Paris Court of Appeals (Chambers 8-1 and 8-2).'
+  team-cam3: 'Since her admission to the Bar in November 2018, she works as an associate at the law firm Chavanne & Witt Avocats.'
+  competences-cam1: 'General criminal law – Business criminal law – Economic law.'
+  competences-cam2: 'Working languages : French, English, German.'
+  competences-cam3: 'French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA).'
+  team-carla1: 'Trainee lawyer since January 2020, Carla Monterastelli graduated from the Master in Economic Law at Sciences Po Paris Law School (major in “Economic Litigation and Arbitration”, class of 2018.)'
+  team-carla2: 'She worked several times as an intern in the field of criminal law: alongside the magistrates of the Public Prosecutor’s office of the High Court of Paris, alongside the Liaison Judge at the French Embassy in the United States and at the Organization for Economic Co-operation and Development (OECD), within the anti-corruption division.'
+  competences-carla1: 'General criminal law - International criminal law - Business criminal law - Economic law.'
+  competences-carla2: 'Working languages: French, English, Italian.'
+  team-anais1: 'Anaïs Sarron graduated from the Sciences Po Paris Law School (Masters in Economic Law - major in “Global Governance Studies”, 2017), and from the LLM in International and Transnational Criminal Law at the University of Amsterdam (UvA, 2019). She is a lawyer at the Paris bar since 2020.'
+  team-anais2: 'Between 2015 and 2019, she worked several times as an intern in criminal law at the law firm Thierry Lévy et Associés, alongside the Public Prosecutors before the Investigating Chamber of the Paris Court of Appeals and within the NGO promoting alternatives to imprisonment “Parmi les Présents”. She then joined the law firm Chavanne & Witt Avocats.'
+  team-anais3: 'Since her admission to the Bar in November 2020, she works there as an associate.'
+  competences-anais1: 'General criminal law - International criminal law - Business criminal law.'
+  competences-anais2: 'Working languages: French, English, Spanish, Portuguese, Italian.'
+  form1: 'Name'
+  form2: 'Email'
+  form3: 'Subjet'
+  form4: 'Your Message'
+  form5: 'Send'
 
   footer:
-  mentions: "Legal Notice"
-
-
+  mentions: 'Legal Notice'
