@@ -1,16 +1,16 @@
 ActiveAdmin.register_page "Dashboard" do
   ActiveAdmin.register Article do
-  menu label: "Les articles Chavanne & Witt"
-end
+    menu label: "Les articles Chavanne & Witt"
+  end
 
 
-action_item :view_site do
-  link_to "SITE", "/"
-end
+  action_item :view_site do
+    link_to "SITE", "/"
+  end
 
-action_item :view_site do
-  link_to "BLOG", "/articles"
-end
+  action_item :view_site do
+    link_to "BLOG", "/articles"
+  end
 
   menu priority: 1, label: proc{ I18n.t("active_admin.dashboard") }
 
@@ -29,5 +29,5 @@ end
         end
       end
     end
-end
+  end
 end
