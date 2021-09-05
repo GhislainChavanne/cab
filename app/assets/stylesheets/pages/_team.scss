@@ -60,7 +60,7 @@
 }
 
 .background-team-anais {
-  background-image: image-url('anais.png');
+  background-image: image-url('ana.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -147,9 +147,9 @@
     height: auto;
     min-height: 60vh;
   }
-  .background-team-carla-anais {
-    // background-size: auto;
-    min-height: unset;
+  .background-team-anais {
+    height: auto;
+    min-height: 60vh;
   }
   .descriptions-stagiaires {
     padding: unset;
@@ -181,6 +181,11 @@
   .background-team-cam {
     background-image: image-url('cam-tablet.png');
     background-position: right;
+  }
+  .background-team-anais {
+    background-image: image-url('ana-tablet.png');
+    background-position: right;
+    background-size: unset;
   }
   .descriptions-stagiaires {
     padding: 0 25px;
