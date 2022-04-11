@@ -1,25 +1,25 @@
 GIT
-  remote: git://github.com/activeadmin/activeadmin.git
-  revision: 6c8f0e626d923200e51df49d20c6d237dd51f821
+  remote: https://github.com/activeadmin/activeadmin.git
+  revision: 18ffc614bc0ce2a0cb46ffe9fcb95efeab128f81
   specs:
-    activeadmin (2.9.0)
+    activeadmin (2.11.1)
       arbre (~> 1.2, >= 1.2.1)
       formtastic (>= 3.1, < 5.0)
       formtastic_i18n (~> 0.4)
       inherited_resources (~> 1.7)
       jquery-rails (~> 4.2)
       kaminari (~> 1.0, >= 1.2.1)
-      railties (>= 5.2, < 6.2)
+      railties (>= 6.0, < 7.1)
       ransack (~> 2.1, >= 2.1.1)
 
 GIT
-  remote: git://github.com/activeadmin/inherited_resources.git
-  revision: 219d08837ffb7edeb49a213d91e094fc85e3d7ff
+  remote: https://github.com/activeadmin/inherited_resources.git
+  revision: 94b1d74778c3b546ed40d65da9ffb76811197245
   specs:
-    inherited_resources (1.13.0)
-      actionpack (>= 5.2, < 6.2)
+    inherited_resources (1.13.1)
+      actionpack (>= 6.0, < 7.1)
       has_scope (~> 0.6)
-      railties (>= 5.2, < 6.2)
+      railties (>= 6.0, < 7.1)
       responders (>= 2, < 4)
 
 GEM
@@ -84,8 +84,8 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
-    arbre (1.4.0)
-      activesupport (>= 3.0.0, < 6.2)
+    arbre (1.5.0)
+      activesupport (>= 3.0.0, < 7.1)
       ruby2_keywords (>= 0.0.2, < 1.0)
     autoprefixer-rails (10.2.5.1)
       execjs (> 0)
@@ -176,12 +176,12 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2021.0704)
     mini_mime (1.1.0)
-    mini_portile2 (2.5.3)
+    mini_portile2 (2.8.0)
     minitest (5.14.4)
     netrc (0.11.0)
     nio4r (2.5.7)
-    nokogiri (1.11.7)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.13.4)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.2.3)
@@ -195,7 +195,7 @@ GEM
       pry (>= 0.10.4)
     puma (5.3.2)
       nio4r (~> 2.0)
-    racc (1.5.2)
+    racc (1.6.0)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -226,9 +226,9 @@ GEM
       rake (>= 0.13)
       thor (~> 1.0)
     rake (13.0.6)
-    ransack (2.4.2)
-      activerecord (>= 5.2.4)
-      activesupport (>= 5.2.4)
+    ransack (2.6.0)
+      activerecord (>= 6.0.4)
+      activesupport (>= 6.0.4)
       i18n
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
