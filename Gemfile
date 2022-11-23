@@ -23,6 +23,8 @@ gem 'mail_form'
 gem 'kaminari'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'net-smtp', require: false
+gem 'net-pop', require: false
+gem 'net-imap', require: false
 
 group :development, :test do
   gem 'better_errors'
