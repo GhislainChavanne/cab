@@ -22,6 +22,7 @@ gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'mail_form'
 gem 'kaminari'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'net-smtp', require: false
 
 group :development, :test do
   gem 'better_errors'
