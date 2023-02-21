@@ -50,15 +50,16 @@
         -ms-animation: fadein 1s; /* Internet Explorer */
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
-  h2 {
+  h1 {
     margin-bottom: 50px;
     font-weight: bolder;
     position: relative;
     letter-spacing: 2px;
     color: white;
     padding-left: 15px;
+    font-size: 34px;
   }
-  h2:after{
+  h1:after{
     content: "";
     position: absolute;
     width: 4%;
@@ -78,32 +79,33 @@
   position: absolute;
   top: 15px;
   right: 15px;
-    img {
+
+  img {
     width: 200px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .img-right {
-  position: relative;
-  margin: auto;
-  margin-bottom: 50px;
-  width: 100%;
-  top: 0px;
-  right: 0px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 100%;
+    top: 0px;
+    right: 0px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .actualites-index h2 {
-  text-align: center;
-  padding-left: 0px;
+  .actualites-index h1 {
+    text-align: center;
+    padding-left: 0px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .actualites-index h2:after {
-  border-bottom: none;
+  .actualites-index h1:after {
+    border-bottom: none;
   }
 }
 
@@ -111,6 +113,7 @@
   background-color: white;
   margin-bottom: 20px;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+
   h4 {
     font-weight: 600;
     margin-bottom: 15px;
@@ -295,6 +298,20 @@
   margin-bottom: 30px;
   border: 2px solid #18243e;
   position: relative;
+  h1 {
+    color: #18243e;
+    position: relative;
+    margin-top: 0px;
+    font-size: 28px;
+  }
+  h1:after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    left: 45%;
+    border-bottom: 4px solid #18243e;
+    bottom: -10px;
+  }
   h3 {
     position: relative;
     margin-top: 0px;
@@ -310,7 +327,7 @@
   }
   h4 {
     position: absolute;
-bottom: -11px;
+    bottom: -11px;
     right: 1px;
     font-family: "roboto";
     font-size: 16px;

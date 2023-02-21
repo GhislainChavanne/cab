@@ -1,32 +1,39 @@
 <% content_for :meta_title, "#{@article.title} / #{DEFAULT_META["meta_product_name"]}" %>
 
-<div class="wrapper article-show" style="background-image: url('<%= cl_image_path("actualites_pcaclw.png") %>');">
-  <%= link_to root_path, class: "" do %>
-    <%= cl_image_tag("logo-white_dsazw2.png") %>
-  <% end %>
-  <div class="container">
+<main class="wrapper article-show" style="background-image: url('<%= cl_image_path("actualites_pcaclw.png") %>');">
+  <aside>
+    <%= link_to root_path, class: "" do %>
+      <%= cl_image_tag("logo-white_dsazw2.png") %>
+    <% end %>
+  </aside>
+
+  <article class="container">
     <div class="article-title">
-      <h3 class="text-center"><%= @article.title.upcase.tr('æ-ý','Æ-Ý') %></h3>
+      <h1 class="text-center"><%= @article.title.upcase.tr('æ-ý','Æ-Ý') %></h1>
     </div>
+
     <div class="article-content">
       <p><strong><%= @article.description %></strong></p>
       <%= @article.content.html_safe %>
+
       <div class="option-article">
         <i class="fa fa-share-alt-square" aria-hidden="true"></i>
       </div>
     </div>
-      <div class="article-path">
-        <%= link_to @articles.previous(@article) do %>
-        <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
-        <% end %>
-        <%= link_to @articles.next(@article) do %>
-        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-        <% end %>
-      </div>
-    <div class="article-menu">
+
+    <div class="article-path">
+      <%= link_to @articles.previous(@article) do %>
+      <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+      <% end %>
+      <%= link_to @articles.next(@article) do %>
+      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+      <% end %>
+    </div>
+
+    <nav class="article-menu">
       <a href="/"><p><i class="fa fa-home" aria-hidden="true"></i> Accueil</p></a>
       <a href="/articles"><p><i class="fa fa-gavel" aria-hidden="true"></i> Notre Blog</p></a>
       <a href="/#contacts"><p><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Nous contacter</p></a>
-    </div>
-  </div>
-</div>
+    </nav>
+  </article>
+</main>

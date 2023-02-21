@@ -58,6 +58,14 @@ p, h1, h2, h3, h4, h5 {
   margin: auto;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-xl {
+  font-size: 1.5em;
+}
+
 @media screen and (min-width: 960px) {
   .d-flex {
     display: flex;

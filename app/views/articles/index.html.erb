@@ -1,38 +1,43 @@
-<div class="wrapper actualites-index" style="background-image: url('<%= cl_image_path("actualites_pcaclw.png") %>');">
-<div class="img-right text-center">
-  <%= link_to root_path, class: "" do %>
-  <%= cl_image_tag("logo-white_dsazw2.png") %>
-  <% end %>
-</div>
-  <div class="container">
+<main class="wrapper actualites-index" style="background-image: url('<%= cl_image_path("actualites_pcaclw.png") %>');">
+  <aside class="img-right text-center">
+    <%= link_to root_path, class: "" do %>
+    <%= cl_image_tag("logo-white_dsazw2.png") %>
+    <% end %>
+  </aside>
+
+  <section class="container">
     <div class="row">
-      <h2 class="">ACTUALITÉS</h2>
+      <h1 class="uppercase">actualités</h1>
+
       <% @articles.each do |article|  %>
-        <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="card">
-              <div class="card-header">
-                <div class="category">
-                  <%= article.category %>
-                </div>
-                <div class="date">
-                  <%= article.date.strftime("%d. %m. %Y")%>
-                </div>
+        <article class="col-lg-3 col-md-6 col-xs-12">
+          <div class="card">
+            <div class="card-header">
+              <div class="category">
+                <%= article.category %>
               </div>
-              <div class="content-card">
-                <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
-                <p><%= article.description.first(60) %>...</p>
+              <div class="date">
+                <%= article.date.strftime("%d. %m. %Y")%>
               </div>
-              <%= link_to article_path(article) do %>
+            </div>
+            
+            <div class="content-card">
+              <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
+              <p><%= article.description.first(60) %>...</p>
+            </div>
+
+            <%= link_to article_path(article) do %>
               <div class="btn-card">
                 Lire la suite
               </div>
-              <% end %>
-            </div>
-        </div>
+            <% end %>
+          </div>
+        </article>
       <% end %>
     </div>
-  </div>
-        <div class="pagination">
-       <p><%= paginate @articles, outer_window: 3 %></p>
-      </div>
-</div>
+  </section>
+
+  <nav class="pagination">
+    <p><%= paginate @articles, outer_window: 3 %></p>
+  </nav>
+</main>
