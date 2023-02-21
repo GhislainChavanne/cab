@@ -18,13 +18,14 @@
   margin: auto;
   padding-bottom: 40px;
   padding-top: 40px;
-  h2 {
+  h1 {
     margin-bottom: 30px;
     font-weight: bolder;
     position: relative;
     letter-spacing: 2px;
+    font-size: 34px;
   }
-  h2:after{
+  h1:after{
     content: "";
     position: absolute;
     width: 10%;

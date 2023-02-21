@@ -1,5 +1,4 @@
-<div class="navbar-wagon navbar-wagon-fixed collapse navbar-collapse hidden-xs">
-
+<nav class="navbar-wagon navbar-wagon-fixed collapse navbar-collapse hidden-xs">
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
     <%= image_tag "logo-picto.png" %>
   <% end %>
@@ -10,18 +9,23 @@
       <%= image_tag "logo-picto.png" %>
       <% end %>
     </div>
+
     <div>
       <a href="#presentation" id="btn"><%= I18n.t('.btn1') %></a>
     </div>
+
     <div>
       <a href="#avocats" id="btn"><%= I18n.t('.btn2') %></a>
     </div>
+
     <div>
       <a href="#actualites" id="btn"><%= I18n.t('.btn3') %></a>
     </div>
+
     <div>
       <a href="#contact" id="btn"><%= I18n.t('.btn4') %></a>
     </div>
+
     <div class="contact-navbar">
       <div class="contact-content">
         <p><span style="letter-spacing: 3.5px;">Tel</span> : <span style="letter-spacing: 3.3px;">01 42 18 18 19</span></p>
@@ -31,9 +35,9 @@
     </div>
   </div>
 
-  <div class="translation">
-  <a href="/en" class="navbar-wagon-brand">En</a>
-  <a href="/es" class="navbar-wagon-brand">Es</a>
+  <div class="translation" rel="nofollow">
+    <a href="/en" class="navbar-wagon-brand">En</a>
+    <a href="/es" class="navbar-wagon-brand">Es</a>
   </div>
 
   <!-- Dropdown list appearing on mobile only -->
@@ -47,7 +51,7 @@
       </ul>
     </div>
   </div>
-</div>
+</nav>
 
 
 
