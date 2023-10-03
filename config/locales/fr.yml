@@ -1,64 +1,115 @@
 fr:
   navbar:
-  btn1: 'CABINET'
-  btn2: 'AVOCATS'
-  btn3: 'ACTUALITÉS'
-  btn4: 'CONTACT'
-  btn5: 'ACCUEIL'
-  btn6: 'ACTUALITÉS'
-  btn7: 'CONTACT'
-
+    buttons:
+      firm: 'CABINET'
+      team: 'AVOCATS'
+      news: 'ACTUALITÉS'
+      contact: 'CONTACT'
+      home: 'ACCUEIL'
+  
   home:
-  title1: 'CABINET'
-  title2: 'ACTUALITÉS'
-  title3: 'CONTACT'
-  presentation1: "Après s'être rencontrés au Chili et avoir été ensemble Secrétaires de la Conférence en 2015, "
-  presentation2: 'Clémence Witt et Matthieu Chavanne'
-  presentation3: ' ont créé le cabinet Chavanne & Witt Avocats en septembre 2017. '
-  presentation4: "Titulaires d'une double formation (Science Po Paris / ESSEC), ils ont d'abord exercé auprès de deux pénalistes de renom et travaillent indifféremment en espagnol, anglais et français."
-  presentation5: 'Le cabinet Chavanne & Witt Avocats assiste ses clients, particuliers ou personnes morales, '
-  presentation6: 'dans tous les domaines du droit pénal'
-  presentation7: ' (droit pénal général, droit pénal des affaires et droit pénal international) et à chaque stade de la procédure (enquête, instruction, jugement).'
-  team-clem1: "Diplômée de Sciences Po Paris, Master Carrières Judiciaires et Juridiques (2008), d'un Master II Droits de l'homme et droit humanitaire (Université Panthéon-Assas, 2010) et titulaire d'un certificat de sciences criminologiques, Clémence Witt est avocate au Barreau de Paris depuis 2012."
-  team-clem2: "Elle a vécu au Chili, aux États-Unis et au Cambodge, où elle a passé un an dans l'équipe de défense dirigée par Jacques Vergès, devant les Chambres extraordinaires mises en place par l’ONU."
-  team-clem3: 'Entre 2009 et 2017, Clémence Witt a travaillé pour le Bâtonnier Pierre-Olivier Sur principalement en '
-  team-clem4: 'droit pénal, droit pénal des affaires et droit pénal international'
-  team-clem5: ', tant en France qu’à l’étranger (Argentine, Burkina Faso, Côte d’Ivoire, Inde, Liban, Libye, Mexique, Tunisie). Elle a également été conseillère « affaires pénales internationales » à l’Ordre des avocats de Paris (2014-2015).'
-  team-clem6: "En 2015, Clémence Witt a été élue Secrétaire de la Conférence : elle intervient à ce titre dans de nombreux dossiers criminels et plaide régulièrement devant la cour d'assises. Elle est aujourd’hui chargée d’enseignement en droit pénal et procédure pénale à Sciences Po, ainsi que mandataire sportive."
-  competences-clem1: 'Droit pénal général - Droit pénal des affaires - Droit pénal international - Droit du sport.'
-  competences-clem2: 'Langues de travail : français, anglais, espagnol.'
-  competences-clem3: 'Association des Avocats Pénalistes, European Criminal Bar Association.'
-  team-mat1: "Diplômé de l'ESSEC (promotion 2008) et d’un Master II Contentieux et droit pénal (Université Panthéon-Assas, 2009), Matthieu Chavanne est avocat au Barreau de Paris depuis 2011."
-  team-mat2: "Après avoir travaillé dans la finance (KPMG, équipe de « Transaction Services ») puis au sein de cabinets d’affaires internationaux (Shearman & Sterling LLP, Gide Loyrette Nouel AARPI), Matthieu Chavanne a rejoint l'équipe de "
-  team-mat3: 'droit pénal des affaires '
-  team-mat4: 'du cabinet BG2V entre 2012 et 2017.'
-  team-mat5: "En 2015, Matthieu Chavanne a été élu Secrétaire de la Conférence : il est intervenu à ce titre dans près d'une cinquantaine de dossiers criminels et a plaidé à plusieurs reprises devant la cour d'assises. Il a ainsi développé une pratique reconnue en "
-  team-mat6: 'droit pénal.'
-  team-mat7: 'Enfin, depuis 2017, Matthieu Chavanne consacre une partie de son activité au <strong>contentieux médical.</strong>'
-  team-mat8: "Matthieu Chavanne a été chargé de travaux dirigés en droit pénal des affaires à l'Université Paris Descartes. Il enseigne depuis trois ans le droit des affaires à l'ESSEC."
-  competences-mat1: 'Droit pénal général - Droit pénal de affaires - Contentieux médical.'
-  competences-mat2: 'Langues de travail : français, anglais, espagnol.'
-  competences-mat3: 'Association des Avocats Pénalistes, Association Française de Droit Pénal, European Criminal Bar Association.'
-  team-cam1: 'Diplômée de l’Ecole de droit de Sciences Po Paris (Master Droit économique, 2016), Camille Tardé est avocate au Barreau de Paris depuis 2018.'
-  team-cam2: 'Après plusieurs expériences en administration (Services du Premier ministre, STIF), elle a choisi de se spécialiser en droit pénal et a réalisé plusieurs stages auprès d’avocats pénalistes (cabinets Henri Leclerc & Associés et Le Borgne Saint-Palais Associés) et de magistrats (chambres correctionnelles 8-1 et 8-2 de la Cour d’appel de Paris).'
-  team-cam3: 'Depuis sa prestation de serment en novembre 2018, elle exerce comme collaboratrice au sein du cabinet Chavanne & Witt Avocats.'
-  competences-cam1: 'Droit pénal général - Droit pénal des affaires- Droit économique.'
-  competences-cam2: 'Langues de travail : français, anglais, allemand.'
-  competences-cam3: 'Association des Avocats Pénalistes, European Criminal Bar Association.'
-  team-carla1: 'Elève-avocate depuis janvier 2020, Carla Monterastelli est diplômée de Sciences Po Paris, Master Droit économique (spécialité « Contentieux économique et Arbitrage », promotion 2018).'
-  team-carla2: 'Elle a effectué plusieurs stages dans le domaine du droit pénal : auprès des magistrats du pôle financier du parquet du Tribunal de grande instance de Paris, à l’Ambassade de France aux Etats-Unis auprès du magistrat de liaison et à l’Organisation de Coopération et de Développement Economique (OCDE) au sein de la division anti-corruption.'
-  competences-carla1: 'Droit pénal général - Droit pénal international - Droit pénal des affaires - Droit économique.'
-  competences-carla2: 'Langues de travail : français, anglais, italien.'
-  team-anais1: 'Diplômée de l’École de droit de Sciences Po Paris (Master Droit économique - spécialité « Global Governance Studies », 2017), et d’un LLM en Droit pénal international et transnational de l’Université d’Amsterdam (UvA, 2019), Anaïs Sarron est avocate au Barreau de Paris depuis 2020.'
-  team-anais2: 'Entre 2015 et 2019, elle a effectué plusieurs stages en droit pénal au sein du cabinet Thierry Lévy et Associés, auprès de la Chambre de l’Instruction de la Cour d’Appel de Paris (parquet général) et avec l’association d’alternative à la prison « Parmi les Présents », avant de rejoindre le cabinet Chavanne & Witt Avocats.'
-  team-anais3: 'Depuis sa prestation de serment en novembre 2020, elle y exerce comme collaboratrice.'
-  competences-anais1: 'Droit pénal général - Droit pénal international - Droit pénal des affaires'
-  competences-anais2: 'Langues de travail : français, anglais, espagnol, portugais, italien.'
-  form1: 'Votre Nom'
-  form2: 'Votre Email'
-  form3: 'Sujet'
-  form4: 'Votre Message'
-  form5: 'Envoyer'
+    titles:
+      firm: 'CABINET'
+      team: 'AVOCATS' 
+      news: 'ACTUALITÉS'
+      contact: 'CONTACT'
+      home: 'ACCUEIL'
+  
+  team:
+    clemence: 
+      name: 'Clémence Witt'
+      class: 'clem'
+      linkedin: https://www.linkedin.com/in/clémence-witt-a38578153
+      email: witt@cw-avocats.com
+    matthieu: 
+      name: 'Matthieu Chavanne'
+      class: 'mat'
+      linkedin: https://www.linkedin.com/in/matthieu-chavanne-b5693534/?ppe=1
+      email: chavanne@cw-avocats.com
+    camille: 
+      name: 'Camille Tardé'
+      class: 'cam'
+      linkedin: https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/?originalSubdomain=fr
+      email: tarde@cw-avocats.com
+    anais: 
+      name: 'Anaïs Sarron'
+      class: 'anais'
+      email: sarron@cw-avocats.com
+
+  descriptions:
+    firm: |
+      Après s'être rencontrés au Chili et avoir été ensemble Secrétaires de la Conférence en 2015, 
+      <strong>Clémence Witt et Matthieu Chavanne</strong> créent le cabinet Chavanne & Witt Avocats en septembre 2017. <br><br>
+      Titulaires d'une double formation (Science Po Paris / ESSEC), 
+      ils exercent d'abord auprès de deux pénalistes de renom et travaillent indifféremment en espagnol, anglais et français. <br><br>
+      Le cabinet Chavanne & Witt Avocats assiste ses clients, particuliers ou personnes morales, 
+      <strong>dans tous les domaines du droit pénal</strong> (droit pénal général, 
+      droit pénal des affaires et droit pénal international) et à chaque stade de la procédure (enquête, instruction, jugement). <br><br>
+      Depuis plusieurs années, le cabinet collabore régulièrement avec le cabinet <a href="https://www.impactlitigation.fr/" target="_blank">Impact Litigation</a>, consacré aux questions de justice internationale et droits de l’homme. <br><br>
+      En 2023, Camille Tardé devient associée du cabinet Chavanne & Witt Avocats. <br><br>
+      Disposant d’une importante clientèle hispanophone, le cabinet ouvre parallèlement un bureau secondaire à Barcelone
+    clemence: |
+      Diplômée de Sciences Po Paris, Master Carrières Judiciaires et Juridiques (2008), 
+      d'un Master II Droits de l'homme et droit humanitaire (Université Panthéon-Assas, 2010) et titulaire d'un certificat de sciences criminologiques, 
+      Clémence Witt est avocate au Barreau de Paris depuis 2012. <br><br>
+      Elle a vécu au Chili, aux États-Unis et au Cambodge, où elle a passé un an dans l'équipe de défense dirigée par Jacques Vergès, 
+      devant les Chambres extraordinaires mises en place par l’ONU. <br><br>
+      Entre 2009 et 2017, Clémence Witt a travaillé pour le Bâtonnier Pierre-Olivier Sur principalement en <strong>droit pénal, droit pénal des affaires, et droit pénal international et droit de la presse</strong>, 
+      tant en France qu’à l’étranger (Argentine, Burkina Faso, Côte d’Ivoire, Inde, Liban, Libye, Mexique, Tunisie). 
+      Elle a également été conseillère « affaires pénales internationales » à l’Ordre des avocats de Paris (2014-2015). <br><br>
+      En 2015, Clémence Witt est élue Secrétaire de la Conférence : elle intervient à ce titre dans de nombreux dossiers criminels et plaide régulièrement devant la cour d'assises. <br><br>
+      Clémence Witt a développé une expertise en matière d’extradition (mandats d’arrêts européens et internationaux, notices rouges Interpol) et de crimes internationaux (crimes contre l’humanité et crimes de guerre). <br><br>
+      Depuis 2019, elle est chargée d’enseignement en droit pénal et procédure pénale à Sciences Po.
+    matthieu: |
+      Diplômé de l'ESSEC (promotion 2008) et d’un Master II Contentieux et droit pénal (Université Panthéon-Assas, 2009), 
+      Matthieu Chavanne est avocat au Barreau de Paris depuis 2011. <br><br>
+      Après avoir travaillé dans la finance (KPMG, équipe de « Transaction Services ») puis au sein de cabinets d’affaires internationaux (Shearman & Sterling LLP, Gide Loyrette Nouel AARPI), 
+      Matthieu Chavanne a rejoint l'équipe de <strong>droit pénal des affaires</strong> du cabinet BG2V entre 2012 et 2017. <br><br>
+      En 2015, Matthieu Chavanne est élu Secrétaire de la Conférence : il est intervenu à ce titre dans près d'une cinquantaine de dossiers criminels et a plaidé à plusieurs reprises devant la cour d'assises. 
+      Il a ainsi développé une pratique reconnue en <strong>droit pénal</strong>. <br><br>
+      Enfin, depuis 2019, Matthieu Chavanne consacre une partie de son activité à la <strong>compliance</strong>. <br><br>
+      Matthieu Chavanne a été chargé de travaux dirigés en droit pénal des affaires à l'Université Paris Descartes. 
+      Il enseigne depuis trois ans le droit des affaires à l'ESSEC.
+    camille: |
+      Diplômée de l’Ecole de droit de Sciences Po Paris (Master Droit économique, 2016), Camille Tardé est avocate au Barreau de Paris depuis 2018. <br><br>
+      Après plusieurs expériences en administration (Services du Premier ministre, STIF), 
+      elle a choisi d'exercer en droit pénal et travaille auprès d’avocats pénalistes réputés (cabinets Henri Leclerc & Associés et Le Borgne Saint-Palais Associés)
+      et de magistrats (chambres correctionnelles 8-1 et 8-2 de la Cour d’appel de Paris). <br><br>
+      À sa prestation de serment en novembre 2018, elle rejoint le cabinet Chavanne & Witt Avocats en tant que collaboratrice. <br><br>
+      En septembre 2023, elle  devient associée aux côtés de Clémence Witt et Matthieu Chavanne. <br><br>
+      Elle intervient principalement en droit pénal, droit pénal des affaires  et droit de la presse.
+    anais: |
+      Diplômée de l’École de droit de Sciences Po Paris (Master Droit économique - spécialité « Global Governance Studies », 2017), 
+      et d’un LLM en Droit pénal international et transnational de l’Université d’Amsterdam (UvA, 2019), Anaïs Sarron est avocate au Barreau de Paris depuis 2020. <br><br>
+      Entre 2015 et 2019, elle a effectué plusieurs stages en droit pénal au sein du cabinet Thierry Lévy et Associés, 
+      auprès de la Chambre de l’Instruction de la Cour d’Appel de Paris (parquet général) et avec l’association d’alternative à la prison « Parmi les Présents », 
+      avant de rejoindre le cabinet Chavanne & Witt Avocats. <br><br>
+      Depuis sa prestation de serment en novembre 2020, elle y exerce comme collaboratrice.
+
+  skills:
+    clemence: |
+      Droit pénal général - Droit pénal des affaires - Droit pénal international - Droit de la presse. <br>
+      Langues de travail : français, anglais, espagnol. <br>
+      Association des Avocats Pénalistes, European Criminal Bar Association.
+    matthieu: |
+      Droit pénal général - Droit pénal de affaires - Compliance. <br>
+      Langues de travail : français, anglais, espagnol. <br>
+      Association des Avocats Pénalistes, Association Française de Droit Pénal, European Criminal Bar Association.
+    camille: |
+      Droit pénal général - Droit pénal des affaires- Droit économique. <br>
+      Langues de travail : français, anglais, allemand. <br>
+      Association des Avocats Pénalistes, European Criminal Bar Association.
+    anais: |
+      Droit pénal général - Droit pénal international - Droit pénal des affaires <br>
+      Langues de travail : français, anglais, espagnol, portugais, italien.
+  
+  form:
+    placeholders:
+      name: 'Votre Nom'
+      email: 'Votre Email'
+      subject: 'Sujet'
+      message: 'Votre Message'
+      submit: 'Envoyer'
 
   footer:
-  mentions: 'Mentions Légales'
+    mentions: 'Mentions Légales'
