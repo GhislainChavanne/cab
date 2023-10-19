@@ -13,32 +13,32 @@ en:
       news: 'NEWS'
       contact: 'CONTACT'
       home: 'HOME'
-  
+
   home:
     titles:
       firm: 'LAW FIRM'
-      team: 'LAWYERS' 
+      team: 'LAWYERS'
       news: 'NEWS'
       contact: 'CONTACT'
       home: 'ACCUEIL'
-  
+
   team:
-    clemence: 
+    clemence:
       name: 'Clémence Witt'
       class: 'clem'
       linkedin: https://www.linkedin.com/in/clémence-witt-a38578153
       email: witt@cw-avocats.com
-    matthieu: 
+    matthieu:
       name: 'Matthieu Chavanne'
       class: 'mat'
       linkedin: https://www.linkedin.com/in/matthieu-chavanne-b5693534/?ppe=1
       email: chavanne@cw-avocats.com
-    camille: 
+    camille:
       name: 'Camille Tardé'
       class: 'cam'
       linkedin: https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/?originalSubdomain=fr
       email: tarde@cw-avocats.com
-    anais: 
+    anais:
       name: 'Anaïs Sarron'
       class: 'anais'
       email: sarron@cw-avocats.com
@@ -46,29 +46,36 @@ en:
   descriptions:
     firm: |
       After meeting each other in Chile and being both elected “Secrétaires de la Conférence” in 2015,
-      <strong>Clémence Witt and Matthieu Chavanne</strong> created the law firm Chavanne & Witt Avocats in September 2017. <br><br>
-      Holders of a double training (Sciences Po Paris / ESSEC), they firstly worked with two renowned criminal lawyers. They practice equally in Spanish, English and French. <br><br>
+      <strong>Clémence Witt and Matthieu Chavanne</strong> founded the law firm Chavanne & Witt Avocats in September 2017. <br><br>
+      Holders of a double training (Sciences Po Paris / ESSEC), they first worked with two renowned criminal lawyers. They practice equally in Spanish, English and French. <br><br>
       Chavanne & Witt Avocats assists its clients, natural or legal persons,
       <strong>in all areas of criminal law</strong> (general criminal law,
-      business criminal law and international criminal law) and at every stage of the proceedings (police investigation, judicial investigation and judgment phase).
+      business criminal law and international criminal law) and at every stage of the proceedings (police investigation, judicial investigation and judgment phase). <br><br>
+      For several years, the firm has been regularly working with the law firm <a href="https://www.impactlitigation.fr/" target="_blank">Impact Litigation</a> dedicated to the questions of international justice and human rights. <br><br>
+      In 2023, <strong>Camille Tardé</strong> became a partner of Chavanne & Witt Avocats. <br><br>
+      With a large Spanish-speaking clientele, the firm also opened a secondary office in <strong>Barcelona</strong>.
     clemence: |
       Clémence Witt graduated from the Master “Legal and Judiciary Career” at the Sciences Po Paris Law School (2008) and from a Master II in Human and Humanitarian Rights (Panthéon-Assas University, 2010). She also obtained a criminological sciences certificate. She is a lawyer at the Paris Bar since 2012. <br><br>
       She lived in Chile, in the United States and in Cambodia, where she spent one year in the defense team conducted by Jacques Vergès before the Extraordinary Chambers set up by the United Nations. <br><br>
       Between 2009 and 2017, she worked for the President of the Paris Bar Pierre-Olivier Sur, mainly in
-      <strong>criminal law, business criminal law and international criminal law</strong>, both in France and abroad (Argentina, Burkina Faso, Ivory Coast, India, Lebanon, Libya, Mexico, Tunisia). She also served as his advisor for international criminal affairs at the Paris Bar Council (2014-2015). <br><br>
-      In 2015, Clémence Witt was elected “Secrétaire de la Conférence”: she therefore intervenes in a lot of criminal cases and pleads regularly before the Criminal Court. She is currently a lecturer in substantive and procedural criminal law at Sciences Po as well as a sports agent (“mandataire sportive”).
+      <strong>criminal law, business criminal law, international criminal law and media law</strong>, both in France and abroad (Argentina, Burkina Faso, Ivory Coast, India, Lebanon, Libya, Mexico, Tunisia). She also served as his advisor for international criminal affairs at the Paris Bar Council (2014-2015). <br><br>
+      In 2015, Clémence Witt was elected “Secrétaire de la Conférence”: she therefore intervenes in a lot of criminal cases and pleads regularly before the Criminal Court. <br><br> 
+      Clémence Witt has developed an expertise in extradition proceedings (International and European arrest warrants and Interpol red notices) as well as international crimes (crimes against humanity and war crimes). <br><br>
+      Since 2019, she is a lecturer in substantive and procedural criminal law at Sciences Po.
     matthieu: |
       Matthieu Chavanne graduated from the ESSEC Business School (class of 2008) and from a Master II in Litigation and Criminal Law (Panthéon-Assas University, 2009). He is a lawyer at the Paris Bar since 2011. <br><br>
       After having worked in finance (KPMG, « Transaction Services » department) and in international business law firms (Shearman & Sterling LLP, Gide Loyrette Nouel AARPI), Matthieu Chavanne joined the
       <strong>business criminal law</strong> team of BG2V between 2012 and 2017. <br><br>
       In 2015, Matthieu Chavanne was elected “Secrétaire de la Conférence”: in this capacity, he intervened in nearly fifty criminal cases and pleaded several times before the Criminal Court. He therefore has developed a recognized practice in
       <strong>criminal law</strong>. <br><br>
-      Lastly, since 2017, Matthieu Chavanne devotes part of his activity to <strong>healthcare litigation</strong>. <br><br>
+      Lastly, since 2019, Matthieu Chavanne devotes part of his activity to <strong>regulatory compliance</strong>. <br><br>
       Matthieu Chavanne was a tutor at the University of Paris Descartes in business criminal law. He teaches business law at the ESSEC Business School for three years.
     camille: |
-      Camille Tardé graduated from the Master in Economic Law at the Sciences Po Paris Law School (2016). She is a lawyer at the Paris Bar since 2018. <br><br>
+      Camille Tardé graduated from the Master in Economic Law at the Sciences Po Law School (2016). She is a lawyer at the Paris Bar since 2018. <br><br>
       After several experiences in public administrations (Prime Minister Services, Paris area public transport network), she chose to specialize in criminal law and interned alongside criminal lawyers (within the Henri Leclerc & Associés law firm as well as at Le Borgne Saint-Palais Associés). She also worked for several judges of the Criminal Chambers of the Paris Court of Appeals (Chambers 8-1 and 8-2). <br><br>
-      Since her admission to the Bar in November 2018, she works as an associate at the law firm Chavanne & Witt Avocats.
+      Since her admission to the Bar in November 2018, she worked as an associate at the law firm Chavanne & Witt Avocats. <br><br>
+      In September 2023, she became a partner alongside Clémence Witt and Matthieu Chavanne. <br><br>
+      Her main areas of activity are criminal law, business criminal law and media law
     anais: |
       Anaïs Sarron graduated from the Sciences Po Paris Law School (Masters in Economic Law - major in “Global Governance Studies”, 2017), and from the LLM in International and Transnational Criminal Law at the University of Amsterdam (UvA, 2019). She is a lawyer at the Paris bar since 2020. <br><br>
       Between 2015 and 2019, she worked several times as an intern in criminal law at the law firm Thierry Lévy et Associés, alongside the Public Prosecutors before the Investigating Chamber of the Paris Court of Appeals and within the NGO promoting alternatives to imprisonment “Parmi les Présents”. She then joined the law firm Chavanne & Witt Avocats. <br><br>
@@ -80,17 +87,17 @@ en:
       Working languages : French, English, Spanish. <br>
       French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA).
     matthieu: |
-      General criminal law – Business criminal law – Medical litigation. <br>
+      General criminal law – Business criminal law – Regulatory compliance. <br>
       Working languages: French, English, Spanish. <br>
       French Association of Criminal Lawyers (ADAP), French Association of Criminal Law (AFDP), European Criminal Bar Association (ECBA).
     camille: |
-      General criminal law – Business criminal law – Economic law. <br>
+      General criminal law – Business criminal law – Media law. <br>
       Working languages : French, English, German. <br>
       French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA).
     anais: |
       General criminal law - International criminal law - Business criminal law. <br>
       Working languages: French, English, Spanish, Portuguese, Italian. <br>
-  
+
   form:
     placeholders:
       name: 'Name'

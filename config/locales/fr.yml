@@ -6,34 +6,35 @@ fr:
       news: 'ACTUALITÉS'
       contact: 'CONTACT'
       home: 'ACCUEIL'
-  
+
   home:
     titles:
       firm: 'CABINET'
-      team: 'AVOCATS' 
+      team: 'AVOCATS'
       news: 'ACTUALITÉS'
       contact: 'CONTACT'
       home: 'ACCUEIL'
-  
+
   team:
-    clemence: 
+    clemence:
       name: 'Clémence Witt'
       class: 'clem'
       linkedin: https://www.linkedin.com/in/clémence-witt-a38578153
       email: witt@cw-avocats.com
-    matthieu: 
+    matthieu:
       name: 'Matthieu Chavanne'
       class: 'mat'
       linkedin: https://www.linkedin.com/in/matthieu-chavanne-b5693534/?ppe=1
       email: chavanne@cw-avocats.com
-    camille: 
+    camille:
       name: 'Camille Tardé'
       class: 'cam'
       linkedin: https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/?originalSubdomain=fr
       email: tarde@cw-avocats.com
-    anais: 
+    anais:
       name: 'Anaïs Sarron'
       class: 'anais'
+      linkedin: https://fr.linkedin.com/in/ana%C3%AFs-sarron-b4905a90
       email: sarron@cw-avocats.com
 
   descriptions:
@@ -46,8 +47,8 @@ fr:
       <strong>dans tous les domaines du droit pénal</strong> (droit pénal général, 
       droit pénal des affaires et droit pénal international) et à chaque stade de la procédure (enquête, instruction, jugement). <br><br>
       Depuis plusieurs années, le cabinet collabore régulièrement avec le cabinet <a href="https://www.impactlitigation.fr/" target="_blank">Impact Litigation</a>, consacré aux questions de justice internationale et droits de l’homme. <br><br>
-      En 2023, Camille Tardé devient associée du cabinet Chavanne & Witt Avocats. <br><br>
-      Disposant d’une importante clientèle hispanophone, le cabinet ouvre parallèlement un bureau secondaire à Barcelone
+      En 2023, <strong>Camille Tardé</strong> devient associée du cabinet Chavanne & Witt Avocats. <br><br>
+      Disposant d’une importante clientèle hispanophone, le cabinet ouvre parallèlement un bureau secondaire à <strong>Barcelone</strong>
     clemence: |
       Diplômée de Sciences Po Paris, Master Carrières Judiciaires et Juridiques (2008), 
       d'un Master II Droits de l'homme et droit humanitaire (Université Panthéon-Assas, 2010) et titulaire d'un certificat de sciences criminologiques, 
@@ -96,13 +97,13 @@ fr:
       Langues de travail : français, anglais, espagnol. <br>
       Association des Avocats Pénalistes, Association Française de Droit Pénal, European Criminal Bar Association.
     camille: |
-      Droit pénal général - Droit pénal des affaires- Droit économique. <br>
+      Droit pénal général - Droit pénal des affaires - droit de la presse. <br>
       Langues de travail : français, anglais, allemand. <br>
       Association des Avocats Pénalistes, European Criminal Bar Association.
     anais: |
       Droit pénal général - Droit pénal international - Droit pénal des affaires <br>
       Langues de travail : français, anglais, espagnol, portugais, italien.
-  
+
   form:
     placeholders:
       name: 'Votre Nom'
