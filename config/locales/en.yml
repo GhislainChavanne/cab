@@ -41,6 +41,7 @@ en:
     anais:
       name: 'Anaïs Sarron'
       class: 'anais'
+      linkedin: https://fr.linkedin.com/in/ana%C3%AFs-sarron-b4905a90
       email: sarron@cw-avocats.com
 
   descriptions:
@@ -83,7 +84,7 @@ en:
 
   skills:
     clemence: |
-      General criminal law – Business criminal law – International criminal law – Sports law. <br>
+      General criminal law – Business criminal law – International criminal law – Media law. <br>
       Working languages : French, English, Spanish. <br>
       French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA).
     matthieu: |
@@ -92,11 +93,12 @@ en:
       French Association of Criminal Lawyers (ADAP), French Association of Criminal Law (AFDP), European Criminal Bar Association (ECBA).
     camille: |
       General criminal law – Business criminal law – Media law. <br>
-      Working languages : French, English, German. <br>
+      Working languages : French, English. <br>
       French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA).
     anais: |
       General criminal law - International criminal law - Business criminal law. <br>
       Working languages: French, English, Spanish, Portuguese, Italian. <br>
+      European Criminal Bar Association.
 
   form:
     placeholders:

@@ -34,6 +34,7 @@ es:
     anais:
       name: 'Anaïs Sarron'
       class: 'anais'
+      linkedin: https://fr.linkedin.com/in/ana%C3%AFs-sarron-b4905a90
       email: sarron@cw-avocats.com
 
   descriptions:
@@ -92,6 +93,7 @@ es:
     anais: |
       Derecho penal general - Derecho penal internacional - Derecho penal económico <br>
       Idiomas de trabajo: francés, inglés, español, portugués, italiano.
+      European Criminal Bar Association.
 
   form:
     placeholders:
