@@ -41,50 +41,50 @@
 
 .background-team-clem {
   background-image: image-url('clem.png');
-  background-size: cover;
+  // background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  height: calc(100vh - 74px);
+  // height: calc(100vh - 74px);
   display: flex;
   align-items: center;
 }
 
 .background-team-mat {
   background-image: image-url('mat.png');
-  background-size: cover;
+  // background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-  height: calc(100vh - 74px);
+  // height: calc(100vh - 74px);
   display: flex;
   align-items: center;
 }
 
 .background-team-anais {
   background-image: image-url('ana.png');
-  background-size: cover;
+  // background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-  min-height: calc(100vh - 74px);
+  // min-height: calc(100vh - 74px);
   display: flex;
   align-items: center;
 }
 
 .background-team-cam {
   background-image: image-url('cam.png');
-  background-size: cover;
+  // background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  height: calc(100vh - 74px);
+  // height: calc(100vh - 74px);
   display: flex;
   align-items: center;
 }
 
 .background-team-carla-anais {
   background-image: image-url('carla-anais.png');
-  background-size: cover;
+  // background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: calc(100vh - 74px);
+  // min-height: calc(100vh - 74px);
   display: flex;
   align-items: center;
 }
@@ -92,6 +92,7 @@
 .team-description-carla-mobile h4 {
   margin-left: 30%;
   text-align: right;
+
   &:after {
     left: unset;
     right: 0%;
