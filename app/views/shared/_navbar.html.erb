@@ -11,19 +11,19 @@
     </div>
 
     <div>
-      <a href="#presentation" id="btn"><%= I18n.t('.btn1') %></a>
+      <a href="#presentation" id="btn"><%= locale_content_for("navbar.buttons.firm") %></a>
     </div>
 
     <div>
-      <a href="#avocats" id="btn"><%= I18n.t('.btn2') %></a>
+      <a href="#avocats" id="btn"><%= locale_content_for("navbar.buttons.team") %></a>
     </div>
 
     <div>
-      <a href="#actualites" id="btn"><%= I18n.t('.btn3') %></a>
+      <a href="#actualites" id="btn"><%= locale_content_for("navbar.buttons.news") %></a>
     </div>
 
     <div>
-      <a href="#contact" id="btn"><%= I18n.t('.btn4') %></a>
+      <a href="#contact" id="btn"><%= locale_content_for("navbar.buttons.contact") %></a>
     </div>
 
     <div class="contact-navbar">
@@ -33,11 +33,12 @@
         <p>contact@cw-avocats.com</p>
       </div>
     </div>
-  </div>
-
+  </div>  
+  
   <div class="translation" rel="nofollow">
-    <a href="/en" class="navbar-wagon-brand">En</a>
-    <a href="/es" class="navbar-wagon-brand">Es</a>
+    <a href="/en" class="navbar-wagon-brand <%= 'active' if locale == :en %>">En</a>
+    <a href="/es" class="navbar-wagon-brand <%= 'active' if locale == :es %>">Es</a>
+    <a href="/" class="navbar-wagon-brand <%= 'active' if locale == :fr %>">Fr</a>
   </div>
 
   <!-- Dropdown list appearing on mobile only -->
