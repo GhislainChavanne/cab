@@ -1,9 +1,16 @@
 <section>
   <% I18n.t("team").each.with_index do |(key, value), index| %>
-    <figure class="wrapper" id="avocats">
-      <div class="grid grid-cols-12">
-        <%= image_tag String(value[:image]), class: "hidden md:block crop-right h-full object-cover md:col-span-5 lg:col-span-4" %>
-        <%= render "member", key: key, value: value %>
+    <figure class="wrapper member" id="avocats">
+      <div class="grid grid-cols-12 <%= index.even? ? 'left' : 'right' %>">
+        <% if index.even? %>
+          <%= image_tag String(value[:image]), class: "lg:hidden object-cover col-span-12 h-96 w-full object-center" %>
+          <%= image_tag String(value[:image]), class: "hidden lg:block crop-right h-full object-cover md:col-span-12 lg:col-span-4 max-h-screen" %>
+          <%= render "member", key: key, value: value %>
+        <% else %>
+          <%= image_tag String(value[:image]), class: "lg:hidden object-cover col-span-12 h-96 w-full object-center" %>
+          <%= render "member", key: key, value: value %>
+          <%= image_tag String(value[:image]), class: "hidden lg:block crop-left h-full object-cover md:col-span-12 lg:col-span-4 max-h-screen" %>
+        <% end %>
       </div>
     </figure>
   <% end %>

@@ -27,16 +27,19 @@ fr:
       class: 'mat'
       linkedin: https://www.linkedin.com/in/matthieu-chavanne-b5693534/?ppe=1
       email: chavanne@cw-avocats.com
+      image: 'matthieu-chavanne.jpg'
     camille:
       name: 'Camille Tardé'
       class: 'cam'
       linkedin: https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/?originalSubdomain=fr
       email: tarde@cw-avocats.com
+      image: 'camille-tarde.jpg'
     anais:
       name: 'Anaïs Sarron'
       class: 'anais'
       linkedin: https://fr.linkedin.com/in/ana%C3%AFs-sarron-b4905a90
       email: sarron@cw-avocats.com
+      image: 'anais-sarron.jpg'
 
   descriptions:
     firm: |
