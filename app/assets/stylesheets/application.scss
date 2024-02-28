@@ -51,7 +51,7 @@
   &::after {
     content: '';
     position: absolute;
-    width: 20%;
+    width: 40px;
     border-bottom: 3px solid $sianogreen;
     bottom: -10px;
   }
@@ -64,7 +64,8 @@
 
   &.center {
     &::after {
-      left: 40%;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 }
