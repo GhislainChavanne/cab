@@ -12,8 +12,8 @@
               <%= image_tag "#{value[:class]}-mobile.png" %>
             </div>
 
-            <div class="team-description-mobile">
-              <h4><%= value[:name] %></h4>
+            <div class="team-description-mobile montserrat-light">
+              <h4 class="niramit-semibold <%= 'text-end' if index.even? %>"><%= value[:name] %></h4>
               <p><%= locale_content_for("descriptions.#{key}") %></p>
 
               <p style="text-align: center; color: #2580c6; margin-top: 20px;">

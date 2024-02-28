@@ -3,24 +3,33 @@
   margin: auto;
   padding-top: 30px;
   padding-bottom: 30px;
+
   h4 {
     margin-bottom: 30px;
     position: relative;
+    font-size: 34px;
   }
+
   h4:after {
     content: '';
     position: absolute;
-    width: 10%;
-    left: 0%;
-    border-bottom: 4px solid #18243e;
-    bottom: -5px;
+    width: 20%;
+    left: 0;
+    border-bottom: 3px solid $main;
+    bottom: -10px;
   }
+
+  h4.text-end::after {
+    right: 0;
+    left: unset;
+  }
+
   p {
     text-align: justify;
     font-weight: 300 !important;
     font-size: 14px;
-    padding-right: 20px;
   }
+
   a {
     color: #18243e;
     text-decoration: none;
