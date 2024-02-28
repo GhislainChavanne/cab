@@ -1,49 +1,49 @@
-<section class="wrapper wrapper-actualites" id="actualites" style="background-image: url('<%= cl_image_path("actualites_pcaclw.png") %>');">
+<section class="wrapper bg-gradient py-24">
+  <div class="w-full">
+    <h4 class="text-center text-white text-3xl niramit-semibold heading-border center mb-5"><%= locale_content_for("home.titles.news") %></h2>
+  </div>
+
   <div class="wrapper actualites">
-    <h2 class="text-center"><%= locale_content_for("home.titles.news") %></h2>
-
-    <div class="container" style="padding-top: 20px;">
-      <div class="row">
-        <% @articles.each do |article|  %>
-          <article class="col-lg-3 col-md-6 col-xs-12">
-            <div class="card">
-              <div class="card-header">
-                <div class="category">
-                  <%= article.category %>
-                </div>
-                
-                <div class="date">
-                  <%= article.date.strftime("%d. %m. %Y")%>
-                </div>
+    <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4" style="padding-top: 20px;">
+      <% @articles.each do |article|  %>
+        <article class="col-lg-3 col-md-6 col-xs-12">
+          <div class="card">
+            <div class="card-header">
+              <div class="category">
+                <%= article.category %>
               </div>
-
-              <div class="content-card">
-                <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
-                <p><%= article.description.first(60) %>...</p>
+              
+              <div class="date">
+                <%= article.date.strftime("%d. %m. %Y")%>
               </div>
-
-              <%= link_to article_path(article) do %>
-                <div class="btn-card">
-                  Lire la suite
-                </div>
-              <% end %>
             </div>
-          </article>
-        <% end %>
-      </div>
 
-      <nav class="row">
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <%= link_to "Presse", articles_path(category: "Presse"), class: "btn-category"  %>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <%= link_to "Publications", articles_path(category: "Publications"), class: "btn-category"  %>
-        </div>
-        <div class="col-xs-12 col-lg-4">
-          <%= link_to "Archives", articles_path(category: "Archives"), class: "btn-category"  %>
-        </div>
-      </nav>
+            <div class="content-card">
+              <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
+              <p><%= article.description.first(60) %>...</p>
+            </div>
+
+            <%= link_to article_path(article) do %>
+              <div class="btn-card">
+                Lire la suite
+              </div>
+            <% end %>
+          </div>
+        </article>
+      <% end %>
     </div>
+
+    <nav class="container grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="text-black bg-sianogray-100 flex item-center justify-center py-4">
+        <%= link_to "Presse", articles_path(category: "Presse"), class: "btn-category"  %>
+      </div>
+      <div class="text-black bg-sianogray-100 flex item-center justify-center py-4">
+        <%= link_to "Publications", articles_path(category: "Publications"), class: "btn-category"  %>
+      </div>
+      <div class="text-black bg-sianogray-100 flex item-center justify-center py-4">
+        <%= link_to "Archives", articles_path(category: "Archives"), class: "btn-category"  %>
+      </div>
+    </nav>
   </div>
 </section>
 

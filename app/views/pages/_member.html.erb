@@ -2,11 +2,11 @@
   <h4 class="niramit-semibold text-3xl uppercase"><%= value[:name] %></h4>
   <p><%= locale_content_for("descriptions.#{key}") %></p>
 
-  <p style="text-align: center; color: #2580c6; margin-top: 20px;">
+  <p class="text-center mt-5 text-sianogreen-500">
     <%= locale_content_for("skills.#{key}") %>
   </p>
 
-  <%= link_to "Actualités et publications", articles_path(editor: value[:name]), class: "btn-articles"  %>
+  <%= link_to "Actualités et publications", articles_path(editor: value[:name]), class: "w-full p-4 my-4 block text-center bg-sianogreen-500 text-white"  %>
 
   <div class="text-center">
     <% if value[:email].present? %>

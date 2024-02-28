@@ -1,0 +1,38 @@
+<div class="flex items-center justify-center flex-col col-span-3 xl:col-span-2 max-h-70-screen py-5">
+  <h2 class="text-center text-3xl niramit-semibold heading-border center mb-5"><%= locale_content_for("home.titles.contact") %></h2>
+  <h5 class="text-center text-sm mb-5">
+    <span class="font-bold">
+      <em>Chavanne & Witt Avocats</em>
+    </span> 
+    
+    <br>
+
+    <p>
+      FR: 49 rue Saint-Roch, 75001 Paris <br>
+      ES: Calle Balmes 222, 4° 1°08006 Barcelone
+    </p>
+  </h5>
+
+  <h5 class="text-center">
+    <strong>Tel</strong> : 01 42 18 18 19 <strong>- Fax</strong> : 01 77 75 91 91<br>
+    <strong>Email</strong> : contact@cw-avocats.com <br> <strong>Toque</strong> : A431
+  </h5>
+
+  <%= simple_form_for @contact, html: { class: 'form-horizontal w-full px-32' } do |f| %>
+    <%= f.input :nom, required: true, placeholder: locale_content_for("form.placeholders.name"), error_html: { id: "name_error" } %>
+    <%= f.input :email, required: true, placeholder: locale_content_for("form.placeholders.email"), error_html: { id: "name_error" } %>
+    <%= f.input :sujet, required: true, placeholder: locale_content_for("form.placeholders.subject"), error_html: { id: "name_error" } %>
+
+    <div class="textarea">
+      <%= f.text_area(:message, placeholder: locale_content_for("form.placeholders.message")) %>
+    </div>
+
+    <div class= "hidden">
+      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+    </div>
+
+    <div class="text-center">
+      <%= f.button :submit, "", value: locale_content_for("form.placeholders.submit"), class: "btn-details py-5" %>
+    </div>
+  <% end %>
+</div>

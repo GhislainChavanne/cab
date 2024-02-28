@@ -6,12 +6,6 @@
   background-size: cover !important;
 }
 
-@media screen and (max-height: 600px) {
-  .wrapper-contact {
-    height: auto;
-  }
-}
-
 .wrapper-contact-new {
   height: 100vh;
   display: flex;
@@ -25,24 +19,12 @@
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1s; /* Firefox < 16 */
   -ms-animation: fadein 1s; /* Internet Explorer */
-   -o-animation: fadein 1s; /* Opera < 12.1 */
-      animation: fadein 1s;
-}
-
-@media screen and (max-width: 1199px) {
-  .wrapper-contact {
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .wrapper-contact-new {
-    height: auto;
-  }
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
 }
 
 .card-contact {
-  background-image: image-url("clem-et-mat.png");
+  background-image: image-url('clem-et-mat.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -60,8 +42,8 @@
     letter-spacing: 2px;
     text-align: center;
   }
-  h2:after{
-    content: "";
+  h2:after {
+    content: '';
     position: absolute;
     width: 10%;
     height: 1px;
@@ -94,61 +76,37 @@
   }
 }
 
-@media screen and (min-width: 992px) {
-  .avatar-contact {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1275px) {
-  .card-contact {
-    background-position: left;
-  }
-}
-
-@media screen and (max-width: 1124px) {
-  .card-contact {
-    background-image: image-url("clem-et-mat-tablet.png");
-    background-position: left;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .card-contact {
-    background-image: none;
-    padding: 15px;
-  }
-}
-
 .contact-form {
   padding: 30px 0;
 }
 
 .form-horizontal {
   padding: 20px;
-  // margin-top: 20px;
   position: relative;
-  input {
-    width: 90%;
+
+  input,
+  textarea {
+    width: 100%;
     margin: auto;
     letter-spacing: 1.1px;
-    // margin-bottom: 5px;
-    // border: 1px solid #ddd2d2;
     border: 2px solid $light-gray;
     box-shadow: none;
     border-radius: 0px;
   }
+
   label {
     display: none;
   }
+
   input:focus {
     border: 2px solid #2580c6;
     outline: none;
     box-shadow: none;
   }
+
   .textarea textarea {
-    height: 155px;
-    width: 90%;
+    height: 5rem;
+    width: 100%;
     margin: auto;
     letter-spacing: 1.1px;
     margin-bottom: 8px;
@@ -158,29 +116,27 @@
     box-shadow: none;
     border-radius: 0px;
   }
+
   textarea:focus {
     border: 2px solid #2580c6;
     outline: none;
     box-shadow: none;
   }
+
   .btn-form {
-    // border-top: 2px solid #ddd2d2;
     border: 2px solid $light-gray;
     width: 90%;
     margin: auto;
     padding: 8px;
     font-size: 12px;
-    // height: 40px;
-    // margin-bottom: 0px;
-    // position: absolute;
-    // bottom: 0px;
-    // left: 0px;
-    // right: 0px;
+
     .btn-details {
       border: none;
       width: 100%;
       height: 100%;
-      button:focus {outline:0;}
+      button:focus {
+        outline: 0;
+      }
     }
   }
   .form-group {
@@ -189,7 +145,7 @@
     margin-bottom: 8px;
   }
   .form-control {
-    padding: 20px;
+    padding: 10px;
     font-size: 12px;
   }
 }
@@ -199,36 +155,30 @@
 }
 
 *::-webkit-input-placeholder {
-    color: #a5a5a5;
+  color: #a5a5a5;
 }
 
 .menu-contact {
   color: white;
   text-align: center;
   height: 100vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  animation: fadein 1s;
+
   img {
     width: 400px;
   }
+
   p {
     color: white;
-  }
-}
-
-
-@media screen and (max-width: 420px) {
-.menu-contact {
-  width: 300px;
   }
 }
 
@@ -236,12 +186,13 @@
   position: absolute;
   top: 50px;
   left: 30px;
+
   a {
     border: 1px solid #162241;
     padding: 20px;
     color: #162241;
     background-color: white;
-    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
     font-size: 20px;
     text-decoration: none;
   }
@@ -252,33 +203,3 @@
   margin: 0px;
   position: absolute;
 }
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
