@@ -1,18 +1,18 @@
 <div class="montserrat-light flex flex-col <%= index.even? ? 'items-end' : 'items-start' %> justify-center text-justify lg:text-xs xl:text-sm px-12 md:px-24 lg:px-32 py-12 col-span-12 md:col-span-12 lg:col-span-8">
   <h4 class="niramit-semibold text-3xl uppercase"><%= value[:name] %></h4>
 
-  <div class="flex flex-col items-center justify-start">
+  <div class="flex flex-col items-center justify-start mt-4">
     <p><%= locale_content_for("descriptions.#{key}") %></p>
 
-    <p class="text-center mt-5 text-sianogreen-500">
+    <p class="text-center mt-5 text-sianoblue-500 font-semibold italic">
       <%= locale_content_for("skills.#{key}") %>
     </p>
 
-    <%= link_to "Actualités et publications", articles_path(editor: value[:name]), class: "w-full p-4 my-4 block text-center bg-sianogreen-500 text-white"  %>
+    <%= link_to "Actualités et publications", articles_path(editor: value[:name]), class: "w-full p-4 my-4 block text-center font-semibold border-2 border-sianogold-500 text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
 
-    <div class="text-center text-sianogreen-500 text-2xl">
+    <div class="text-center text-sianoblue-500 text-2xl">
       <% if value[:email].present? %>
-        <a type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:<%= value[:email] %>' title='test add link'><%= value[:email] %></a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+        <a type="button" class="cursor-pointer me-2" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:<%= value[:email] %>' title='test add link'><%= value[:email] %></a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
       <% end %>
 
       <% if value[:linkedin].present? %>
