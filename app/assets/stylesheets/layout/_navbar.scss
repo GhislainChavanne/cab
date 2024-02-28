@@ -1,7 +1,7 @@
 /* Main class */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
-  border-bottom: 4px solid #2580c6;
+  border-bottom: 4px solid $main;
   background: white;
   transition: all 0.3s ease;
   display: flex;
@@ -26,17 +26,17 @@
 }
 
 #btn:hover {
-  color: #2580c6;
+  color: $main;
   font-style: italic;
-  border-bottom: 5px solid #2580c6;
+  border-bottom: 5px solid $main;
   padding-bottom: 23px;
   transition: background 0.3s ease;
 }
 
 #btn-navbar-actu:hover {
-  color: #2580c6;
+  color: $main;
   font-style: italic;
-  border-bottom: 5px solid #2580c6;
+  border-bottom: 5px solid $main;
   padding-bottom: 23px;
   transition: background 0.3s ease;
 }
@@ -89,7 +89,7 @@
 
 .contact-navbar {
   line-height: 15px;
-  background-color: #2580c6;
+  background-color: $main;
   height: 70px;
   display: flex;
   align-items: center;
@@ -188,5 +188,5 @@
 }
 
 .navbar-wagon-brand.active {
-  color: #2580c6;
+  color: $main;
 }
