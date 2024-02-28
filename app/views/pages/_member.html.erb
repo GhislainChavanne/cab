@@ -10,7 +10,7 @@
 
     <%= link_to "Actualités et publications", articles_path(editor: value[:name]), class: "w-full p-4 my-4 block text-center bg-sianogreen-500 text-white"  %>
 
-    <div class="text-center">
+    <div class="text-center text-sianogreen-500 text-2xl">
       <% if value[:email].present? %>
         <a type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:<%= value[:email] %>' title='test add link'><%= value[:email] %></a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
       <% end %>

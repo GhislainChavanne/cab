@@ -16,18 +16,23 @@ fr:
       home: 'ACCUEIL'
 
   team:
+    lea:
+      name: 'Léa Dordilly'
+      class: 'lea'
+      linkedin:
+      email:
+      image: 'lea-dordilly.jpg'
     clemence:
       name: 'Clémence Witt'
       class: 'clem'
       linkedin: https://www.linkedin.com/in/clémence-witt-a38578153
       email: witt@cw-avocats.com
       image: 'clemence-witt.jpg'
-    matthieu:
-      name: 'Matthieu Chavanne'
-      class: 'mat'
-      linkedin: https://www.linkedin.com/in/matthieu-chavanne-b5693534/?ppe=1
-      email: chavanne@cw-avocats.com
-      image: 'matthieu-chavanne.jpg'
+    simon:
+      name: 'Simon Clemenceau'
+      linkedin:
+      email:
+      image: 'simon-clemenceau.jpg'
     camille:
       name: 'Camille Tardé'
       class: 'cam'
@@ -40,74 +45,120 @@ fr:
       linkedin: https://fr.linkedin.com/in/ana%C3%AFs-sarron-b4905a90
       email: sarron@cw-avocats.com
       image: 'anais-sarron.jpg'
+    nicolas:
+      name: 'Nicolas Simon'
+      class: 'nicolas'
+      linkedin:
+      email:
+      image: 'nicolas-simon.jpg'
+    theo:
+      name: 'Théo Berrebi'
+      class: 'theo'
+      linkedin:
+      email:
+      image: 'theo-berrebi.jpg'
+    samuel:
+      name: 'Samuel Cherki-Tahar'
+      class: 'samuel'
+      linkedin:
+      email:
+      image: 'samuel-cherki-tahar.jpg'
 
   descriptions:
     firm: |
-      Après s'être rencontrés au Chili et avoir été ensemble Secrétaires de la Conférence en 2015, 
-      <strong>Clémence Witt et Matthieu Chavanne</strong> créent le cabinet Chavanne & Witt Avocats en septembre 2017. <br><br>
-      Titulaires d'une double formation (Science Po Paris / ESSEC), 
-      ils exercent d'abord auprès de deux pénalistes de renom et travaillent indifféremment en espagnol, anglais et français. <br><br>
-      Le cabinet Chavanne & Witt Avocats assiste ses clients, particuliers ou personnes morales, 
-      <strong>dans tous les domaines du droit pénal</strong> (droit pénal général, 
-      droit pénal des affaires et droit pénal international) et à chaque stade de la procédure (enquête, instruction, jugement). <br><br>
-      Depuis plusieurs années, le cabinet collabore régulièrement avec le cabinet <a href="https://www.impactlitigation.fr/" target="_blank">Impact Litigation</a>, consacré aux questions de justice internationale et droits de l’homme. <br><br>
-      En 2023, <strong>Camille Tardé</strong> devient associée du cabinet Chavanne & Witt Avocats. <br><br>
-      Disposant d’une importante clientèle hispanophone, le cabinet ouvre parallèlement un bureau secondaire à <strong>Barcelone</strong>.
+      Né de la fusion de deux structures partageant des valeurs communes, Siano est un cabinet d’avocats présent à Paris et à Barcelone, intervenant dans tous les domaines du droit pénal.
+      <br><br>
+      Anciens Secrétaires de la Conférence pour trois d’entre eux, les quatre associés fondateurs interviennent depuis de nombreuses années dans des dossiers complexes, notamment criminels, aux forts enjeux médiatiques et à dimension internationale.  
+      <br><br>
+      L’équipe de Siano conseille et défend des particuliers et des personnes morales, de nationalité française comme étrangère, victimes ou mis en cause, tant en matière de prévention du risque pénal que dans un cadre contentieux à tous les stades de la procédure (enquête, instruction, jugement).
+      <br><br>
+      Le cabinet tient son nom de Victoria Kent Siano, l’une des premières avocates espagnoles, connue pour ses engagements humaniste, féministe et abolitionniste précurseurs.
+      <br><br>
+      Les associés et leurs trois collaborateurs travaillent en français, anglais et espagnol.
+      <br><br>
+      Fort d’une expertise internationale, Siano collabore régulièrement avec Impact Litigation, cabinet d’avocats créé par Jeanne Sulzer, consacré aux questions de justice internationale et droits de l’homme.
+    lea: |
+      Léa Dordilly est avocate au Barreau de Paris depuis 2011. 
+      <br><br>
+      Diplômée d’un Master de Droit pénal, Sciences criminelles et Justice ainsi que de l’Institut des sciences pénales et de criminologie de la faculté de droit d’Aix-en-Provence, elle a été formée dès 2008 par Jean-Marc Florand, pénaliste de renom élève de Jacques Vergès. 
+      <br><br>
+      Élue Secrétaire de la Conférence en 2016, concours d’éloquence distinguant chaque année les douze meilleurs orateurs du Barreau de Paris, elle a acquis une solide expérience en matière pénale, intervenant dans de nombreux dossiers criminels à fort enjeu médiatique et plaidant quotidiennement devant le Tribunal correctionnel, la Cour criminelle et la Cour d’assises. 
+      <br><br>
+      Elle est ainsi intervenue en défense dans les dossiers des attentats du 13 novembre, de Saint-Etienne-du-Rouvray, du Thalys et du côté des parties civiles dans le dossier de l’attentat de Nice.
+      <br><br>
+      Lauréate de nombreux concours de plaidoirie, Léa Dordilly est également chargée d’enseignement à l’École de Formation du Barreau (EFB).
+      <br><br>
+      En 2018 elle crée, avec Simon Clemenceau, le cabinet Dordilly Clemenceau Avocats, avant de fonder Siano en 2024.
     clemence: |
-      Diplômée de Sciences Po Paris, Master Carrières Judiciaires et Juridiques (2008), 
-      d'un Master II Droits de l'homme et droit humanitaire (Université Panthéon-Assas, 2010) et titulaire d'un certificat de sciences criminologiques, 
-      Clémence Witt est avocate au Barreau de Paris depuis 2012. <br><br>
-      Elle a vécu au Chili, aux États-Unis et au Cambodge, où elle a passé un an dans l'équipe de défense dirigée par Jacques Vergès, 
-      devant les Chambres extraordinaires mises en place par l’ONU. <br><br>
-      Entre 2009 et 2017, Clémence Witt a travaillé pour le Bâtonnier Pierre-Olivier Sur principalement en <strong>droit pénal, droit pénal des affaires, droit pénal international et droit de la presse</strong>, 
-      tant en France qu’à l’étranger (Argentine, Burkina Faso, Côte d’Ivoire, Inde, Liban, Libye, Mexique, Tunisie). 
-      Elle a également été conseillère « affaires pénales internationales » à l’Ordre des avocats de Paris (2014-2015). <br><br>
-      En 2015, Clémence Witt est élue Secrétaire de la Conférence : elle intervient à ce titre dans de nombreux dossiers criminels et plaide régulièrement devant la cour d'assises. <br><br>
-      Clémence Witt a développé une expertise en matière d’extradition (mandats d’arrêts européens et internationaux, notices rouges Interpol) et de crimes internationaux (crimes contre l’humanité et crimes de guerre). <br><br>
+      Clémence Witt est avocate au Barreau de Paris depuis 2012 et au Barreau de Barcelone depuis 2023.
+      <br><br>
+      Diplômée de Sciences Po Paris (Master Carrières Judiciaires et Juridiques) et de l’Université Panthéon-Assas (Master II Droits de l'homme et droit humanitaire, Certificat de sciences criminologiques), Clémence Witt a travaillé au Cambodge dans l'équipe de défense dirigée par Jacques Vergès devant les Chambres extraordinaires de l’ONU, avant de devenir collaboratrice du Bâtonnier Pierre-Olivier Sur : elle exerce en droit pénal, droit pénal des affaires, droit pénal international et droit de la presse, dans des dossiers en France et à l’étranger (Argentine, Burkina Faso, Côte d’Ivoire, Inde, Liban, Libye, Mexique, Tunisie).
+      En 2015, Clémence Witt est élue Secrétaire de la Conférence et intervient à ce titre dans de nombreux dossiers criminels à fort enjeu médiatique, comme ceux des attentats de janvier 2015, du 13 novembre et de Nice. 
+      <br><br>
+      En 2017, elle crée avec Matthieu Chavanne le cabinet Chavanne & Witt Avocats dont elle ouvre le bureau secondaire à Barcelone en 2023, avant de fonder Siano en 2024. 
+      Clémence Witt a développé une expertise en matière d’extradition (mandats d’arrêts européens et internationaux, notices rouges Interpol) et de crimes internationaux (crimes contre l’humanité et crimes de guerre), représentant notamment les victimes des attaques chimiques survenues en Syrie en août 2013.
       Depuis 2019, elle est chargée d’enseignement en droit pénal et procédure pénale à Sciences Po.
-    matthieu: |
-      Diplômé de l'ESSEC (promotion 2008) et d’un Master II Contentieux et droit pénal (Université Panthéon-Assas, 2009), 
-      Matthieu Chavanne est avocat au Barreau de Paris depuis 2011. <br><br>
-      Après avoir travaillé dans la finance (KPMG, équipe de « Transaction Services ») puis au sein de cabinets d’affaires internationaux (Shearman & Sterling LLP, Gide Loyrette Nouel AARPI), 
-      Matthieu Chavanne a rejoint l'équipe de <strong>droit pénal des affaires</strong> du cabinet BG2V entre 2012 et 2017. <br><br>
-      En 2015, Matthieu Chavanne est élu Secrétaire de la Conférence : il est intervenu à ce titre dans près d'une cinquantaine de dossiers criminels et a plaidé à plusieurs reprises devant la cour d'assises. 
-      Il a ainsi développé une pratique reconnue en <strong>droit pénal</strong>. <br><br>
-      Enfin, depuis 2019, Matthieu Chavanne consacre une partie de son activité à la <strong>compliance</strong>. <br><br>
-      Matthieu Chavanne a été chargé de travaux dirigés en droit pénal des affaires à l'Université Paris Descartes. 
-      Il enseigne depuis trois ans le droit des affaires à l'ESSEC.
+    simon: |
+      Simon Clemenceau est avocat au Barreau de Paris depuis janvier 2013.
+      <br><br>
+      Diplômé du Magistère de droit des activités économiques de l’Université Paris 1 Panthéon Sorbonne, il a travaillé plus de cinq ans auprès du cabinet Milon & Associés en droit pénal des affaires, droit pénal général et droit du travail.
+      <br><br>
+      En 2016, il est élu dixième Secrétaire de la Conférence en charge de la défense pénale et intervient à ce titre dans de nombreux dossiers criminels à fort enjeu médiatique, plaidant régulièrement devant le Tribunal correctionnel, la Cour criminelle et la Cour d’assises.
+      <br><br>
+      Il est ainsi intervenu en défense dans les dossiers des attentats du 13 novembre, de Saint-Etienne-du-Rouvray, de Magnanville et du côté des parties civiles dans le dossier de l’attentat de Nice.
+      <br><br>
+      En 2018, il crée, avec Léa Dordilly, le cabinet Dordilly Clemenceau Avocats, avant de fonder Siano en 2024.
+      <br><br>
+      Il est membre du réseau ALTAJURIS, groupement d’avocats présents dans toute la France, et également chargé d’enseignement à l’Ecole de Formation du Barreau (EFB) et à l’INSEEC BUSINESS SCHOOL de Paris.
     camille: |
-      Diplômée de l’Ecole de droit de Sciences Po Paris (Master Droit économique, 2016), Camille Tardé est avocate au Barreau de Paris depuis 2018. <br><br>
-      Après plusieurs expériences en administration (Services du Premier ministre, STIF), 
-      elle a choisi d'exercer en droit pénal et travaille auprès d’avocats pénalistes réputés (cabinets Henri Leclerc & Associés et Le Borgne Saint-Palais Associés)
-      et de magistrats (chambres correctionnelles 8-1 et 8-2 de la Cour d’appel de Paris). <br><br>
-      À sa prestation de serment en novembre 2018, elle rejoint le cabinet Chavanne & Witt Avocats en tant que collaboratrice. <br><br>
-      En septembre 2023, elle  devient associée aux côtés de Clémence Witt et Matthieu Chavanne. <br><br>
-      Elle intervient principalement en droit pénal, droit pénal des affaires  et droit de la presse.
+      Camille Tardé est avocate au Barreau de Paris depuis 2018.
+      <br><br>
+      Diplômée de l’Ecole de droit de Sciences Po (Paris), elle s’est formée auprès d’avocats pénalistes réputés (cabinets Henri Leclerc & Associés et Le Borgne Saint-Palais Associés) et de magistrats (chambres correctionnelles 8-1 et 8-2 de la Cour d’appel de Paris).
+      À sa prestation de serment, elle a rejoint le cabinet Chavanne & Witt Avocats en tant que collaboratrice.
+      En septembre 2023, elle devient associée aux côtés de Clémence Witt et Matthieu Chavanne, avant de fonder le cabinet Siano en 2024.
+      Elle exerce principalement en droit pénal général, droit pénal des affaires et droit de la presse. Elle intervient également régulièrement devant les juridictions pour mineurs, tant au pénal qu’en assistance éducative.
     anais: |
-      Diplômée de l’École de droit de Sciences Po Paris (Master Droit économique - spécialité « Global Governance Studies », 2017), 
-      et d’un LLM en Droit pénal international et transnational de l’Université d’Amsterdam (UvA, 2019), Anaïs Sarron est avocate au Barreau de Paris depuis 2020. <br><br>
-      Entre 2015 et 2019, elle a effectué plusieurs stages en droit pénal au sein du cabinet Thierry Lévy et Associés, 
-      auprès de la Chambre de l’Instruction de la Cour d’Appel de Paris (parquet général) et avec l’association d’alternative à la prison « Parmi les Présents », 
-      avant de rejoindre le cabinet Chavanne & Witt Avocats. <br><br>
-      Depuis sa prestation de serment en novembre 2020, elle y exerce comme collaboratrice.
+      Diplômée de l’École de droit de Sciences Po Paris (Master Droit économique - spécialité « Global Governance Studies », 2017), et d’un LLM en droit pénal international et transnational de l’Université d’Amsterdam (UvA, 2019), Anaïs Sarron est avocate au Barreau de Paris depuis 2020.Entre 2015 et 2019, elle a travaillé au sein du cabinet Thierry Lévy et Associés, auprès de la Chambre de l’instruction de la Cour d’appel de Paris (parquet général) et avec l’association d’alternative à la prison « Parmi les Présents », avant de rejoindre le cabinet Chavanne & Witt Avocats.Elle y exerce comme collaboratrice entre 2020 et 2024 avant de rejoindre le cabinet Siano.
+    nicolas: |
+      Diplômé de l’École de droit de Sciences Po Paris (Master Droit économique - spécialité « Contentieux Economique et Arbitrage »), Nicolas Simon est avocat au Barreau de Paris depuis 2023.
+      <br><br>
+      Entre 2019 et 2022, il s’est formé dans des cabinets de droit des affaires de premier plan (Clifford Chance) et auprès d’avocats pénalistes de renom (Clarisse Serre, le Bâtonnier Pierre-Olivier Sur). Il a également travaillé auprès des magistrats de la Cour d’appel de Paris spécialisés en matière de criminalité organisée. 
+      À sa prestation de serment, il rejoint le cabinet Dordilly Clémenceau Avocats en tant que collaborateur, avant d’intégrer le cabinet Siano en 2024.
+    theo: |
+      Diplômé de Queen Mary University of London (LLB en droit anglais, 2018) et de l’Université Panthéon-Assas (Master II Droits de l’homme et droit humanitaire, 2021), Théo Berrebi est avocat au Barreau de Paris depuis janvier 2024.
+      <br><br>
+      Entre 2019 et 2021, il effectue plusieurs stages au sein de la Cour pénale internationale et du Mécanisme résiduel des TPIY et TPIR à la Haye ainsi qu’en cabinet d’avocats en droit des étrangers et droit pénal. 
+      <br><br>
+      En 2022 il rejoint le cabinet Chavanne & Witt Avocats en qualité d’élève-avocat jusqu’à sa prestation de serment en janvier 2024 où il intègre le cabinet Siano en qualité de collaborateur.
+    samuel: |
+      Diplômé de l’Institut Supérieur d’Aquitaine (IJA) en secrétariat juridique (2022) et étudiant en droit à l’Université Panthéon-Assas, Samuel Cherki-Tahar intègre le cabinet Chavanne & Witt Avocats en qualité d’assistant administratif en juin 2022 avant de rejoindre Siano.
 
   skills:
+    lea: |
+      Droit pénal général - Droit pénal des affaires - Droit pénal des mineurs - Droit de la famille - Droit de la presse <br>
+      Langues de travail : français, anglais
     clemence: |
-      Droit pénal général - Droit pénal des affaires - Droit pénal international - Droit de la presse. <br>
-      Langues de travail : français, anglais, espagnol. <br>
-      Association des Avocats Pénalistes, European Criminal Bar Association.
-    matthieu: |
-      Droit pénal général - Droit pénal des affaires - Compliance. <br>
-      Langues de travail : français, anglais, espagnol. <br>
-      Association des Avocats Pénalistes, Association Française de Droit Pénal, European Criminal Bar Association.
+      Droit pénal général - Droit pénal des affaires - Droit pénal international - Droit de la presse <br>
+      Langues de travail : français, anglais, espagnol <br>
+      Association des Avocats Pénalistes (ADAP), European Criminal Bar Association (ECBA)
+    simon: |
+      Droit pénal général - Droit pénal des affaires - Droit pénal du travail - Droit du travail - Droit social - Droit de la presse <br>
+      Langues de travail : français, anglais
     camille: |
-      Droit pénal général - Droit pénal des affaires - Droit de la presse. <br>
-      Langues de travail : français, anglais. <br>
-      Association des Avocats Pénalistes, European Criminal Bar Association.
+      Droit pénal général - Droit pénal des affaires - Droit de la presse - Droit pénal des mineurs et assistance éducative <br>
+      Langues de travail : français, anglais <br>
+      Association des Avocats Pénalistes (ADAP), European Criminal Bar Association (ECBA)
     anais: |
+      Droit pénal général - Droit pénal international - Procédures d’extradition - Droit pénal des affaires <br>
+      Langues de travail : français, anglais, espagnol, portugais, italien <br>
+      European Criminal Bar Association (ECBA)
+    nicolas: |
+      Droit pénal général - Droit pénal international et procédures d’extradition - Droit pénal des affaires - Droit de la presse <br>
+      Langues de travail : français, anglais
+    theo: |
       Droit pénal général - Droit pénal international - Droit pénal des affaires <br>
-      Langues de travail : français, anglais, espagnol, portugais, italien.
-      European Criminal Bar Association.
+      Langues de travail : français, anglais
+    samuel: |
 
   form:
     placeholders:
