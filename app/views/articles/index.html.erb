@@ -1,7 +1,7 @@
-<main class="wrapper actualites-index" style="background-image: url('<%= cl_image_path("actualites_pcaclw.png") %>');">
+<main class="wrapper actualites-index bg-gradient">
   <aside class="img-right text-center">
     <%= link_to root_path, class: "" do %>
-    <%= cl_image_tag("logo-white_dsazw2.png") %>
+    <%= image_tag "siano-icon-white.png", width: 50 %>
     <% end %>
   </aside>
 
@@ -9,31 +9,33 @@
     <div class="row">
       <h1 class="uppercase">actualités</h1>
 
-      <% @articles.each do |article|  %>
-        <article class="col-lg-3 col-md-6 col-xs-12">
-          <div class="card">
-            <div class="card-header">
-              <div class="category">
-                <%= article.category %>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <% @articles.each do |article|  %>
+          <article class="col-lg-3 col-md-6 col-xs-12">
+            <div class="card">
+              <div class="card-header">
+                <div class="category">
+                  <%= article.category %>
+                </div>
+                <div class="date">
+                  <%= article.date.strftime("%d. %m. %Y")%>
+                </div>
               </div>
-              <div class="date">
-                <%= article.date.strftime("%d. %m. %Y")%>
+              
+              <div class="content-card">
+                <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
+                <p><%= article.description.first(60) %>...</p>
               </div>
-            </div>
-            
-            <div class="content-card">
-              <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
-              <p><%= article.description.first(60) %>...</p>
-            </div>
 
-            <%= link_to article_path(article) do %>
-              <div class="btn-card">
-                Lire la suite
-              </div>
-            <% end %>
-          </div>
-        </article>
-      <% end %>
+              <%= link_to article_path(article) do %>
+                <div class="btn-card">
+                  Lire la suite
+                </div>
+              <% end %>
+            </div>
+          </article>
+        <% end %>
+      </div>
     </div>
   </section>
 
