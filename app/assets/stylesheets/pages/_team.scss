@@ -10,19 +10,13 @@
     font-size: 34px;
   }
 
-  h4:after {
-    content: '';
-    position: absolute;
-    width: 20%;
-    left: 0;
-    border-bottom: 3px solid $main;
-    bottom: -10px;
-  }
-
-  h4.text-end::after {
-    right: 0;
-    left: unset;
-  }
+  // h4:after {
+  //   content: '';
+  //   position: absolute;
+  //   width: 20%;
+  //   border-bottom: 3px solid $sianogreen;
+  //   bottom: -10px;
+  // }
 
   p {
     text-align: justify;

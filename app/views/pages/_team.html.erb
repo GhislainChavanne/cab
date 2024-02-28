@@ -1,9 +1,8 @@
 <section>
   <% I18n.t("team").each.with_index do |(key, value), index| %>
-    <figure class="wrapper background-team-<%= value[:class] %>" id="avocats">
+    <figure class="wrapper" id="avocats">
       <div class="grid grid-cols-12">
-        <% raise %>
-        <%= image_tag "#{value[:class]}-mobile.png" %>
+        <%= image_tag String(value[:image]), class: "hidden md:block crop-right h-full object-cover md:col-span-5 lg:col-span-4" %>
         <%= render "member", key: key, value: value %>
       </div>
     </figure>
