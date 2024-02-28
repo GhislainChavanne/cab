@@ -14,6 +14,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            "colors": {
+              "sianogreen": {
+                50: "#D7FDFE",
+                100: "#AAFCFD",
+                200: "#5BF8FB",
+                300: "#06F5F9",
+                400: "#04A2A4",
+                500: "#025253",
+                600: "#024041",
+                700: "#013132",
+                800: "#012223",
+                900: "#000F0F",
+                950: "#000A0A"
+              },
+              "sianoblue": {
+                50: "#DAE9FB",
+                100: "#B1D0F6",
+                200: "#68A4EE",
+                300: "#1A75E5",
+                400: "#12509B",
+                500: "#09284E",
+                600: "#072140",
+                700: "#05172E",
+                800: "#041020",
+                900: "#02070E",
+                950: "#010509"
+              }
+            }
+          }
+        }
+      }
+    </script>
+
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
@@ -38,6 +78,7 @@
     <meta name="twitter:image:src" content="<%= meta_image %>">
   </head>
   <body>
+    <%= render "shared/breakpoints" if Rails.env.development? %>
     <%= render 'shared/flashes' %>
     <%= yield %>
     <%= javascript_include_tag 'application' %>

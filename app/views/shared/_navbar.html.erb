@@ -1,4 +1,4 @@
-<nav class="navbar-wagon navbar-wagon-fixed collapse navbar-collapse hidden-xs montserrat-medium">
+<nav class="montserrat-medium border-b-4 border-sianogreen-500 hidden md:block">
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
     <%= image_tag "siano-icon.png" %>
   <% end %>
@@ -11,22 +11,22 @@
     </div>
 
     <div>
-      <a href="#presentation" id="btn"><%= locale_content_for("navbar.buttons.firm") %></a>
+      <a href="#presentation" class="hover:text-sianogreen-500 hover:italic"><%= locale_content_for("navbar.buttons.firm") %></a>
     </div>
 
     <div>
-      <a href="#avocats" id="btn"><%= locale_content_for("navbar.buttons.team") %></a>
+      <a href="#avocats" class="hover:text-sianogreen-500 hover:italic"><%= locale_content_for("navbar.buttons.team") %></a>
     </div>
 
     <div>
-      <a href="#actualites" id="btn"><%= locale_content_for("navbar.buttons.news") %></a>
+      <a href="#actualites" class="hover:text-sianogreen-500 hover:italic"><%= locale_content_for("navbar.buttons.news") %></a>
     </div>
 
     <div>
-      <a href="#contact" id="btn"><%= locale_content_for("navbar.buttons.contact") %></a>
+      <a href="#contact" class="hover:text-sianogreen-500 hover:italic"><%= locale_content_for("navbar.buttons.contact") %></a>
     </div>
 
-    <div class="contact-navbar">
+    <div class="contact-navbar bg-sianogreen-500">
       <div class="contact-content">
         <p><span style="letter-spacing: 3.5px;">Tel</span> : <span style="letter-spacing: 3.3px;">01 42 18 18 19</span></p>
         <p><span style="letter-spacing: 2.5px;">Fax</span> : <span style="letter-spacing: 3.3px;">01 77 75 91 91</span></p>
@@ -36,9 +36,9 @@
   </div>  
   
   <div class="translation" rel="nofollow">
-    <a href="/en" class="navbar-wagon-brand <%= 'active' if locale == :en %>">En</a>
-    <a href="/es" class="navbar-wagon-brand <%= 'active' if locale == :es %>">Es</a>
-    <a href="/" class="navbar-wagon-brand <%= 'active' if locale == :fr %>">Fr</a>
+    <a href="/en" class="navbar-wagon-brand <%= 'text-sianogreen-500' if locale == :en %>">En</a>
+    <a href="/es" class="navbar-wagon-brand <%= 'text-sianogreen-500' if locale == :es %>">Es</a>
+    <a href="/" class="navbar-wagon-brand <%= 'text-sianogreen-500' if locale == :fr %>">Fr</a>
   </div>
 
   <!-- Dropdown list appearing on mobile only -->
