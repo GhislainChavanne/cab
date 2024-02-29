@@ -7,8 +7,11 @@
 @import 'config/fonts';
 
 // External libraries
-// @import 'bootstrap-sprockets';
-// @import 'bootstrap';
+#admin {
+  @import 'bootstrap-sprockets';
+  @import 'bootstrap';
+}
+
 @import 'font-awesome';
 @import 'vendor/index';
 
