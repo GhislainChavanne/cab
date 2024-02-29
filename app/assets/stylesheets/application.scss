@@ -45,6 +45,11 @@
   clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
 }
 
+.crop-top {
+  clip-path: polygon(0 10%, 100% 10%, 100% 90%, 0 90%);
+  margin: -100px 0 -50px 0;
+}
+
 .z-99 {
   z-index: 99;
 }
