@@ -3,11 +3,19 @@
     <figure class="wrapper member" id="avocats">
       <div class="grid grid-cols-12 <%= index.even? ? 'left' : 'right' %>">
         <% if index.even? %>
-          <%= image_tag String(value[:image]), class: "lg:hidden object-cover col-span-12 h-svh w-full object-center md:crop-top" %>
+          <div class="lg:hidden col-span-12 h-svh w-full" 
+              style="background-image: url('<%= asset_path(String(value[:image])) %>'); 
+                      background-size: cover; 
+                      background-position: 50% 35%;">
+          </div>
           <%= image_tag String(value[:image]), class: "hidden lg:block crop-right h-full object-cover md:col-span-12 lg:col-span-4 max-h-screen" %>
           <%= render "member", key: key, value: value, index: index %>
         <% else %>
-          <%= image_tag String(value[:image]), class: "lg:hidden object-cover col-span-12 h-svh w-full object-center md:crop-top" %>
+          <div class="lg:hidden col-span-12 h-svh w-full" 
+              style="background-image: url('<%= asset_path(String(value[:image])) %>'); 
+                      background-size: cover; 
+                      background-position: 50% 35%;">
+          </div>
           <%= render "member", key: key, value: value, index: index %>
           <%= image_tag String(value[:image]), class: "hidden lg:block crop-left h-full object-cover md:col-span-12 lg:col-span-4 max-h-screen" %>
         <% end %>

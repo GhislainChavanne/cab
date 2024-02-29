@@ -15,6 +15,10 @@ fr:
       contact: 'CONTACT'
       home: 'ACCUEIL'
 
+  presentation:
+    fields: 'Domaines d’intervention'
+    stages: 'Stades de la procédure'
+
   team:
     lea:
       name: 'Léa Dordilly'
@@ -134,6 +138,25 @@ fr:
       Diplômé de l’Institut Supérieur d’Aquitaine (IJA) en secrétariat juridique (2022) et étudiant en droit à l’Université Panthéon-Assas, Samuel Cherki-Tahar intègre le cabinet Chavanne & Witt Avocats en qualité d’assistant administratif en juin 2022 avant de rejoindre Siano.
 
   skills:
+    firm:
+      fields:
+        - Droit pénal général
+        - Droit pénal des affaires
+        - Droit pénal international
+        - Droit pénal du travail
+        - Droit de la presse
+        - Droit pénal de la santé
+        - Droit pénal environnemental
+        - Droit pénal des mineurs et assistance éducative
+      stages:
+        - Garde à vue et audition libre
+        - Instruction
+        - CRPC
+        - Alternatives aux poursuites
+        - Tribunal correctionnel
+        - Cour criminelle départementale
+        - Cour d’assises
+        - Application des peines
     lea: |
       Droit pénal général - Droit pénal des affaires - Droit pénal des mineurs - Droit de la famille - Droit de la presse <br>
       Langues de travail : français, anglais

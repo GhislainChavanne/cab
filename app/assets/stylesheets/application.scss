@@ -46,7 +46,7 @@
 }
 
 .crop-top {
-  clip-path: polygon(0 10%, 100% 10%, 100% 90%, 0 90%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 80%);
   margin: -100px 0 -50px 0;
 }
 
