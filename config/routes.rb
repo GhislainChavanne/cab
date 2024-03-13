@@ -11,7 +11,11 @@ Rails.application.routes.draw do
     get 'mentions',  to: 'pages#mentions'
   end
 
+  get "/signatures", to: "pages#signatures"
+
   resources :articles, only: [:index, :show]
+
   match '/contacts', to: 'contacts#new', via: 'get'
+
   resources "contacts", only: [:new, :create]
 end
