@@ -4,11 +4,11 @@
 //= require_tree .
 //= require bootstrap.min.js
 
-var initBurger = () => {
+var initBurger = function () {
   var btn = document.querySelector('#burger-btn');
   var menu = document.querySelector('#mobile-nav');
 
-  btn.addEventListener('click', (event) => {
+  btn.addEventListener('click', function (event) {
     menu.classList.toggle('hidden');
   });
 };
