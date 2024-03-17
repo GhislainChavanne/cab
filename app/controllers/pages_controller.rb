@@ -3,7 +3,16 @@ class PagesController < ApplicationController
   layout false, only: :signatures
 
   def home
+  end
+
+  def team
+  end
+
+  def news
     @articles = Article.order('date DESC').first(4)
+  end
+
+  def contact
     @contact = Contact.new
   end
 

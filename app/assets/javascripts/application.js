@@ -4,20 +4,13 @@
 //= require_tree .
 //= require bootstrap.min.js
 
-$(document).ready(function () {
-  $(document).on('click', '.scroll-to', function (event) {
-    event.preventDefault();
-    var offset = -70;
+const initBurger = () => {
+  const btn = document.querySelector('#burger-btn');
+  const menu = document.querySelector('#mobile-nav');
 
-    $('html, body').animate(
-      {
-        scrollTop: $($.attr(this, 'href')).offset().top + offset,
-      },
-      500
-    );
+  btn.addEventListener('click', (event) => {
+    menu.classList.toggle('hidden');
   });
-});
+};
 
-$(function () {
-  $('[data-toggle="popover"]').popover({ html: true });
-});
+initBurger();

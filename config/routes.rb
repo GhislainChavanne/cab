@@ -8,14 +8,15 @@ Rails.application.routes.draw do
 
   scope '(:locale)', locale: /en|es/ do
     root to: 'pages#home'
+    
+    get 'team',      to: 'pages#team'
+    get 'news',      to: 'pages#news'
+    get 'contact',   to: 'pages#contact'
     get 'mentions',  to: 'pages#mentions'
   end
 
+  post 'contacts', to: 'contacts#create'
   get "/signatures", to: "pages#signatures"
 
   resources :articles, only: [:index, :show]
-
-  match '/contacts', to: 'contacts#new', via: 'get'
-
-  resources "contacts", only: [:new, :create]
 end

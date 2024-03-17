@@ -28,6 +28,11 @@
   height: calc(100vh - 74px);
 }
 
+.-nav-min-h-screen {
+  padding-top: 74px;
+  min-height: calc(100vh - 74px);
+}
+
 .max-h-50-screen {
   max-height: 50vh;
 }
@@ -51,6 +56,14 @@
 .crop-top {
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 80%);
   margin: -100px 0 -50px 0;
+}
+
+.z-80 {
+  z-index: 80;
+}
+
+.z-90 {
+  z-index: 90;
 }
 
 .z-99 {

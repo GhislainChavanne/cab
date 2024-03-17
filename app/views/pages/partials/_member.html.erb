@@ -1,8 +1,8 @@
-<div class="montserrat-light flex flex-col <%= index.even? ? 'items-end' : 'items-start' %> justify-center text-justify lg:text-xs xl:text-sm px-12 md:px-24 lg:px-32 py-12 col-span-12 md:col-span-12 lg:col-span-8">
+<div class="montserrat-light flex flex-col <%= index.even? ? 'items-end' : 'items-start' %> justify-center text-justify lg:text-xs xl:text-sm px-12 md:px-24 lg:px-40 py-8 my-2 col-span-12 md:col-span-12 lg:col-span-9">
   <h4 class="niramit-semibold text-3xl uppercase"><%= value[:name] %></h4>
 
   <div class="flex flex-col items-center justify-start mt-4">
-    <p><%= locale_content_for("descriptions.#{key}") %></p>
+    <p class="mb-2"><%= locale_content_for("descriptions.#{key}") %></p>
 
     <p class="text-center mt-5 text-sianoblue-500 font-semibold italic">
       <%= locale_content_for("skills.#{key}") %>
