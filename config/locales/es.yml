@@ -19,6 +19,14 @@ es:
     fields: 'Áreas de practica'
     stages: 'Etapas del procedimiento'
 
+  ctas:
+    press: Novedades y publicaciones
+
+  news:
+    press: Prensa
+    publications: Publicaciones
+    archives: Archivos
+
   team:
     lea:
       name: 'Léa Dordilly'
@@ -84,7 +92,7 @@ es:
     lea: |
       Léa Dordilly es abogada en el Colegio de París desde 2011. 
       <br><br>
-      Graduada del Máster Derecho Penal, Ciencias penales y Justicia así como del Instituto de ciencias penales y criminología de la Facultad de derecho de Aix-en-Provence, fue formada en 2008 por Jean-Marc Florand, reconocido abogado penalista y alumno de Jacques Vergès. 
+      Graduada del Máster Derecho penal, Ciencias penales y Justicia así como del Instituto de ciencias penales y criminología de la Facultad de derecho de Aix-en-Provence, fue formada por Jean-Marc Florand, reconocido abogado penalista y alumno de Jacques Vergès. 
       <br><br>
       Elegida “Secrétaire de la Conférence” en 2016, un concurso de elocuencia que distingue cada año a los doce mejores oradores del Colegio de París, ha adquirido una sólida experiencia en materia penal, interviniendo en numerosos casos penales con gran repercusión mediática y litigando diariamente ante el Juzgado de lo Penal y las Cortes Criminales (“Cour d’assises” y “Cour criminelle départementale”).
       <br><br>
@@ -96,9 +104,9 @@ es:
     clemence: |
       Clémence Witt es abogada en el Colegio de París desde 2012 y en el Colegio de Barcelona desde 2023.
       <br><br>
-      Graduada de Sciences Po París (Master Carreras Judiciales y Jurídicas) y de la Universidad Panthéon-Assas (Máster II Derechos humanos y derecho humanitario, Certificado de ciencias criminológicas) Clémence Witt trabajó en Camboya en el equipo de defensa dirigido por Jacques Vergès ante las Cortes Especiales establecidas por la ONU, antes de convertirse en colaboradora del Presidente del Colegio de abogados de París Pierre-Olivier Sur: ejerce esencialmente en derecho penal, derecho penal económico, derecho penal internacional y derecho de la prensa en Francia y al extranjero (Argentina, Burkina Faso, Costa de Marfil, India, Líbano, Libia, México, Túnez). 
+      Graduada de Sciences Po París (Master Carreras Judiciales y Jurídicas) y de la Universidad Panthéon-Assas (Máster II Derechos humanos y derecho humanitario, Certificado de ciencias criminológicas) Clémence Witt trabajó en Camboya en el equipo de defensa dirigido por Jacques Vergès ante las Cortes Especiales establecidas por la ONU, antes de convertirse en colaboradora del Presidente del Colegio de Abogados de París Pierre-Olivier Sur: ejerce esencialmente en derecho penal, derecho penal económico, derecho penal internacional y derecho de la prensa en Francia y al extranjero (Argentina, Burkina Faso, Costa de Marfil, India, Líbano, Libia, México, Túnez). 
       <br><br>
-      En 2015, Clémence Witt fue elegida “Secrétaire de la Conférence”, lo que la lleva a intervenir en muchos casos criminales con gran repercusión mediática, como los de los atentados terroristas de enero de 2015, del 13 de noviembre y de Niza. 
+      En 2015, Clémence Witt fue elegida “Secrétaire de la Conférence”, lo que la llevó a intervenir en muchos casos criminales con gran repercusión mediática, como los de los atentados terroristas de enero de 2015, del 13 de noviembre y de Niza. 
       <br><br>
       En 2017 creó el bufete Chavanne & Witt Avocats junto a Matthieu Chavanne y abrió una oficina secundaria en Barcelona en 2023, antes de fundar Siano en 2024. 
       <br><br>
@@ -108,13 +116,13 @@ es:
     simon: |
       Simon Clemenceau es abogado en el Colegio de París desde enero de 2013.
       <br><br>
-      Graduado de la Universidad París 1 Panthéon Sorbonne (Master Derecho de las actividades económicas), trabajó durante más de cinco años en el bufete Milon & Associés, ejerciendo en derecho penal económico, derecho penal general y derecho laboral.
+      Graduado de la Universidad París 1 Panthéon Sorbonne (Máster Derecho de las actividades económicas), trabajó durante más de cinco años en el bufete Milon & Associés, ejerciendo en derecho penal económico, derecho penal general y derecho laboral.
       <br><br>
-      En 2016, fue elegido décimo “Secrétaire de la Conférence”, encargado de la defensa penal, e interviene por lo tanto en muchos casos penales con gran repercusión mediática, litigando a menudo ante el Juzgado de lo Penal, y las Cortes Criminales (“Cour d’assises” y “Cour criminelle départementale”). 
+      En 2016, fue elegido décimo “Secrétaire de la Conférence”, encargado de la defensa penal, e interviene por lo tanto en muchos casos penales con gran repercusión mediática, litigando a menudo ante el Juzgado de lo Penal y las Cortes Criminales (“Cour d’assises” y “Cour criminelle départementale”). 
       <br><br>
       Actuó como abogado defensor en los casos de los atentados terroristas del 13 de noviembre, Saint-Etienne-du-Rouvray y Magnanville y como representante de las partes civiles en el caso del atentado de Niza.
       <br><br>
-      En 2018, creó con Léa Dordilly el bufete Dordilly Clemenceau Avocats, antes de fundar el bufete Siano en 2024.
+      En 2018, creó con Léa Dordilly el bufete Dordilly Clemenceau Avocats, antes de fundar Siano en 2024.
       <br><br>
       Es miembro de la red ALTAJURIS, un grupo de abogados presentes en toda Francia, y también profesor en la Escuela de formación del Colegio de Abogados de París (EFB) y en la INSEEC BUSINESS SCHOOL de París.
     camille: |
@@ -124,7 +132,7 @@ es:
       <br><br>
       Desde su titulación como abogada en noviembre de 2018, Camille Tardé trabajó como colaboradora en el bufete Chavanne & Witt Abogados.
       <br><br>
-      En septiembre 2023, se convirtió en socia al lado de Clémence Witt y Matthieu Chavanne, antes de fundar el bufete Siano en 2024.
+      En septiembre 2023, se convirtió en socia al lado de Clémence Witt y Matthieu Chavanne, antes de fundar Siano en 2024.
       <br><br>
       Se dedica principalmente al derecho penal general, al derecho penal económico y al derecho de la prensa. También actúa con regularidad ante los tribunales de menores, tanto en casos penales como de asistencia educativa.
     anais: |
@@ -132,13 +140,13 @@ es:
       <br><br>
       Entre 2015 y 2019, trabajó en el bufete Thierry Lévy et Associés, en la Sala de Instrucción del Tribunal de Apelación de Paris (Fiscalía general) y con la asociación de alternativa al encarcelamiento “Parmi les Présents”, antes de unirse al bufete Chavanne & Witt Abogados.
       <br><br>
-      Ejerció en dicho bufete como colaboradora entre 2020 y 2024 antes de incorporarse al bufete Siano.
+      Ejerció en dicho bufete como colaboradora entre 2020 y 2024 antes de incorporarse al equipo de Siano.
     nicolas: |
       Graduado de la Escuela de derecho de Sciences Po París (Máster Derecho Económico - especialización “Litigios y Arbitrajes Económicos”), Nicolas Simon es abogado en el Colegio de París desde 2023.
       <br><br>
-      Entre 2019 y 2022, se formó en reconocidos bufetes de abogados en derecho mercantil (Clifford Chance) y con renombrados abogados penalistas (Clarisse Serre, Bâtonnier Pierre-Olivier Sur). También trabajó con magistrados del Tribunal de Apelación de París especializados en delincuencia organizada.
+      Entre 2019 y 2022, se formó en reconocidos bufetes de abogados en derecho mercantil (Clifford Chance) y con renombrados abogados penalistas (Clarisse Serre, Presidente del Colegio de Abogados de París Pierre-Olivier Sur). También trabajó con magistrados del Tribunal de Apelación de París especializados en delincuencia organizada.
       <br><br>
-      Se incorporó al bufete Dordilly Clémenceau Avocats tras su titulación como abogado, antes de unirse al bufete Siano en 2024.
+      Se incorporó al bufete Dordilly Clémenceau Avocats tras su titulación como abogado, antes de antes de unirse a Siano en 2024.
     theo: |
       Graduado de la Universidad Queen Mary de Londres (LLB en derecho inglés, 2018) y de la Universidad Panthéon-Assas (Máster II Derechos humanos y derecho humanitario, 2021), Théo Berrebi es abogado en el Colegio de París desde enero de 2024.
       <br><br>

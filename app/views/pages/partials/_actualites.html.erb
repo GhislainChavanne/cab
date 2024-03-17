@@ -1,4 +1,4 @@
-<section class="wrapper bg-gradient px-12 py-24" id="actualites">
+<section class="wrapper bg-gradient px-12 py-24 -nav-h-screen" id="actualites">
   <div class="w-full">
     <h4 class="text-center text-white text-3xl niramit-semibold heading-border center mb-5"><%= locale_content_for("home.titles.news") %></h2>
   </div>
@@ -35,13 +35,13 @@
 
     <nav class="container grid grid-cols-1 md:grid-cols-3 gap-4">
       <div class="text-black bg-sianogray-100 flex item-center justify-center">
-        <%= link_to "Presse", articles_path(category: "Presse"), class: "w-full p-4 block text-center font-semibold text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
+        <%= link_to locale_content_for("news.press"), articles_path(category: "Presse"), class: "w-full p-4 block text-center font-semibold text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
       </div>
       <div class="text-black bg-sianogray-100 flex item-center justify-center">
-        <%= link_to "Publications", articles_path(category: "Publications"), class: "w-full p-4 block text-center font-semibold text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
+        <%= link_to locale_content_for("news.publications"), articles_path(category: "Publications"), class: "w-full p-4 block text-center font-semibold text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
       </div>
       <div class="text-black bg-sianogray-100 flex item-center justify-center">
-        <%= link_to "Archives", articles_path(category: "Archives"), class: "w-full p-4 block text-center font-semibold text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
+        <%= link_to locale_content_for("news.archives"), articles_path(category: "Archives"), class: "w-full p-4 block text-center font-semibold text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
       </div>
     </nav>
   </div>

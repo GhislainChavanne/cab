@@ -26,6 +26,14 @@ en:
     fields: 'Areas of intervention'
     stages: 'Stage of the proceedings'
 
+  ctas:
+    press: News and publications
+
+  news:
+    press: Press
+    publications: Publications
+    archives: Archives
+
   team:
     lea:
       name: 'Léa Dordilly'
@@ -89,9 +97,9 @@ en:
       <br><br>
       With its international expertise, Siano regularly works with <a href="https://www.impactlitigation.fr/" target="_blank" class="text-sianogreen-500">Impact Litigation</a>, a law firm created by Jeanne Sulzer, dedicated to the questions of international justice and human rights.
     lea: |
-      Léa Dordilly is a lawyer at the Paris Bar since 2011. 
+      Léa Dordilly has been a lawyer at the Paris Bar since 2011. 
       <br><br>
-      She graduated from the Master in Criminal Law, Criminal Sciences and Justice as well as from the Institute of criminal sciences and criminology of the Faculty of Law of Aix-en-Provence, and was trained since 2008 by Jean-Marc Florand, a renowned criminal lawyer and student of Jacques Vergès. 
+      She graduated from the Master in Criminal Law, criminal science and Justice as well as from the Institute of criminal science and criminology of the Faculty of Law of Aix-en-Provence, and was trained by Jean-Marc Florand, a renowned criminal lawyer and student of Jacques Vergès. 
       <br><br>
       Elected “Secrétaire de la Conférence” in 2016, an eloquence competition that distinguishes the twelve best speakers of the Paris Bar each year, she has acquired a solid experience in criminal matters, intervening in numerous criminal cases with high media stakes and pleading daily before the Correctional Court and the Criminal Courts (“Cour d’assises” and “Cour criminelle départementale”).
       <br><br>
@@ -101,9 +109,9 @@ en:
       <br><br>
       In 2018, she created with Simon Clemenceau the firm Dordilly Clemenceau Avocats, before founding Siano in 2024.
     clemence: |
-      Clémence Witt is a lawyer at the Paris Bar since 2012 and at the Barcelona Bar since 2023.
+      Clémence Witt has been a lawyer at the Paris Bar since 2012 and at the Barcelona Bar since 2023.
       <br><br>
-      After graduating from the Sciences Po Paris Law School (Master “Legal and Judiciary Career”) and from the Panthéon-Assas University (Master II in Human and Humanitarian Rights, criminological sciences certificate), Clémence Witt worked in Cambodia in the defense team conducted by Jacques Vergès before the Extraordinary Chambers set up by the United Nations. She then became an associate of the President of the Paris Bar Pierre-Olivier Sur practicing mainly criminal law, white collar crime, international criminal law and media law, both in France and abroad (Argentina, Burkina Faso, Ivory Coast, India, Lebanon, Libya, Mexico, Tunisia).
+      After graduating from the Sciences Po Paris Law School (Master “Legal and Judiciary Career”) and from the Panthéon-Assas University (Master II in Human and Humanitarian Rights, Criminal science certificate), Clémence Witt worked in Cambodia in the defense team conducted by Jacques Vergès before the Extraordinary Chambers set up by the United Nations. She then became an associate of the President of the Paris Bar Pierre-Olivier Sur practicing mainly criminal law, white collar crime, international criminal law and media law, both in France and abroad (Argentina, Burkina Faso, Ivory Coast, India, Lebanon, Libya, Mexico, Tunisia).
       <br><br>
       In 2015, Clémence Witt was elected “Secrétaire de la Conférence” and intervenes therefore in a lot of criminal cases with high media stakes, such as those of the terrorist attacks of January 2015, November 13th and Nice. 
       <br><br>
@@ -113,19 +121,19 @@ en:
       <br><br>
       Since 2019, she is a lecturer in substantive and procedural criminal law at Sciences Po.
     simon: |
-      Simon Clemenceau is a lawyer at the Paris bar since January 2013.
+      Simon Clemenceau has been lawyer at the Paris bar since January 2013.
       <br><br>
       After graduating from Paris 1 Panthéon Sorbonne University (Master in Law of economic activities), he practiced for more than five years in white collar crime, general criminal law and labour law at the firm Milon & Associés.
       <br><br>
       In 2016, Simon Clemenceau was elected tenth “Secrétaire de la Conférence”, in charge of criminal defense. In this capacity, he intervenes in numerous criminal cases with high media stakes, regularly pleading before the Correctional Court and the Criminal Courts (“Cour d’assises” and “Cour criminelle départementale”).
       <br><br>
-      He acted as defense counsel in the cases of the terrorist attacks of November 13th, Saint-Etienne-du-Rouvray, Magnanville, and representing the civil parties in the case of the attack in Nice.
+      He acted as defense counsel in the cases of the terrorist attacks of November 13th, Saint-Etienne-du-Rouvray, Magnanville, and represented the civil parties in the case of the attack in Nice.
       <br><br>
       In 2018, he created Dordilly Clemenceau Avocats with Léa Dordilly, before founding Siano in 2024.
       <br><br>
       He is a member of the ALTAJURIS network, a group of lawyers present throughout France, and is a lecturer at the Paris Bar School (EFB) and at the INSEEC BUSINESS SCHOOL in Paris.
     camille: |
-      Camille Tardé is a lawyer at the Paris bar since 2018.
+      Camille Tardé has been lawyer at the Paris bar since 2018.
       <br><br>
       After graduating from the Sciences Po Law School (Paris), she trained with leading criminal lawyers (Henri Leclerc & Associés and Le Borgne Saint-Palais Associés) and judges of the Criminal Chambers of the Paris Court of Appeals (Chambers 8-1 and 8-2).
       <br><br>
@@ -135,19 +143,19 @@ en:
       <br><br>
       Her main areas of activity are criminal law, white collar crime and media law. She also regularly appears before juvenile courts, both in criminal cases and for educational assistance.
     anais: |
-      Anaïs Sarron graduated from the Sciences Po Paris Law School (Master in Economic Law - major in “Global Governance Studies”, 2017), and from the LLM in international and transnational criminal law at the University of Amsterdam (UvA, 2019). She is a lawyer at the Paris bar since 2020.
+      Anaïs Sarron graduated from the Sciences Po Paris Law School (Master in Economic Law - major in “Global Governance Studies”, 2017), and from the LLM in international and transnational criminal law at the University of Amsterdam (UvA, 2019). She has been a lawyer at the Paris bar since 2020.
       <br><br>
       Between 2015 and 2019, she practiced criminal law at the firm Thierry Lévy et Associés, alongside the Public Prosecutors before the Investigating Chamber of the Paris Court of Appeals and within the NGO promoting alternatives to imprisonment “Parmi les Présents”. 
       <br><br>
       She then worked at the law firm Chavanne & Witt Avocats as an associate between 2020 and 2024 before joining Siano.
     nicolas: |
-      A graduate of Sciences Po Paris Law School (Master in Economic Law - major in Economic Litigation and Arbitration), Nicolas is a lawyer at the Paris bar since 2023.
+      A graduate of Sciences Po Paris Law School (Master in Economic Law - major in Economic Litigation and Arbitration), Nicolas has been a lawyer at the Paris bar since 2023.
       <br><br>
       Between 2019 and 2022, he trained with leading business law firms (Clifford Chance) and renowned criminal lawyers (Clarisse Serre, Bâtonnier Pierre-Olivier Sur), and also worked with the judges of the Paris Court of Appeal specializing in organized crime.
       <br><br>
       After being sworn in, he joined Dordilly Clémenceau Avocats as an associate, before joining Siano in 2024.
     theo: |
-      Théo Berrebi graduated with an LLB from Queen Mary University of London (2018) as well as a Master II in Human and Humanitarian Rights from Panthéon-Assas University (2021). He is a lawyer at the Paris bar since 2024.
+      Théo Berrebi graduated with an LLB from Queen Mary University of London (2018) as well as a Master II in Human and Humanitarian Rights from Panthéon-Assas University (2021). He has been a lawyer at the Paris bar since 2024.
       <br><br>
       Between 2019 and 2021, he undertook several internships at the International Criminal Court and the International Residual Mechanism for Criminal Tribunals in the Hague, as well as in a criminal and immigration law firm.
       <br><br>

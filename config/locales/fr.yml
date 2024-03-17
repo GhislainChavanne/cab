@@ -19,6 +19,14 @@ fr:
     fields: 'Domaines d’intervention'
     stages: 'Stades de la procédure'
 
+  ctas:
+    press: Actualités et publications
+
+  news:
+    press: Presse
+    publications: Publications
+    archives: Archives
+
   team:
     lea:
       name: 'Léa Dordilly'

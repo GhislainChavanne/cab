@@ -8,7 +8,7 @@
       <%= locale_content_for("skills.#{key}") %>
     </p>
 
-    <%= link_to "Actualités et publications", articles_path(editor: value[:name]), class: "w-full p-4 my-4 block text-center font-semibold border-2 border-sianogold-500 text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
+    <%= link_to locale_content_for("ctas.press"), articles_path(editor: value[:name]), class: "w-full p-4 my-4 block text-center font-semibold border-2 border-sianogold-500 text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
 
     <div class="text-center text-sianoblue-500 text-2xl">
       <% if value[:email].present? %>
