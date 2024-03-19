@@ -18,7 +18,7 @@
     <strong>Email</strong> : contact@sianoavocats.com <br> <strong>Toque</strong> : A431
   </h5>
 
-  <%= simple_form_for form, url: contact_path, method: :post, html: { class: 'form-horizontal w-full px-12' } do |f| %>
+  <%= simple_form_for form, url: contact_path, method: :post, html: { class: 'form-horizontal w-full px-12 text-gray-800' } do |f| %>
     <%= f.input :name, required: true, placeholder: locale_content_for("form.placeholders.name"), error_html: { id: "name_error" } %>
     <%= f.input :email, required: true, placeholder: locale_content_for("form.placeholders.email"), error_html: { id: "name_error" } %>
     <%= f.input :subject, required: true, placeholder: locale_content_for("form.placeholders.subject"), error_html: { id: "name_error" } %>

@@ -5,7 +5,7 @@ class ContactsController < ApplicationController
     @form = ContactForm.new(contact_params)
 
     if @form.valid?
-      ContactMailer.contact_email(@form).deliver_now
+      ContactMailer.contact_email(@form.to_hash).deliver_now
     else
       render 'pages/contact'
     end
