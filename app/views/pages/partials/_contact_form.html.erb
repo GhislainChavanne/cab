@@ -18,17 +18,13 @@
     <strong>Email</strong> : contact@sianoavocats.com <br> <strong>Toque</strong> : A431
   </h5>
 
-  <%= simple_form_for form, html: { class: 'form-horizontal w-full px-12' } do |f| %>
-    <%= f.input :nom, required: true, placeholder: locale_content_for("form.placeholders.name"), error_html: { id: "name_error" } %>
+  <%= simple_form_for form, url: contact_path, method: :post, html: { class: 'form-horizontal w-full px-12' } do |f| %>
+    <%= f.input :name, required: true, placeholder: locale_content_for("form.placeholders.name"), error_html: { id: "name_error" } %>
     <%= f.input :email, required: true, placeholder: locale_content_for("form.placeholders.email"), error_html: { id: "name_error" } %>
-    <%= f.input :sujet, required: true, placeholder: locale_content_for("form.placeholders.subject"), error_html: { id: "name_error" } %>
+    <%= f.input :subject, required: true, placeholder: locale_content_for("form.placeholders.subject"), error_html: { id: "name_error" } %>
 
     <div class="textarea">
-      <%= f.text_area(:message, placeholder: locale_content_for("form.placeholders.message")) %>
-    </div>
-
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+      <%= f.input :body, as: :text, placeholder: locale_content_for("form.placeholders.message") %>
     </div>
 
     <div class="text-center">

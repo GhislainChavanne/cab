@@ -13,7 +13,7 @@ class PagesController < ApplicationController
   end
 
   def contact
-    @contact = Contact.new
+    @form = ContactForm.new
   end
 
   def mentions

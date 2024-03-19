@@ -13,10 +13,10 @@ Rails.application.routes.draw do
     get 'news',      to: 'pages#news'
     get 'contact',   to: 'pages#contact'
     get 'mentions',  to: 'pages#mentions'
+
+    post 'contact', to: 'contacts#create'
   end
 
-  post 'contacts', to: 'contacts#create'
-  get "/signatures", to: "pages#signatures"
-
+  get '/signatures', to: 'pages#signatures'
   resources :articles, only: [:index, :show]
 end
