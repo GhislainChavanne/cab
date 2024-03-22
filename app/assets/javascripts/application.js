@@ -23,7 +23,7 @@ var initScroll = function () {
   }
 
   if (section.dataset.scrollTo) {
-    var target = section.querySelector(`#${section.dataset.scrollTo}`);
+    var target = section.querySelector('#' + section.dataset.scrollTo);
   }
 
   if (target) {
