@@ -37,6 +37,10 @@
   height: calc(100vh - 74px);
 }
 
+.-nav-h-screen-min {
+  min-height: calc(100vh - 74px);
+}
+
 .-nav-min-h-screen {
   padding-top: 74px;
   min-height: calc(100vh - 74px);
@@ -111,4 +115,22 @@
     rgba(2, 64, 65, 1) 0%,
     rgba(1, 34, 35, 1) 100%
   );
+}
+
+.marker {
+  background-image: url(asset_path('siano-icon-white.png'));
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mapboxgl-popup-close-button {
+  font-size: large;
+  margin: 5px;
+
+  &:focus-visible {
+    outline: none;
+  }
 }

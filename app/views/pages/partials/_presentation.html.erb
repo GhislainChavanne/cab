@@ -2,36 +2,14 @@
   <%= image_tag "siano-icon-white.png", class: "absolute -top-10 -left-10", width: 200 %>
 
   <div class="grid grid-cols-12">
-    <div class="px-12 md:px-24 lg:px-32 pt-24 col-span-12 lg:col-span-12 xl:col-span-6">
+    <div class="px-12 md:pl-24 md:pr-12 lg:pl-32 lg:pr-12 pt-24 col-span-12 lg:col-span-8 xl:col-span-6">
       <h2 class="niramit-semibold text-3xl heading-border left mb-8"><%= locale_content_for('home.titles.firm') %></h1>
 
-      <p class="montserrat-light lg:text-xs xl:text-sm text-justify">
+      <p class="montserrat-light lg:text-xs xl:text-sm text-justify py-4">
         <%= locale_content_for('descriptions.firm') %>
       </p>
-
-      <div class="py-12 grid grid-cols-1 md:grid-cols-2 gap-6 montserrat-light text-sm">
-        <div>
-          <p class="niramit-semibold text-base mb-2"><%= I18n.translate('presentation.fields') %></p>
-          <ul class="list-disc">
-            <% I18n.translate('skills.firm.fields').each do |field| %>
-              <li><%= field %></li>
-            <% end %>
-          </ul>
-        </div>
-
-        <div>
-          <p class="niramit-semibold text-base mb-2"><%= I18n.translate('presentation.stages') %></p>
-          <ul class="list-disc">
-            <% I18n.translate('skills.firm.stages').each do |stage| %>
-              <li><%= stage %></li>
-            <% end %>
-          </ul>
-        </div>
-      </div>
-
-      <%= image_tag "presentation.jpg", class: "xl:hidden" %>
     </div>
 
-    <%= image_tag "presentation.jpg", class: "hidden xl:block crop-left h-full object-cover md:col-span-2 lg:col-span-6" %>
+    <%= image_tag "presentation.jpg", class: "hidden lg:block h-full object-cover md:col-span-2 lg:col-span-4 xl:col-span-6" %>
   </div>
 </section>

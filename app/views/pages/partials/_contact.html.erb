@@ -1,5 +1,6 @@
-<section class="wrapper h-full flex items-center justify-center" id="contact" style="background-image: url('<%= cl_image_path("img-contact_npehc9.png") %>');">
-  <div class="container bg-sianogray-100">
+<section class="wrapper px-0 md:px-12 mb-8 md:mb-0 min-h-screen flex items-center justify-center bg-no-repeat bg-cover" id="contact" style="background-image: url('<%= cl_image_path("img-contact_npehc9.png") %>');">
+  <div class="bg-sianogray-100 h-full w-full grid md:grid-cols-1 lg:grid-cols-2 gap-4 shadow-md">
+    <div id="map" class="w-full h-[40rem] lg:h-full order-last lg:order-first"></div>
     <%= render "pages/partials/contact_form", form: form %>
   </div>
 </section>

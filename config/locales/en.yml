@@ -38,56 +38,56 @@ en:
     lea:
       name: 'Léa Dordilly'
       class: 'lea'
-      linkedin:
-      email:
+      linkedin: https://www.linkedin.com/in/l%C3%A9a-dordilly-255b79b1
+      email: dordilly@sianoavocats.com
       image: 'lea-dordilly.jpg'
     clemence:
       name: 'Clémence Witt'
       class: 'clem'
-      linkedin: https://www.linkedin.com/in/clémence-witt-a38578153
-      email: witt@cw-avocats.com
+      linkedin: https://www.linkedin.com/in/cl%C3%A9mence-witt-a38578153
+      email: witt@sianoavocats.com
       image: 'clemence-witt.jpg'
     simon:
       name: 'Simon Clemenceau'
-      linkedin:
-      email:
+      linkedin: https://www.linkedin.com/in/simonclemenceau/
+      email: clemenceau@sianoavocats.com
       image: 'simon-clemenceau.jpg'
     camille:
       name: 'Camille Tardé'
       class: 'cam'
       linkedin: https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/?originalSubdomain=fr
-      email: tarde@cw-avocats.com
+      email: tarde@sianoavocats.com
       image: 'camille-tarde.jpg'
     anais:
       name: 'Anaïs Sarron'
       class: 'anais'
       linkedin: https://fr.linkedin.com/in/ana%C3%AFs-sarron-b4905a90
-      email: sarron@cw-avocats.com
+      email: sarron@sianoavocats.com
       image: 'anais-sarron.jpg'
     nicolas:
       name: 'Nicolas Simon'
       class: 'nicolas'
-      linkedin:
-      email:
+      linkedin: https://www.linkedin.com/in/nicolas-simon-656159131
+      email: nsimon@sianoavocats.com
       image: 'nicolas-simon.jpg'
     theo:
       name: 'Théo Berrebi'
       class: 'theo'
-      linkedin:
-      email:
+      linkedin: https://www.linkedin.com/in/th%C3%A9o-berrebi-b589a9113/?originalSubdomain=fr
+      email: berrebi@sianoavocats.com
       image: 'theo-berrebi.jpg'
     samuel:
       name: 'Samuel Cherki-Tahar'
       class: 'samuel'
       linkedin:
-      email:
+      email: cherki-tahar@sianoavocats.com
       image: 'samuel-cherki-tahar.jpg'
 
   descriptions:
     firm: |
       Created through the merger of two entities sharing common values, Siano is a law firm with offices in Paris and Barcelona, working in all areas of criminal law.
       <br><br>
-      The four founding partners, three of whom are former “Secrétaires de la Conférence”, have been involved for many years in complex cases, particularly criminal, with high media stakes and an international dimension.
+      The four founding partners, Léa Dordilly, Clémence Witt, Simon Clémenceau and Camille Tardé, three of whom are former “Secrétaires de la Conférence”, have been involved for many years in complex cases, particularly criminal, with high media stakes and an international dimension.
       <br><br>
       Siano’s team assists and defends natural or legal persons, of French and foreign nationality, victims or defendants, in matters of criminal risk prevention and in litigation at every stage of the proceedings (police investigation, judicial investigation, trial).
       <br><br>
