@@ -99,23 +99,21 @@ var map = new mapboxgl.Map({
   zoom: 4,
 });
 
-// add markers to map
-for (var feature of geojson.features) {
-  // create a HTML element for each feature
+geojson.features.forEach(function (feature) {
   var el = document.createElement('div');
   el.className = 'marker';
 
-  // make a marker for each feature and add it to the map
   new mapboxgl.Marker(el)
     .setLngLat(feature.geometry.coordinates)
     .setPopup(
-      new mapboxgl.Popup({ offset: 25 }) // add popups
-        .setHTML(
-          `
-            <h3 class="text-xl font-semibold">${feature.properties.title}</h3>
-            <p>${feature.properties.description}</p>
-          `
-        )
+      new mapboxgl.Popup({ offset: 25 }).setHTML(
+        '<h3 class="text-xl font-semibold">' +
+          feature.properties.title +
+          '</h3>' +
+          '<p>' +
+          feature.properties.description +
+          '</p>'
+      )
     )
     .addTo(map);
-}
+});
