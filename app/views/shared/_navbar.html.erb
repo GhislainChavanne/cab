@@ -11,19 +11,19 @@
     </div>
 
     <div>
-      <%= link_to locale_content_for("navbar.buttons.firm"), root_path, class: "hover:text-sianogreen-500 hover:italic" %>
+      <%= link_to locale_content_for("navbar.buttons.firm"), root_path, class: "hover:text-sianogreen-500 hover:italic #{ 'text-sianogreen-500' if action_name == "home" }" %>
     </div>
 
     <div>
-      <%= link_to locale_content_for("navbar.buttons.team"), team_path, class: "hover:text-sianogreen-500 hover:italic" %>
+      <%= link_to locale_content_for("navbar.buttons.team"), team_path, class: "hover:text-sianogreen-500 hover:italic #{ 'text-sianogreen-500' if action_name == "team" }" %>
     </div>
 
     <div>
-      <%= link_to locale_content_for("navbar.buttons.news"), news_path, class: "hover:text-sianogreen-500 hover:italic" %>
+      <%= link_to locale_content_for("navbar.buttons.news"), news_path, class: "hover:text-sianogreen-500 hover:italic #{ 'text-sianogreen-500' if action_name == "news" }" %>
     </div>
 
     <div>
-      <%= link_to locale_content_for("navbar.buttons.contact"), contact_path, class: "hover:text-sianogreen-500 hover:italic" %>
+      <%= link_to locale_content_for("navbar.buttons.contact"), contact_path, class: "hover:text-sianogreen-500 hover:italic #{ 'text-sianogreen-500' if action_name == "contact" }" %>
     </div>
 
     <div class="contact-navbar bg-sianogreen-500">
