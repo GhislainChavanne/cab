@@ -10,6 +10,9 @@
       </p>
     </div>
 
-    <%= image_tag "presentation.jpg", class: "hidden lg:block h-full object-cover md:col-span-2 lg:col-span-4 xl:col-span-6" %>
+    <div class="hidden lg:block h-full object-cover lg:col-span-4 xl:col-span-6" style="background-image: url('<%= asset_path('presentation.jpg') %>'); background-size: cover; ">
+    </div>
+
+    <%#= image_tag "presentation.jpg", class: "hidden lg:block h-full object-cover lg:col-span-4 xl:col-span-6" %>
   </div>
 </section>
