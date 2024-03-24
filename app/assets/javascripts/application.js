@@ -44,6 +44,24 @@ var scrollToTarget = function (target) {
 
 initScroll();
 
+var initShadowNav = function () {
+  var header = document.querySelector('#navbar');
+
+  if (!header) {
+    return;
+  }
+
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 0) {
+      header.classList.add('shadow-lg');
+    } else {
+      header.classList.remove('shadow-lg');
+    }
+  });
+};
+
+initShadowNav();
+
 var initTippy = function () {
   tippyItems = document.querySelectorAll('.tippy');
 
