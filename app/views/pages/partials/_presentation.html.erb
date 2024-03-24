@@ -2,7 +2,7 @@
   <%= image_tag "siano-icon-white.png", class: "absolute -top-10 -left-10", width: 200 %>
 
   <div class="grid grid-cols-12">
-    <div class="px-12 md:pl-24 md:pr-12 lg:pl-32 lg:pr-12 pt-24 col-span-12 lg:col-span-8 xl:col-span-6">
+    <div class="px-12 xl:px-24 pt-24 col-span-12 lg:col-span-8 xl:col-span-6">
       <h2 class="niramit-semibold text-3xl heading-border left mb-8"><%= locale_content_for('home.titles.firm') %></h1>
 
       <p class="montserrat-light lg:text-xs xl:text-sm text-justify py-4">
@@ -12,7 +12,5 @@
 
     <div class="hidden lg:block h-full object-cover lg:col-span-4 xl:col-span-6" style="background-image: url('<%= asset_path('presentation.jpg') %>'); background-size: cover; ">
     </div>
-
-    <%#= image_tag "presentation.jpg", class: "hidden lg:block h-full object-cover lg:col-span-4 xl:col-span-6" %>
   </div>
 </section>

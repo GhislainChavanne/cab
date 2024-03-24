@@ -1,6 +1,6 @@
 <section>
   <% I18n.t("team").each.with_index do |(key, value), index| %>
-    <figure class="wrapper member" id="<%= key %>">
+    <figure class="member" id="<%= key %>">
       <div class="h-full grid grid-cols-12 <%= index.even? ? 'left' : 'right' %>" style="<%= 'background-color: rgba(2, 82, 83, 0.03);' if index.odd? %>">
         <% if index.even? %>
           <div class="lg:hidden col-span-12 h-96 md:h-[35rem] lg:h-96 w-full" 
@@ -8,7 +8,13 @@
                       background-size: cover; 
                       background-position: 50% 35%;">
           </div>
-          <%= image_tag String(value[:image]), class: "hidden lg:block crop-right h-full object-cover md:col-span-12 lg:col-span-4 xl:col-span-3 max-h-screen" %>
+
+          <div class="hidden lg:block crop-right object-cover md:col-span-12 lg:col-span-4 xl:col-span-3" 
+              style="background-image: url('<%= asset_path(String(value[:image])) %>'); 
+                      background-size: cover; 
+                      background-position: 50% 35%;">
+          </div>
+
           <%= render "pages/partials/member", key: key, value: value, index: index %>
         <% else %>
           <div class="lg:hidden col-span-12 h-96 md:h-[35rem] lg:h-96 w-full" 
@@ -16,8 +22,14 @@
                       background-size: cover; 
                       background-position: 50% 35%;">
           </div>
+
           <%= render "pages/partials/member", key: key, value: value, index: index %>
-          <%= image_tag String(value[:image]), class: "hidden lg:block crop-left h-full object-cover md:col-span-12 lg:col-span-4 xl:col-span-3 max-h-screen" %>
+
+          <div class="hidden lg:block crop-left object-cover md:col-span-12 lg:col-span-4 xl:col-span-3" 
+              style="background-image: url('<%= asset_path(String(value[:image])) %>'); 
+                      background-size: cover; 
+                      background-position: 50% 35%;">
+          </div>
         <% end %>
       </div>
     </figure>
