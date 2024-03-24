@@ -2,7 +2,7 @@
   <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
     <% I18n.t("team").each do |member| %>
       <%= link_to team_path(params: { member: member[0] }) do %>
-        <%= image_tag "portraits/#{member.dig(1, :image)}", class: "object-cover h-56 tippy", data: { tippy: member.dig(1, :name) } %>
+        <%= image_tag "portraits/#{member.dig(1, :image)}", class: "object-cover h-56 w-full tippy", data: { tippy: member.dig(1, :name) } %>
       <% end %>
     <% end %>
   </div>
