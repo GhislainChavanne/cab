@@ -1,4 +1,9 @@
 es:
+  countries:
+    fr: 'Francia'
+    en: 'Reino Unido'
+    es: 'España'
+
   navbar:
     buttons:
       firm: 'BUFETE'
@@ -80,13 +85,11 @@ es:
     firm: |
       Nacido de la fusión de dos estructuras que comparten valores comunes, Siano es un bufete de abogados con oficinas en París y Barcelona que actúa en todas las áreas del derecho penal.
       <br><br>
-      Los cuatro socios fundadores, Léa Dordilly, Clémence Witt, Simon Clémenceau y Camille Tardé, tres de los cuales son antiguos “Secrétaires de la Conférence”, llevan muchos años trabajando en asuntos complejos, sobre todo penales, con gran repercusión mediática y dimensión internacional.
+      Los cuatro socios fundadores, Léa Dordilly, Clémence Witt, Simon Clemenceau y Camille Tardé, tres de los cuales son antiguos “Secrétaires de la Conférence”, llevan muchos años trabajando en asuntos complejos, sobre todo penales, con gran repercusión mediática y dimensión internacional.
       <br><br>
       El equipo de Siano asesora y defiende a particulares y a personas jurídicas, de nacionalidad francesa y extranjera, víctimas o acusados, tanto en materia de prevención de riesgos penales como en materia contenciosa, en todas las etapas del procedimiento (investigación, instrucción, juicio).
       <br><br>
       El bufete recibe su nombre de Victoria Kent Siano, una de las primeras abogadas españolas, conocida por sus compromisos humanistas, feministas y abolicionistas pioneros.
-      <br><br>
-      Los socios y sus tres colaboradores trabajan en francés, inglés y español.
       <br><br>
       Con su experiencia internacional, Siano colabora regularmente con <a href="https://www.impactlitigation.fr/" target="_blank" class="text-sianogreen-500">Impact Litigation</a>, un bufete de abogados creado por Jeanne Sulzer, dedicado a las cuestiones de justicia internacional y de derechos humanos.
     lea: |
@@ -146,7 +149,7 @@ es:
       <br><br>
       Entre 2019 y 2022, se formó en reconocidos bufetes de abogados en derecho mercantil (Clifford Chance) y con renombrados abogados penalistas (Clarisse Serre, Presidente del Colegio de Abogados de París Pierre-Olivier Sur). También trabajó con magistrados del Tribunal de Apelación de París especializados en delincuencia organizada.
       <br><br>
-      Se incorporó al bufete Dordilly Clémenceau Avocats tras su titulación como abogado, antes de antes de unirse a Siano en 2024.
+      Se incorporó al bufete Dordilly Clemenceau Avocats tras su titulación como abogado, antes de unirse a Siano en 2024.
     theo: |
       Graduado de la Universidad Queen Mary de Londres (LLB en derecho inglés, 2018) y de la Universidad Panthéon-Assas (Máster II Derechos humanos y derecho humanitario, 2021), Théo Berrebi es abogado en el Colegio de París desde enero de 2024.
       <br><br>

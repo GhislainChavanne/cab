@@ -1,4 +1,9 @@
 fr:
+  countries:
+    fr: 'France'
+    en: 'Angleterre'
+    es: 'Espagne'
+
   navbar:
     buttons:
       firm: 'CABINET'
@@ -80,13 +85,11 @@ fr:
     firm: |
       Né de la fusion de deux structures partageant des valeurs communes, Siano est un cabinet d’avocats présent à Paris et à Barcelone, intervenant dans tous les domaines du droit pénal.
       <br><br>
-      Anciens Secrétaires de la Conférence pour trois d’entre eux, les quatre associés fondateurs, Léa DORDILLY, Clémence WITT, Simon CLEMENCEAU et Camille TARDE, interviennent depuis de nombreuses années dans des dossiers complexes, notamment criminels, aux forts enjeux médiatiques et à dimension internationale.  
+      Anciens Secrétaires de la Conférence pour trois d’entre eux, les quatre associés fondateurs, Léa Dordilly, Clémence Witt, Simon Clemenceau et Camille Tardé, interviennent depuis de nombreuses années dans des dossiers complexes, notamment criminels, aux forts enjeux médiatiques et à dimension internationale.  
       <br><br>
       L’équipe de Siano conseille et défend des particuliers et des personnes morales, de nationalité française comme étrangère, victimes ou mis en cause, tant en matière de prévention du risque pénal que dans un cadre contentieux à tous les stades de la procédure (enquête, instruction, jugement).
       <br><br>
       Le cabinet tient son nom de Victoria Kent Siano, l’une des premières avocates espagnoles, connue pour ses engagements humaniste, féministe et abolitionniste précurseurs.
-      <br><br>
-      Les associés et leurs trois collaborateurs travaillent en français, anglais et espagnol.
       <br><br>
       Fort d’une expertise internationale, Siano collabore régulièrement avec <a href="https://www.impactlitigation.fr/" target="_blank" class="text-sianogreen-500">Impact Litigation</a>, cabinet d’avocats créé par Jeanne Sulzer, consacré aux questions de justice internationale et droits de l’homme.
     lea: |
@@ -146,7 +149,7 @@ fr:
       <br><br>
       Entre 2019 et 2022, il s’est formé dans des cabinets de droit des affaires de premier plan (Clifford Chance) et auprès d’avocats pénalistes de renom (Clarisse Serre, le Bâtonnier Pierre-Olivier Sur). Il a également travaillé auprès des magistrats de la Cour d’appel de Paris spécialisés en matière de criminalité organisée. 
       <br><br>
-      À sa prestation de serment, il rejoint le cabinet Dordilly Clémenceau Avocats en tant que collaborateur, avant d’intégrer le cabinet Siano en 2024.
+      À sa prestation de serment, il rejoint le cabinet Dordilly Clemenceau Avocats en tant que collaborateur, avant d’intégrer le cabinet Siano en 2024.
     theo: |
       Diplômé de Queen Mary University of London (LLB en droit anglais, 2018) et de l’Université Panthéon-Assas (Master II Droits de l’homme et droit humanitaire, 2021), Théo Berrebi est avocat au Barreau de Paris depuis janvier 2024.
       <br><br>

@@ -1,4 +1,9 @@
 en:
+  countries:
+    fr: 'France'
+    en: 'United Kingdom'
+    es: 'Spain'
+
   date:
     formats:
       long: '%d-%m-%Y'
@@ -87,13 +92,11 @@ en:
     firm: |
       Created through the merger of two entities sharing common values, Siano is a law firm with offices in Paris and Barcelona, working in all areas of criminal law.
       <br><br>
-      The four founding partners, Léa Dordilly, Clémence Witt, Simon Clémenceau and Camille Tardé, three of whom are former “Secrétaires de la Conférence”, have been involved for many years in complex cases, particularly criminal, with high media stakes and an international dimension.
+      The four founding partners, Léa Dordilly, Clémence Witt, Simon Clemenceau and Camille Tardé, three of whom are former “Secrétaires de la Conférence”, have been involved for many years in complex cases, particularly criminal, with high media stakes and an international dimension.
       <br><br>
       Siano’s team assists and defends natural or legal persons, of French and foreign nationality, victims or defendants, in matters of criminal risk prevention and in litigation at every stage of the proceedings (police investigation, judicial investigation, trial).
       <br><br>
       The firm is named after Victoria Kent Siano, one of the first female Spanish lawyers, known for her pioneering humanist, feminist, and abolitionist commitments.
-      <br><br>
-      The partners and their three associates work in French, English and Spanish.
       <br><br>
       With its international expertise, Siano regularly works with <a href="https://www.impactlitigation.fr/" target="_blank" class="text-sianogreen-500">Impact Litigation</a>, a law firm created by Jeanne Sulzer, dedicated to the questions of international justice and human rights.
     lea: |
@@ -101,7 +104,7 @@ en:
       <br><br>
       She graduated from the Master in Criminal Law, criminal science and Justice as well as from the Institute of criminal science and criminology of the Faculty of Law of Aix-en-Provence, and was trained by Jean-Marc Florand, a renowned criminal lawyer and student of Jacques Vergès. 
       <br><br>
-      Elected “Secrétaire de la Conférence” in 2016, an eloquence competition that distinguishes the twelve best speakers of the Paris Bar each year, she has acquired a solid experience in criminal matters, intervening in numerous criminal cases with high media stakes and pleading daily before the Correctional Court and the Criminal Courts (“Cour d’assises” and “Cour criminelle départementale”).
+      Elected “Secrétaire de la Conférence” in 2016, an eloquence competition that distinguishes the twelve best speakers of the Paris Bar each year, she has acquired a solid experience in criminal matters, intervening in numerous criminal cases with high media stakes and pleads daily before the Correctional Court and the Criminal Courts (“Cour d’assises” and “Cour criminelle départementale”).
       <br><br>
       She has therefore acted as defense counsel in the cases of the terrorist attacks of November 13th, Saint-Etienne-du-Rouvray, the Thalys and on the side of the civil parties in the case of the attack in Nice.
       <br><br>
@@ -125,7 +128,7 @@ en:
       <br><br>
       After graduating from Paris 1 Panthéon Sorbonne University (Master in Law of economic activities), he practiced for more than five years in white collar crime, general criminal law and labour law at the firm Milon & Associés.
       <br><br>
-      In 2016, Simon Clemenceau was elected tenth “Secrétaire de la Conférence”, in charge of criminal defense. In this capacity, he intervenes in numerous criminal cases with high media stakes, regularly pleading before the Correctional Court and the Criminal Courts (“Cour d’assises” and “Cour criminelle départementale”).
+      In 2016, Simon Clemenceau was elected tenth “Secrétaire de la Conférence”, in charge of criminal defense. In this capacity, he intervenes in numerous criminal cases with high media stakes, pleads daily before the Correctional Court and the Criminal Courts (“Cour d’assises” and “Cour criminelle départementale”).
       <br><br>
       He acted as defense counsel in the cases of the terrorist attacks of November 13th, Saint-Etienne-du-Rouvray, Magnanville, and represented the civil parties in the case of the attack in Nice.
       <br><br>
@@ -153,7 +156,7 @@ en:
       <br><br>
       Between 2019 and 2022, he trained with leading business law firms (Clifford Chance) and renowned criminal lawyers (Clarisse Serre, Bâtonnier Pierre-Olivier Sur), and also worked with the judges of the Paris Court of Appeal specializing in organized crime.
       <br><br>
-      After being sworn in, he joined Dordilly Clémenceau Avocats as an associate, before joining Siano in 2024.
+      After being sworn in, he joined Dordilly Clemenceau Avocats as an associate, before joining Siano in 2024.
     theo: |
       Théo Berrebi graduated with an LLB from Queen Mary University of London (2018) as well as a Master II in Human and Humanitarian Rights from Panthéon-Assas University (2021). He has been a lawyer at the Paris bar since 2024.
       <br><br>

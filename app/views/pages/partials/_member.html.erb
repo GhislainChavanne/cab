@@ -10,9 +10,11 @@
 
     <%= link_to locale_content_for("ctas.press"), articles_path(editor: value[:name]), class: "w-full p-4 my-4 block text-center font-semibold border-2 border-sianogold-500 text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
 
-    <div class="text-center text-sianoblue-500 text-2xl">
+    <div class="text-center text-sianoblue-500 text-2xl w-full flex items-center justify-center">
       <% if value[:email].present? %>
-        <a type="button" class="cursor-pointer me-2" data-container="body" data-toggle="popover" data-placement="top" data-content="<a href='mailto:<%= value[:email] %>' title='test add link'><%= value[:email] %></a>"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+        <a href="mailto:<%= value[:email] %>" class="me-3">
+          <i class="fa fa-paper-plane" aria-hidden="true"></i>
+        </a>
       <% end %>
 
       <% if value[:linkedin].present? %>

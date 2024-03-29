@@ -135,3 +135,5 @@ geojson.features.forEach(function (feature) {
     )
     .addTo(map);
 });
+
+map.addControl(new mapboxgl.NavigationControl());
