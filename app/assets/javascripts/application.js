@@ -144,9 +144,11 @@ map.addControl(new mapboxgl.NavigationControl());
 document.querySelectorAll('.fly-to').forEach(function (item) {
   item.addEventListener('click', function (evt) {
     var location = evt.target.dataset.location;
-    var coordinates = geojson.features.find((feature) => {
+
+    var coordinates = geojson.features.find(function (feature) {
       return feature.properties.description.includes(location);
     }).geometry.coordinates;
+
     map.flyTo({
       center: coordinates,
       zoom: 15,
