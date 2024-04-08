@@ -142,7 +142,7 @@ geojson.features.forEach(function (feature) {
 map.addControl(new mapboxgl.NavigationControl());
 
 document.querySelectorAll('.fly-to').forEach(function (item) {
-  item.addEventListener('click', (evt) => {
+  item.addEventListener('click', function (evt) {
     var location = evt.target.dataset.location;
     var coordinates = geojson.features.find((feature) => {
       return feature.properties.description.includes(location);
