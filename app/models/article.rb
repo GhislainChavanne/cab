@@ -8,11 +8,17 @@ class Article < ApplicationRecord
   paginates_per 8
 
   def self.editor
-    ['Clémence Witt', 'Matthieu Chavanne', 'Camille Tardé', 'Anaïs Sarron']
+    I18n.t("team").to_a.map(&:second).map { _1[:name] } - assistants
   end
 
   def self.coeditor
-    ['Clémence Witt', 'Matthieu Chavanne', 'Camille Tardé', 'Anaïs Sarron']
+    I18n.t("team").to_a.map(&:second).map { _1[:name] } - assistants
+  end
+
+  def self.assistants
+    I18n.with_locale(:fr) do
+      I18n.t("team").to_a.map(&:second).select { _1[:status] == "assistant" }.map { _1[:name] }
+    end
   end
 
   def self.category

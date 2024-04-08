@@ -39,47 +39,55 @@ fr:
       linkedin: https://www.linkedin.com/in/l%C3%A9a-dordilly-255b79b1
       email: dordilly@sianoavocats.com
       image: 'lea-dordilly.jpg'
+      status: associée
     clemence:
       name: 'Clémence Witt'
       class: 'clem'
       linkedin: https://www.linkedin.com/in/cl%C3%A9mence-witt-a38578153
       email: witt@sianoavocats.com
       image: 'clemence-witt.jpg'
+      status: associée
     simon:
       name: 'Simon Clemenceau'
       linkedin: https://www.linkedin.com/in/simonclemenceau/
       email: clemenceau@sianoavocats.com
       image: 'simon-clemenceau.jpg'
+      status: associé
     camille:
       name: 'Camille Tardé'
       class: 'cam'
       linkedin: https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/?originalSubdomain=fr
       email: tarde@sianoavocats.com
       image: 'camille-tarde.jpg'
+      status: associée
     anais:
       name: 'Anaïs Sarron'
       class: 'anais'
       linkedin: https://fr.linkedin.com/in/ana%C3%AFs-sarron-b4905a90
       email: sarron@sianoavocats.com
       image: 'anais-sarron.jpg'
+      status: collaboratrice
     nicolas:
       name: 'Nicolas Simon'
       class: 'nicolas'
       linkedin: https://www.linkedin.com/in/nicolas-simon-656159131
       email: nsimon@sianoavocats.com
       image: 'nicolas-simon.jpg'
+      status: collaborateur
     theo:
       name: 'Théo Berrebi'
       class: 'theo'
       linkedin: https://www.linkedin.com/in/th%C3%A9o-berrebi-b589a9113/?originalSubdomain=fr
       email: berrebi@sianoavocats.com
       image: 'theo-berrebi.jpg'
+      status: collaborateur
     samuel:
       name: 'Samuel Cherki-Tahar'
       class: 'samuel'
       linkedin:
       email: cherki-tahar@sianoavocats.com
       image: 'samuel-cherki-tahar.jpg'
+      status: assistant
 
   descriptions:
     firm: |

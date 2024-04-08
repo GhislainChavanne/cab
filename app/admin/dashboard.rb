@@ -1,6 +1,6 @@
 ActiveAdmin.register_page "Dashboard" do
   ActiveAdmin.register Article do
-    menu label: "Les articles Chavanne & Witt"
+    menu label: "Les articles Siano Avocats"
   end
 
 

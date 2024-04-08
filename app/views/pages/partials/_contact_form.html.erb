@@ -1,6 +1,6 @@
 <div class="flex items-center justify-center flex-col py-5">
   <h2 class="text-center text-3xl niramit-semibold heading-border center mb-5"><%= locale_content_for("home.titles.contact") %></h2>
-  <h5 class="text-center text-sm mb-5">
+  <h5 class="text-center mb-5">
     <span class="font-bold">
       <em>Siano Avocats</em>
     </span> 
@@ -8,8 +8,8 @@
     <br>
 
     <p>
-      <%= locale_content_for("countries.fr") %>: 49 rue Saint-Roch, 75001 Paris <br>
-      <%= locale_content_for("countries.es") %>: Calle Balmes 222, 4° 1° - 08006 Barcelone
+      <span class="fly-to cursor-pointer" data-location="49 rue Saint-Roch, 75001 Paris"><%= locale_content_for("countries.fr") %>: 49 rue Saint-Roch, 75001 Paris</span> <br>
+      <span class="fly-to cursor-pointer" data-location="Calle Balmes 222, 4° 1°08006 Barcelone"><%= locale_content_for("countries.es") %>: Calle Balmes 222, 4° 1° - 08006 Barcelone</span>
     </p>
   </h5>
 

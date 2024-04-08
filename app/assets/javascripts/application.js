@@ -63,14 +63,17 @@ var initShadowNav = function () {
 initShadowNav();
 
 var initTippy = function () {
-  tippyItems = document.querySelectorAll('.tippy');
+  tippyItems = document.querySelectorAll('.portrait');
 
   tippyItems.forEach(function (item) {
+    var content = item.querySelector('.tippy-content');
+
     tippy(item, {
-      content: item.dataset.tippy,
+      content: content.innerHTML,
       placement: 'top',
       animation: 'fade',
       theme: 'light',
+      allowHTML: true,
     });
   });
 };
@@ -137,3 +140,18 @@ geojson.features.forEach(function (feature) {
 });
 
 map.addControl(new mapboxgl.NavigationControl());
+
+document.querySelectorAll('.fly-to').forEach(function (item) {
+  item.addEventListener('click', (evt) => {
+    var location = evt.target.dataset.location;
+    var coordinates = geojson.features.find((feature) => {
+      return feature.properties.description.includes(location);
+    }).geometry.coordinates;
+    map.flyTo({
+      center: coordinates,
+      zoom: 15,
+      essential: true,
+      duration: 3000,
+    });
+  });
+});
