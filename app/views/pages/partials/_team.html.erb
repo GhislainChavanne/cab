@@ -1,7 +1,7 @@
 <section>
   <% I18n.t("team").each.with_index do |(key, value), index| %>
     <figure class="member" id="<%= key %>">
-      <div class="h-full grid grid-cols-12 <%= index.even? ? 'left' : 'right' %>" style="<%= 'background-color: rgba(2, 82, 83, 0.03);' if index.odd? %>">
+      <div class="min-h-[40rem] grid grid-cols-12 <%= index.even? ? 'left' : 'right' %>" style="<%= 'background-color: rgba(2, 82, 83, 0.03);' if index.odd? %>">
         <% if index.even? %>
           <div class="lg:hidden col-span-12 h-96 md:h-[35rem] lg:h-96 w-full" 
               style="background-image: url('<%= asset_path(String(value[:image])) %>'); 

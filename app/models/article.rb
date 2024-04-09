@@ -32,4 +32,8 @@ class Article < ApplicationRecord
   def self.previous(article)
     where('id > ?', article.id).first
   end
+
+  def self.editor_or_coeditor?(name)
+    where(editor: name).or(where(coeditor: name)).any?
+  end
 end

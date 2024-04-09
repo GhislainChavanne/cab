@@ -46,6 +46,10 @@
   min-height: calc(100vh - 74px);
 }
 
+.min-h-100 {
+  min-height: 26rem;
+}
+
 .max-h-50-screen {
   max-height: 50vh;
 }
