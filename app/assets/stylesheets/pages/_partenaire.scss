@@ -8,19 +8,19 @@
 }
 
 .partenaires h2 {
-    margin-bottom: 30px;
-    font-weight: bolder;
-    position: relative;
-    letter-spacing: 2px;
-  }
-  h2:after{
-    content: "";
-    position: absolute;
-    width: 4%;
-    height: 1px;
-    bottom: -10px;
-    left: 48%;
-    border-bottom: 5px solid #18243e;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  position: relative;
+  letter-spacing: 2px;
+}
+h2:after {
+  content: '';
+  position: absolute;
+  width: 4%;
+  height: 1px;
+  bottom: -10px;
+  left: 48%;
+  border-bottom: 5px solid #18243e;
 }
 
 .top-partenaire {
@@ -52,7 +52,7 @@
   width: 100%;
   border-top: 1px solid white;
   height: 40px;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-around;
   color: white;
