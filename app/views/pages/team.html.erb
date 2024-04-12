@@ -1,9 +1,12 @@
 <main id="scrollable" data-scroll-to="<%= params[:member] %>">
   <div class="p-0" style="background-color: rgba(2, 82, 83, 0.03)">
-    <div class="mb-4 md:mb-0 h-96 lg:h-[44rem] w-full" 
-        style="background-image: url('<%= asset_path('presentation.jpg') %>'); 
-                background-size: cover; 
-                background-position: 0% 70%;">
+    <div class="-nav-h-screen relative flex items-center justify-center relative bg-cover bg-center bg-no-repeat z-40 bg-banner-offset xl:bg-base" style="background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.02)), url('<%= image_path("barcelone.jpg") %>'); background-size: cover; background-position: 70% 45%;">
+
+      <div class="absolute inset-x-1/2 bottom-4 text-white">
+        <a href="#lea" class="text-3xl">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
     </div>
   </div>
 

@@ -12,7 +12,7 @@
           <div class="hidden lg:block crop-right object-cover md:col-span-12 lg:col-span-4 xl:col-span-3" 
               style="background-image: url('<%= asset_path(String(value[:image])) %>'); 
                       background-size: cover; 
-                      background-position: 50% 35%;">
+                      background-position: 90% 35%;">
           </div>
 
           <%= render "pages/partials/member", key: key, value: value, index: index %>
@@ -28,7 +28,7 @@
           <div class="hidden lg:block crop-left object-cover md:col-span-12 lg:col-span-4 xl:col-span-3" 
               style="background-image: url('<%= asset_path(String(value[:image])) %>'); 
                       background-size: cover; 
-                      background-position: 50% 35%;">
+                      background-position: 35% 35%;">
           </div>
         <% end %>
       </div>

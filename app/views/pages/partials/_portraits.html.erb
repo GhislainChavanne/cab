@@ -11,7 +11,7 @@
         </div>
 
         <%= link_to team_path(params: { member: member[0] }) do %>
-          <%= image_tag "portraits/#{member.dig(1, :image)}", class: "object-cover h-56 w-full" %>
+          <%= image_tag "portraits/#{member.dig(1, :image)}", class: "object-cover h-full w-full" %>
         <% end %>
       </div>
     <% end %>
