@@ -14,20 +14,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.css"
+      rel="stylesheet" />
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          backgroundPosition: {
+            'banner-offset': '-500px -500px',
+            'base': 'center center',
+          },
+          extend: {
+            "colors": {
+              "sianogreen": {
+                50: "#D7FDFE",
+                100: "#AAFCFD",
+                200: "#5BF8FB",
+                300: "#06F5F9",
+                400: "#04A2A4",
+                500: "#025253",
+                600: "#024041",
+                700: "#013132",
+                800: "#012223",
+                900: "#000F0F",
+                950: "#000A0A"
+              },
+              "sianoblue": {
+                50: "#DAE9FB",
+                100: "#B1D0F6",
+                200: "#68A4EE",
+                300: "#1A75E5",
+                400: "#12509B",
+                500: "#09284E",
+                600: "#072140",
+                700: "#05172E",
+                800: "#041020",
+                900: "#02070E",
+                950: "#010509"
+              },
+              "sianogray": {
+                50: "#FCFCFC",
+                100: "#F7F7F7",
+                200: "#F0F0F0",
+                300: "#E8E8E8",
+                400: "#E0E0E0",
+                500: "#D9D9D9",
+                600: "#ADADAD",
+                700: "#828282",
+                800: "#575757",
+                900: "#2B2B2B",
+                950: "#171717"
+              },
+              "sianogold": {
+                50: "#FDF8F2",
+                100: "#FBF2E4",
+                200: "#F7E4CA",
+                300: "#F3D7AF",
+                400: "#EFC995",
+                500: "#EBBD7C",
+                600: "#E19D3C",
+                700: "#BA781C",
+                800: "#7C5013",
+                900: "#3E2809",
+                950: "#1F1405"
+              }
+            }
+          }
+        }
+      }
+    </script>
+
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= favicon_link_tag 'favicon.png' %>
+    
     <title><%= meta_title %></title>
     <meta name="description" content="<%= meta_description %>">
 
     <!-- Facebook Open Graph data -->
-    <meta property="og:title" content="Chavanne & Witt Avocats" />
+    <meta property="og:title" content="<%= meta_title %>" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<%= request.original_url %>" />
     <meta property="og:image" content="<%= meta_image %>" />
     <meta property="og:description" content="Secrétaires de la Conférence en 2015, Clémence Witt et Matthieu Chavanne ont décidé de créer le cabinet Chavanne & Witt Avocats en septembre 2017." />
-    <meta property="og:site_name" content="Chavanne & Witt Avocats" />
+    <meta property="og:site_name" content="<%= meta_title %>" />
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
@@ -38,8 +115,18 @@
     <meta name="twitter:image:src" content="<%= meta_image %>">
   </head>
   <body>
+    <%= render 'shared/navbar' unless controller_name == "articles" %>
+    <%= render "shared/breakpoints" if Rails.env.development? %>
     <%= render 'shared/flashes' %>
-    <%= yield %>
+
+    <div class="<%= '-nav-min-h-screen' unless controller_name == "articles" %>">
+      <%= yield %>
+    </div>
+
+    <%= render 'shared/footer' %>
+    
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
     <%= javascript_include_tag 'application' %>
   </body>
 </html>

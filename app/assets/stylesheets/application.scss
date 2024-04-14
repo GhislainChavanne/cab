@@ -1,14 +1,144 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@font-face {
+  font-family: 'Arkhip';
+  src: url(font-path('Arkhip_font.otf')) format('opentype'),
+    url(font-path('Arkhip_font.ttf')) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 // Graphical variables
-@import "config/variables";
-@import "config/bootstrap_variables";
+@import 'config/variables';
+// @import 'config/bootstrap_variables';
+@import 'config/fonts';
 
 // External libraries
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "font-awesome";
-@import "vendor/index";
+#admin {
+  @import 'bootstrap-sprockets';
+  @import 'bootstrap';
+}
+
+@import 'font-awesome';
+@import 'vendor/index';
 
 // Your CSS
-@import "layout/index";
-@import "components/index";
-@import "pages/index";
+@import 'layout/index';
+@import 'components/index';
+@import 'pages/index';
+
+.text-end {
+  text-align: end;
+}
+
+.-nav-h-screen {
+  height: calc(100vh - 74px);
+}
+
+.-nav-h-screen-min {
+  min-height: calc(100vh - 74px);
+}
+
+.-nav-min-h-screen {
+  padding-top: 74px;
+  min-height: calc(100vh - 74px);
+}
+
+.min-h-100 {
+  min-height: 26rem;
+}
+
+.max-h-50-screen {
+  max-height: 50vh;
+}
+
+.max-h-60-screen {
+  max-height: 60vh;
+}
+
+.max-h-70-screen {
+  max-height: 70vh;
+}
+
+.crop-left {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+}
+
+.crop-right {
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+}
+
+.crop-top {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 80%);
+  margin: -100px 0 -50px 0;
+}
+
+.z-80 {
+  z-index: 80;
+}
+
+.z-90 {
+  z-index: 90;
+}
+
+.z-99 {
+  z-index: 99;
+}
+
+.heading-border {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    border-bottom: 3px solid $sianogreen;
+    bottom: -10px;
+  }
+
+  &.left {
+    &::after {
+      left: 0;
+    }
+  }
+
+  &.center {
+    &::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.bg-gradient {
+  background: rgb(2, 64, 65);
+  background: radial-gradient(
+    circle,
+    rgba(2, 64, 65, 1) 0%,
+    rgba(1, 34, 35, 1) 100%
+  );
+}
+
+.marker {
+  background-image: url(asset_path('siano-icon-white.png'));
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mapboxgl-popup-close-button {
+  font-size: large;
+  margin: 5px;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+#navbar {
+  transition: all 0.1s ease-in-out;
+}

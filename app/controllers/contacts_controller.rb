@@ -1,18 +1,19 @@
 class ContactsController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :new, :create ]
-
-  def new
-    @contact = Contact.new
-  end
+  skip_before_action :authenticate_user!, only: [ :create ]
 
   def create
-    @contact = Contact.new(params[:contact])
-    @contact.request = request
-    if @contact.deliver
-      flash.now[:notice] = 'Merci pour votre message, Chavanne & Witt Avocats vous repondra dans les plus brefs délais !'
+    @form = ContactForm.new(contact_params)
+
+    if @form.valid?
+      ContactMailer.contact_email(@form.to_hash).deliver_now
     else
-      flash.now[:error] = "Le message n'a pas pu être envoyé"
-      render :new
+      render 'pages/contact'
     end
+  end
+
+  private
+
+  def contact_params
+    params.require(:contact_form).permit(:name, :email, :subject, :body)
   end
 end

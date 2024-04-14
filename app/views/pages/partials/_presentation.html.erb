@@ -1,0 +1,27 @@
+<section class="wrapper relative mt-4" id="presentation">
+  <%= image_tag "siano-icon-white.png", class: "absolute -top-10 -left-10", width: 200 %>
+
+  <div class="grid grid-cols-12 mb-6 relative">
+    <div class="px-12 lg:pe-4 xl:px-24 pt-24 col-span-12 lg:col-span-6 xl:col-span-6 flex flex-col justify-between items-between">
+      <div>
+        <h2 class="niramit-semibold text-3xl heading-border left mb-8"><%= locale_content_for('home.titles.firm') %></h1>
+
+        <p class="montserrat-light lg:text-xs xl:text-sm text-justify py-4">
+          <%= locale_content_for('descriptions.firm') %>
+        </p>
+
+        <div class="lg:ps-4 xl:pe-24 mb-2 col-span-12 lg:col-span-6 xl:col-span-6 flex lg:hidden items-end justify-end">
+          <%= image_tag "groupe.jpg", class: "object-cover w-full h-full" %>
+        </div>
+
+        <%= render "pages/partials/skills" %>
+      </div>
+
+      <%= link_to locale_content_for('ctas.contact'), contact_path, class: "bg-sianogreen-500 block text-center text-white w-full py-4 px-6 mt-14 lg:mt-0" %>
+    </div>
+
+    <div class="hidden lg:block px-12 pt-24 lg:ps-4 xl:pe-24 col-span-12 lg:col-span-6 xl:col-span-6">
+      <%= image_tag "groupe.jpg", class: "object-cover w-full", style: "position: sticky; top: 80px" %>
+    </div>
+  </div>
+</section>

@@ -6,17 +6,17 @@
 
 // IMPORTANT
 
-html,body {
+html,
+body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
 }
 
 body {
-color: #18243e;
-font-variant-ligatures: none;
-letter-spacing: 1.1px;
+  color: #18243e;
+  font-variant-ligatures: none;
+  letter-spacing: 1.1px;
 }
 
 a:hover {
@@ -42,7 +42,12 @@ a:hover {
   background: #3b5998;
 }
 
-p, h1, h2, h3, h4, h5 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-feature-settings: 'lnum' 1;
   color: #18243e;
 }
@@ -50,7 +55,7 @@ p, h1, h2, h3, h4, h5 {
 .row {
   width: 100%;
   margin: auto;
-  padding: 0px
+  padding: 0px;
 }
 
 .container {
@@ -74,19 +79,19 @@ p, h1, h2, h3, h4, h5 {
 }
 
 @media (min-width: 983px) {
-.container .row .wrapper {
-  width: auto;
-}
-}
-
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: blue;
-}
-
-@media screen and (max-width: 1136px) {
-  .col-lg-8, .col-lg-6 {
-    padding: unset;
+  .container .row .wrapper {
+    width: auto;
   }
 }
 
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: blue;
+}
 
+@media screen and (max-width: 1136px) {
+  .col-lg-8,
+  .col-lg-6 {
+    padding: unset;
+  }
+}

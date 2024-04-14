@@ -25,6 +25,8 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'net-smtp', require: false
 gem 'net-pop', require: false
 gem 'net-imap', require: false
+gem 'simple_form-tailwind'
+gem 'sib-api-v3-sdk'
 
 group :development, :test do
   gem 'better_errors'

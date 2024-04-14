@@ -1,4 +1,9 @@
 en:
+  countries:
+    fr: 'France'
+    en: 'United Kingdom'
+    es: 'Spain'
+
   date:
     formats:
       long: '%d-%m-%Y'
@@ -22,83 +27,199 @@ en:
       contact: 'CONTACT'
       home: 'ACCUEIL'
 
+  presentation:
+    fields: 'Areas of intervention'
+    stages: 'Stage of the proceedings'
+
+  ctas:
+    press: News and publications
+    contact: Contact us
+
+  news:
+    press: Press
+    publications: Publications
+    archives: Archives
+
   team:
+    lea:
+      name: 'Léa Dordilly'
+      class: 'lea'
+      linkedin: https://www.linkedin.com/in/l%C3%A9a-dordilly-255b79b1
+      email: dordilly@sianoavocats.com
+      image: 'lea-dordilly.jpg'
+      status: 'partner'
     clemence:
       name: 'Clémence Witt'
       class: 'clem'
-      linkedin: https://www.linkedin.com/in/clémence-witt-a38578153
-      email: witt@cw-avocats.com
-    matthieu:
-      name: 'Matthieu Chavanne'
-      class: 'mat'
-      linkedin: https://www.linkedin.com/in/matthieu-chavanne-b5693534/?ppe=1
-      email: chavanne@cw-avocats.com
+      linkedin: https://www.linkedin.com/in/cl%C3%A9mence-witt-a38578153
+      email: witt@sianoavocats.com
+      image: 'clemence-witt.jpg'
+      status: 'partner'
+    simon:
+      name: 'Simon Clemenceau'
+      linkedin: https://www.linkedin.com/in/simonclemenceau/
+      email: clemenceau@sianoavocats.com
+      image: 'simon-clemenceau.jpg'
+      status: 'partner'
     camille:
       name: 'Camille Tardé'
       class: 'cam'
       linkedin: https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/?originalSubdomain=fr
-      email: tarde@cw-avocats.com
+      email: tarde@sianoavocats.com
+      image: 'camille-tarde.jpg'
+      status: 'partner'
     anais:
       name: 'Anaïs Sarron'
       class: 'anais'
       linkedin: https://fr.linkedin.com/in/ana%C3%AFs-sarron-b4905a90
-      email: sarron@cw-avocats.com
+      email: sarron@sianoavocats.com
+      image: 'anais-sarron.jpg'
+      status: 'associate'
+    nicolas:
+      name: 'Nicolas Simon'
+      class: 'nicolas'
+      linkedin: https://www.linkedin.com/in/nicolas-simon-656159131
+      email: nsimon@sianoavocats.com
+      image: 'nicolas-simon.jpg'
+      status: 'associate'
+    theo:
+      name: 'Théo Berrebi'
+      class: 'theo'
+      linkedin: https://www.linkedin.com/in/th%C3%A9o-berrebi-b589a9113/?originalSubdomain=fr
+      email: berrebi@sianoavocats.com
+      image: 'theo-berrebi.jpg'
+      status: 'associate'
+    samuel:
+      name: 'Samuel Cherki-Tahar'
+      class: 'samuel'
+      linkedin:
+      email: cherki-tahar@sianoavocats.com
+      image: 'samuel-cherki-tahar.jpg'
+      status: 'assistant'
 
   descriptions:
     firm: |
-      After meeting each other in Chile and being both elected “Secrétaires de la Conférence” in 2015,
-      <strong>Clémence Witt and Matthieu Chavanne</strong> founded the law firm Chavanne & Witt Avocats in September 2017. <br><br>
-      Holders of a double training (Sciences Po Paris / ESSEC), they first worked with two renowned criminal lawyers. They practice equally in Spanish, English and French. <br><br>
-      Chavanne & Witt Avocats assists its clients, natural or legal persons,
-      <strong>in all areas of criminal law</strong> (general criminal law,
-      business criminal law and international criminal law) and at every stage of the proceedings (police investigation, judicial investigation and judgment phase). <br><br>
-      For several years, the firm has been regularly working with the law firm <a href="https://www.impactlitigation.fr/" target="_blank">Impact Litigation</a> dedicated to the questions of international justice and human rights. <br><br>
-      In 2023, <strong>Camille Tardé</strong> became a partner of Chavanne & Witt Avocats. <br><br>
-      With a large Spanish-speaking clientele, the firm also opened a secondary office in <strong>Barcelona</strong>.
+      Created through the merger of two entities sharing common values, Siano is a law firm with offices in Paris and Barcelona, working in all areas of criminal law.
+      <br><br>
+      The four founding partners, Léa Dordilly, Clémence Witt, Simon Clemenceau and Camille Tardé, three of whom are former “Secrétaires de la Conférence”, have been involved for many years in complex cases, particularly criminal, with high media stakes and an international dimension.
+      <br><br>
+      Siano’s team assists and defends natural or legal persons, of French and foreign nationality, victims or defendants, in matters of criminal risk prevention and in litigation at every stage of the proceedings (police investigation, judicial investigation, trial).
+      <br><br>
+      The firm is named after Victoria Kent Siano, one of the first female Spanish lawyers, known for her pioneering humanist, feminist, and abolitionist commitments.
+      <br><br>
+      With its international expertise, Siano regularly works with <a href="https://www.impactlitigation.fr/" target="_blank" class="text-sianogreen-500">Impact Litigation</a>, a law firm created by Jeanne Sulzer, dedicated to the questions of international justice and human rights.
+    lea: |
+      Léa Dordilly has been a lawyer at the Paris Bar since 2011. 
+      <br><br>
+      She graduated from the Master in Criminal Law, criminal science and Justice as well as from the Institute of criminal science and criminology of the Faculty of Law of Aix-en-Provence, and was trained by Jean-Marc Florand, a renowned criminal lawyer and student of Jacques Vergès. 
+      <br><br>
+      Elected “Secrétaire de la Conférence” in 2016, an eloquence competition that distinguishes the twelve best speakers of the Paris Bar each year, she has acquired a solid experience in criminal matters, intervening in numerous criminal cases with high media stakes and pleads daily before the Correctional Court and the Criminal Courts (“Cour d’assises” and “Cour criminelle départementale”).
+      <br><br>
+      She has therefore acted as defense counsel in the cases of the terrorist attacks of November 13th, Saint-Etienne-du-Rouvray, the Thalys and on the side of the civil parties in the case of the attack in Nice.
+      <br><br>
+      Winner of numerous moot court competitions, Léa Dordilly also teaches at the Paris Bar School (EFB).
+      <br><br>
+      In 2018, she created with Simon Clemenceau the firm Dordilly Clemenceau Avocats, before founding Siano in 2024.
     clemence: |
-      Clémence Witt graduated from the Master “Legal and Judiciary Career” at the Sciences Po Paris Law School (2008) and from a Master II in Human and Humanitarian Rights (Panthéon-Assas University, 2010). She also obtained a criminological sciences certificate. She is a lawyer at the Paris Bar since 2012. <br><br>
-      She lived in Chile, in the United States and in Cambodia, where she spent one year in the defense team conducted by Jacques Vergès before the Extraordinary Chambers set up by the United Nations. <br><br>
-      Between 2009 and 2017, she worked for the President of the Paris Bar Pierre-Olivier Sur, mainly in
-      <strong>criminal law, business criminal law, international criminal law and media law</strong>, both in France and abroad (Argentina, Burkina Faso, Ivory Coast, India, Lebanon, Libya, Mexico, Tunisia). She also served as his advisor for international criminal affairs at the Paris Bar Council (2014-2015). <br><br>
-      In 2015, Clémence Witt was elected “Secrétaire de la Conférence”: she therefore intervenes in a lot of criminal cases and pleads regularly before the Criminal Court. <br><br> 
-      Clémence Witt has developed an expertise in extradition proceedings (International and European arrest warrants and Interpol red notices) as well as international crimes (crimes against humanity and war crimes). <br><br>
+      Clémence Witt has been a lawyer at the Paris Bar since 2012 and at the Barcelona Bar since 2023.
+      <br><br>
+      After graduating from the Sciences Po Paris Law School (Master “Legal and Judiciary Career”) and from the Panthéon-Assas University (Master II in Human and Humanitarian Rights, Criminal science certificate), Clémence Witt worked in Cambodia in the defense team conducted by Jacques Vergès before the Extraordinary Chambers set up by the United Nations. She then became an associate of the President of the Paris Bar Pierre-Olivier Sur practicing mainly criminal law, white collar crime, international criminal law and media law, both in France and abroad (Argentina, Burkina Faso, Ivory Coast, India, Lebanon, Libya, Mexico, Tunisia).
+      <br><br>
+      In 2015, Clémence Witt was elected “Secrétaire de la Conférence” and intervenes therefore in a lot of criminal cases with high media stakes, such as those of the terrorist attacks of January 2015, November 13th and Nice. 
+      <br><br>
+      In 2017, she created the firm Chavanne & Witt Avocats with Matthieu Chavanne and opened a secondary office in Barcelona in 2023, before founding Siano in 2024. 
+      <br><br>
+      Clémence Witt has developed an expertise in extradition proceedings (International and European arrest warrants and Interpol red notices) as well as international crimes (crimes against humanity and war crimes), representing for example the victims of the chemical attacks that occurred in Syria in August 2013.
+      <br><br>
       Since 2019, she is a lecturer in substantive and procedural criminal law at Sciences Po.
-    matthieu: |
-      Matthieu Chavanne graduated from the ESSEC Business School (class of 2008) and from a Master II in Litigation and Criminal Law (Panthéon-Assas University, 2009). He is a lawyer at the Paris Bar since 2011. <br><br>
-      After having worked in finance (KPMG, « Transaction Services » department) and in international business law firms (Shearman & Sterling LLP, Gide Loyrette Nouel AARPI), Matthieu Chavanne joined the
-      <strong>business criminal law</strong> team of BG2V between 2012 and 2017. <br><br>
-      In 2015, Matthieu Chavanne was elected “Secrétaire de la Conférence”: in this capacity, he intervened in nearly fifty criminal cases and pleaded several times before the Criminal Court. He therefore has developed a recognized practice in
-      <strong>criminal law</strong>. <br><br>
-      Lastly, since 2019, Matthieu Chavanne devotes part of his activity to <strong>regulatory compliance</strong>. <br><br>
-      Matthieu Chavanne was a tutor at the University of Paris Descartes in business criminal law. He teaches business law at the ESSEC Business School for three years.
+    simon: |
+      Simon Clemenceau has been a lawyer at the Paris bar since 2013.
+      <br><br>
+      After graduating from Paris 1 Panthéon Sorbonne University (Master in Law of economic activities), he practiced for more than five years in white collar crime, general criminal law and labour law at the firm Milon & Associés.
+      <br><br>
+      In 2016, Simon Clemenceau was elected tenth “Secrétaire de la Conférence”, in charge of criminal defense. In this capacity, he intervenes in numerous criminal cases with high media stakes, pleads daily before the Correctional Court and the Criminal Courts (“Cour d’assises” and “Cour criminelle départementale”).
+      <br><br>
+      He acted as defense counsel in the cases of the terrorist attacks of November 13th, Saint-Etienne-du-Rouvray, Magnanville, and represented the civil parties in the case of the attack in Nice.
+      <br><br>
+      In 2018, he created Dordilly Clemenceau Avocats with Léa Dordilly, before founding Siano in 2024.
+      <br><br>
+      He is a member of the ALTAJURIS network, a group of lawyers present throughout France, and is a lecturer at the Paris Bar School (EFB) and at the INSEEC BUSINESS SCHOOL in Paris.
     camille: |
-      Camille Tardé graduated from the Master in Economic Law at the Sciences Po Law School (2016). She is a lawyer at the Paris Bar since 2018. <br><br>
-      After several experiences in public administrations (Prime Minister Services, Paris area public transport network), she chose to specialize in criminal law and interned alongside criminal lawyers (within the Henri Leclerc & Associés law firm as well as at Le Borgne Saint-Palais Associés). She also worked for several judges of the Criminal Chambers of the Paris Court of Appeals (Chambers 8-1 and 8-2). <br><br>
-      Since her admission to the Bar in November 2018, she worked as an associate at the law firm Chavanne & Witt Avocats. <br><br>
-      In September 2023, she became a partner alongside Clémence Witt and Matthieu Chavanne. <br><br>
-      Her main areas of activity are criminal law, business criminal law and media law
+      Camille Tardé has been a lawyer at the Paris bar since 2018.
+      <br><br>
+      After graduating from the Sciences Po Law School (Paris), she trained with leading criminal lawyers (Henri Leclerc & Associés and Le Borgne Saint-Palais Associés) and judges of the Criminal Chambers of the Paris Court of Appeals (Chambers 8-1 and 8-2).
+      <br><br>
+      When she was sworn in, she joined Chavanne & Witt Avocats as an associate.
+      <br><br>
+      In September 2023, she became a partner alongside Clémence Witt and Matthieu Chavanne, before founding Siano in 2024.
+      <br><br>
+      Her main areas of activity are criminal law, white collar crime and media law. She also regularly appears before juvenile courts, both in criminal cases and for educational assistance.
     anais: |
-      Anaïs Sarron graduated from the Sciences Po Paris Law School (Masters in Economic Law - major in “Global Governance Studies”, 2017), and from the LLM in International and Transnational Criminal Law at the University of Amsterdam (UvA, 2019). She is a lawyer at the Paris bar since 2020. <br><br>
-      Between 2015 and 2019, she worked several times as an intern in criminal law at the law firm Thierry Lévy et Associés, alongside the Public Prosecutors before the Investigating Chamber of the Paris Court of Appeals and within the NGO promoting alternatives to imprisonment “Parmi les Présents”. She then joined the law firm Chavanne & Witt Avocats. <br><br>
-      Since her admission to the Bar in November 2020, she works there as an associate.
+      Anaïs Sarron graduated from the Sciences Po Paris Law School (Master in Economic Law - major in “Global Governance Studies”, 2017), and from the LLM in international and transnational criminal law at the University of Amsterdam (UvA, 2019). She has been a lawyer at the Paris bar since 2020.
+      <br><br>
+      Between 2015 and 2019, she practiced criminal law at the firm Thierry Lévy et Associés, alongside the Public Prosecutors before the Investigating Chamber of the Paris Court of Appeals and within the NGO promoting alternatives to imprisonment “Parmi les Présents”. 
+      <br><br>
+      She then worked at the law firm Chavanne & Witt Avocats as an associate between 2020 and 2024 before joining Siano.
+    nicolas: |
+      A graduate of Sciences Po Paris Law School (Master in Economic Law - major in Economic Litigation and Arbitration), Nicolas has been a lawyer at the Paris bar since 2023.
+      <br><br>
+      Between 2019 and 2022, he trained with leading business law firms (Clifford Chance) and renowned criminal lawyers (Clarisse Serre, Bâtonnier Pierre-Olivier Sur), and also worked with the judges of the Paris Court of Appeal specializing in organized crime.
+      <br><br>
+      After being sworn in, he joined Dordilly Clemenceau Avocats as an associate, before joining Siano in 2024.
+    theo: |
+      Théo Berrebi graduated with an LLB from Queen Mary University of London (2018) as well as a Master II in Human and Humanitarian Rights from Panthéon-Assas University (2021). He has been a lawyer at the Paris bar since 2024.
+      <br><br>
+      Between 2019 and 2021, he undertook several internships at the International Criminal Court and the International Residual Mechanism for Criminal Tribunals in the Hague, as well as in a criminal and immigration law firm.
+      <br><br>
+      He then trained at the law firm Chavanne & Witt Avocats from 2022 until January 2024 when he was sworn in and joined Siano as an associate.
+    samuel: |
+      Samuel Cherki-Tahar is a law student at Panthéon-Assas University and graduated from the Superior Institute of Aquitaine (IJA) in legal secretarial studies (2022). He worked at Chavanne & Witt Avocats as an administrative assistant from June 2022 before joining Siano.
 
   skills:
+    firm:
+      fields:
+        - General criminal law
+        - White collar crime
+        - International criminal law
+        - Criminal labour law
+        - Media law
+        - Criminal health law
+        - Environmental criminal law
+        - Juvenile criminal law and educational assistance
+      stages:
+        - Police custody and open hearing
+        - Judicial investigation
+        - Guilty plea procedure
+        - Alternatives to prosecution
+        - Correctional Court (“Tribunal correctionnel”)
+        - Departmental Criminal Court (“Cour criminelle départementale”)
+        - Criminal Court (“Cour d’assises”)
+        - Enforcement of sentences
+    lea: |
+      General criminal law - White collar crime - Juvenile criminal law - Family law - Media law <br>
+      Working languages: French, English
     clemence: |
-      General criminal law – Business criminal law – International criminal law – Media law. <br>
-      Working languages : French, English, Spanish. <br>
-      French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA).
-    matthieu: |
-      General criminal law – Business criminal law – Regulatory compliance. <br>
-      Working languages: French, English, Spanish. <br>
-      French Association of Criminal Lawyers (ADAP), French Association of Criminal Law (AFDP), European Criminal Bar Association (ECBA).
+      General criminal law - White collar crime - International criminal law - Media law <br>
+      Working languages: French, English, Spanish <br>
+      French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA)
+    simon: |
+      General criminal law - White collar crime - Criminal labour law - Labour Law - Social law - Media law <br>
+      Working languages: French, English
     camille: |
-      General criminal law – Business criminal law – Media law. <br>
-      Working languages : French, English. <br>
-      French Association of Criminal Lawyers (ADAP), European Criminal Bar Association (ECBA).
+      General criminal law - White collar crime - Media law - Juvenile criminal law and educational assistance. <br>
+      Working languages: French, English
     anais: |
-      General criminal law - International criminal law - Business criminal law. <br>
-      Working languages: French, English, Spanish, Portuguese, Italian. <br>
-      European Criminal Bar Association.
+      General criminal law - International criminal law - Extradition proceedings - White collar crime <br>
+      Working languages: French, English, Spanish, Portuguese, Italian <br>
+      European Criminal Bar Association (ECBA)
+    nicolas: |
+      General criminal law - International criminal law and extradition proceedings - White collar crime - Media law <br>
+      Working languages: French, English
+    theo: |
+      General criminal law - International criminal law - White collar crime <br>
+      Working languages: French, English <br>
+      European Criminal Bar Association (ECBA)
+    samuel: |
 
   form:
     placeholders:

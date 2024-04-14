@@ -1,4 +1,9 @@
 es:
+  countries:
+    fr: 'Francia'
+    en: 'Reino Unido'
+    es: 'España'
+
   navbar:
     buttons:
       firm: 'BUFETE'
@@ -15,85 +20,199 @@ es:
       contact: 'CONTACTO'
       home: 'EL BUFETE'
 
+  presentation:
+    fields: 'Áreas de practica'
+    stages: 'Etapas del procedimiento'
+
+  ctas:
+    press: Novedades y publicaciones
+    contact: Contacto
+
+  news:
+    press: Prensa
+    publications: Publicaciones
+    archives: Archivos
+
   team:
+    lea:
+      name: 'Léa Dordilly'
+      class: 'lea'
+      linkedin: https://www.linkedin.com/in/l%C3%A9a-dordilly-255b79b1
+      email: dordilly@sianoavocats.com
+      image: 'lea-dordilly.jpg'
+      status: 'socia'
     clemence:
       name: 'Clémence Witt'
       class: 'clem'
-      linkedin: https://www.linkedin.com/in/clémence-witt-a38578153
-      email: witt@cw-avocats.com
-    matthieu:
-      name: 'Matthieu Chavanne'
-      class: 'mat'
-      linkedin: https://www.linkedin.com/in/matthieu-chavanne-b5693534/?ppe=1
-      email: chavanne@cw-avocats.com
+      linkedin: https://www.linkedin.com/in/cl%C3%A9mence-witt-a38578153
+      email: witt@sianoavocats.com
+      image: 'clemence-witt.jpg'
+      status: 'socia'
+    simon:
+      name: 'Simon Clemenceau'
+      linkedin: https://www.linkedin.com/in/simonclemenceau/
+      email: clemenceau@sianoavocats.com
+      image: 'simon-clemenceau.jpg'
+      status: 'socio'
     camille:
       name: 'Camille Tardé'
       class: 'cam'
       linkedin: https://www.linkedin.com/in/camille-tard%C3%A9-4a63068b/?originalSubdomain=fr
-      email: tarde@cw-avocats.com
+      email: tarde@sianoavocats.com
+      image: 'camille-tarde.jpg'
+      status: 'socia'
     anais:
       name: 'Anaïs Sarron'
       class: 'anais'
       linkedin: https://fr.linkedin.com/in/ana%C3%AFs-sarron-b4905a90
-      email: sarron@cw-avocats.com
+      email: sarron@sianoavocats.com
+      image: 'anais-sarron.jpg'
+      status: 'asociada'
+    nicolas:
+      name: 'Nicolas Simon'
+      class: 'nicolas'
+      linkedin: https://www.linkedin.com/in/nicolas-simon-656159131
+      email: nsimon@sianoavocats.com
+      image: 'nicolas-simon.jpg'
+      status: 'asociado'
+    theo:
+      name: 'Théo Berrebi'
+      class: 'theo'
+      linkedin: https://www.linkedin.com/in/th%C3%A9o-berrebi-b589a9113/?originalSubdomain=fr
+      email: berrebi@sianoavocats.com
+      image: 'theo-berrebi.jpg'
+      status: 'asociado'
+    samuel:
+      name: 'Samuel Cherki-Tahar'
+      class: 'samuel'
+      linkedin:
+      email: cherki-tahar@sianoavocats.com
+      image: 'samuel-cherki-tahar.jpg'
+      status: 'asistente'
 
   descriptions:
     firm: |
-      <strong>Clémence Witt y Matthieu Chavanne</strong> se conocieron en Chile en 2005. Tras haber ejercido juntos como “Secrétaires de la Conférence” en 2015, crearon el bufete Chavanne & Witt Abogados en septiembre 2017. <br><br>
-      Titulares de una doble formación (Sciences Po Paris / Essec), ejercieron en primer lugar con dos penalistas de renombre y trabajan indistintamente en español, inglés y francés. <br><br>
-      El bufete Chavanne & Witt Abogados acompaña a sus clientes, particulares o personas jurídicas, en
-      <strong>todas las áreas del derecho penal</strong> (derecho penal general,
-      derecho penal económico, derecho penal internacional) y a cada etapa del procedimiento (investigación, instrucción, juicio). <br><br>
-      Desde unos años, el bufete colabora con el despacho <a href="https://www.impactlitigation.fr/" target="_blank">Impact Litigation</a>, dedicado a las cuestiones de justicia internacional y de derechos humanos. <br><br>
-      En 2023, <strong>Camille Tardé</strong> se convirtió en socia del bufete Chavanne & Witt Abogados. <br><br>
-      Teniendo muchos clientes hispanófonos, el bufete abrió en paralelo una oficina segundaria en <strong>Barcelona</strong>.
+      Nacido de la fusión de dos estructuras que comparten valores comunes, Siano es un bufete de abogados con oficinas en París y Barcelona que actúa en todas las áreas del derecho penal.
+      <br><br>
+      Los cuatro socios fundadores, Léa Dordilly, Clémence Witt, Simon Clemenceau y Camille Tardé, tres de los cuales son antiguos “Secrétaires de la Conférence”, llevan muchos años trabajando en asuntos complejos, sobre todo penales, con gran repercusión mediática y dimensión internacional.
+      <br><br>
+      El equipo de Siano asesora y defiende a particulares y a personas jurídicas, de nacionalidad francesa y extranjera, víctimas o acusados, tanto en materia de prevención de riesgos penales como en materia contenciosa, en todas las etapas del procedimiento (investigación, instrucción, juicio).
+      <br><br>
+      El bufete recibe su nombre de Victoria Kent Siano, una de las primeras abogadas españolas, conocida por sus compromisos humanistas, feministas y abolicionistas pioneros.
+      <br><br>
+      Con su experiencia internacional, Siano colabora regularmente con <a href="https://www.impactlitigation.fr/" target="_blank" class="text-sianogreen-500">Impact Litigation</a>, un bufete de abogados creado por Jeanne Sulzer, dedicado a las cuestiones de justicia internacional y de derechos humanos.
+    lea: |
+      Léa Dordilly es abogada en el Colegio de París desde 2011. 
+      <br><br>
+      Graduada del Máster Derecho penal, Ciencias penales y Justicia así como del Instituto de ciencias penales y criminología de la Facultad de derecho de Aix-en-Provence, fue formada por Jean-Marc Florand, reconocido abogado penalista y alumno de Jacques Vergès. 
+      <br><br>
+      Elegida “Secrétaire de la Conférence” en 2016, un concurso de elocuencia que distingue cada año a los doce mejores oradores del Colegio de París, ha adquirido una sólida experiencia en materia penal, interviniendo en numerosos casos penales con gran repercusión mediática y litigando diariamente ante el Juzgado de lo Penal y las Cortes Criminales (“Cour d’assises” y “Cour criminelle départementale”).
+      <br><br>
+      Así, actuó como abogada defensora en los casos de los atentados terroristas del 13 de noviembre, Saint-Etienne-du-Rouvray y del Thalys, y representó a las partes civiles en el caso del atentado de Niza.
+      <br><br>
+      Ganadora de numerosos concursos de tribunales simulados, Léa Dordilly es también profesora en la Escuela de formación del Colegio de Abogados de París (EFB).
+      <br><br>
+      Creó en 2018 el bufete Dordilly Clemenceau Avocats con Simon Clemenceau, antes de fundar Siano en 2024.
     clemence: |
-      Graduada del Master Carreras Judiciales y Jurìdicas (2008) de la Escuela de Ciencias Políticas de París (Sciences Po Paris), de un Máster II Derechos humanos y derecho humanitario (Universidad Panthéon-Assas, 2010) y titular de un certificado de ciencias criminológicas, Clémence Witt es abogada en el Colegio de París desde 2012. <br><br>
-      Vivió en Chile, en los Estados Unidos y en Camboya, donde perteneció durante un año al equipo de defensa dirigido por Jacques Vergès ante las Cortes especiales establecidas por la ONU. <br><br>
-      Entre 2009 y 2017, fue colaboradora del Presidente del Colegio de abogados de París Pierre-Olivier Sur, ejerciendo esencialmente en
-      <strong>derecho penal, derecho penal económico, derecho penal internacional y derecho de la prensa</strong>
-      en Francia y al extranjero (Argentina, Burkina Faso, Costa de Marfil, India, Líbano, Libia, México, Túnez). Fue también su asesora para los asuntos internacionales en el Colegio de abogados de París (2014-2015). <br><br>
-      En 2015, Clémence Witt fue elegida “Secrétaire de la Conférence”, lo que la llevó a intervenir en muchos casos criminales y a litigar a menudo ante la Corte Criminal. <br><br>
-      Clémence Witt desarrolló una experiencia en materia de extradición (orden de busca y captura, orden de detención europea, noticias rojas Interpol y crímenes internacionales (crímenes de lesa humanidad y crímenes de guerra). <br><br>
-      Desde 2019, está encargada de cursos de derecho penal y procedimiento penal en Sciences Po Paris.
-    matthieu: |
-      Graduado de la Escuela de Negocios ESSEC (promoción 2008) y de un Máster II Contencioso, Arbitraje y Modos alternativos de resolución de conflictos (Universidad Panthéon-Assas 2009), Matthieu Chavanne es abogado en el Colegio de París desde 2011. <br><br>
-      Tras haber trabajado en finanzas (KPMG, departamento “Transaction Services”) y después como colaborador de varios bufetes de abogados de negocios internacionales (Shearman & Sterling LLP, Gide Loyrette Nouel AARPI), Matthieu Chavanne se unió al equipo de
-      <strong>derecho penal económico</strong>
-      del bufete BG2V entre 2012 y 2017. <br><br>
-      En 2015, Matthieu Chavanne fue elegido “Secrétaire de la Conférence”, lo que lo llevó a intervenir en unos cincuenta casos criminales y a litigar a menudo ante la Corte Criminal. Por lo tanto, ha desarrollado una práctica reconocida en
-      <strong>derecho penal</strong>. <br><br>
-      Por fin, desde 2019, Matthieu Chavanne dedica parte de su actividad a las cuestiones de compliance. <br><br>
-      Matthieu Chavanne también fue encargado de cursos de derecho penal económico en la Universidad de Paris Descartes. Desde hace tres años, enseña el derecho comercial en la Escuela de Negocios ESSEC.
+      Clémence Witt es abogada en el Colegio de París desde 2012 y en el Colegio de Barcelona desde 2023.
+      <br><br>
+      Graduada de Sciences Po París (Master Carreras Judiciales y Jurídicas) y de la Universidad Panthéon-Assas (Máster II Derechos humanos y derecho humanitario, Certificado de ciencias criminológicas) Clémence Witt trabajó en Camboya en el equipo de defensa dirigido por Jacques Vergès ante las Cortes Especiales establecidas por la ONU, antes de convertirse en colaboradora del Presidente del Colegio de Abogados de París Pierre-Olivier Sur: ejerce esencialmente en derecho penal, derecho penal económico, derecho penal internacional y derecho de la prensa en Francia y al extranjero (Argentina, Burkina Faso, Costa de Marfil, India, Líbano, Libia, México, Túnez). 
+      <br><br>
+      En 2015, Clémence Witt fue elegida “Secrétaire de la Conférence”, lo que la llevó a intervenir en muchos casos criminales con gran repercusión mediática, como los de los atentados terroristas de enero de 2015, del 13 de noviembre y de Niza. 
+      <br><br>
+      En 2017 creó el bufete Chavanne & Witt Avocats junto a Matthieu Chavanne y abrió una oficina secundaria en Barcelona en 2023, antes de fundar Siano en 2024. 
+      <br><br>
+      Clémence Witt desarrolló una experiencia en materia de extradición (orden de busca y captura, orden de detención europea, notificaciones rojas Interpol y crímenes internacionales (crímenes de lesa humanidad y crímenes de guerra), representando en particular a las víctimas de los ataques químicos ocurridos en Siria en agosto de 2013.
+      <br><br>
+      Desde 2019, está encargada de cursos de derecho penal y procedimiento penal en Sciences Po.
+    simon: |
+      Simon Clemenceau es abogado en el Colegio de París desde 2013.
+      <br><br>
+      Graduado de la Universidad París 1 Panthéon Sorbonne (Máster Derecho de las actividades económicas), trabajó durante más de cinco años en el bufete Milon & Associés, ejerciendo en derecho penal económico, derecho penal general y derecho laboral.
+      <br><br>
+      En 2016, fue elegido décimo “Secrétaire de la Conférence”, encargado de la defensa penal, e interviene por lo tanto en muchos casos penales con gran repercusión mediática, litigando a menudo ante el Juzgado de lo Penal y las Cortes Criminales (“Cour d’assises” y “Cour criminelle départementale”). 
+      <br><br>
+      Actuó como abogado defensor en los casos de los atentados terroristas del 13 de noviembre, Saint-Etienne-du-Rouvray y Magnanville y como representante de las partes civiles en el caso del atentado de Niza.
+      <br><br>
+      En 2018, creó con Léa Dordilly el bufete Dordilly Clemenceau Avocats, antes de fundar Siano en 2024.
+      <br><br>
+      Es miembro de la red ALTAJURIS, un grupo de abogados presentes en toda Francia, y también profesor en la Escuela de formación del Colegio de Abogados de París (EFB) y en la INSEEC BUSINESS SCHOOL de París.
     camille: |
-      Graduada de la Escuela de Ciencias Políticas de París (Sciences Po), Master Derecho económico (2016), Camille Tardé es abogada en el Colegio de París desde 2018. <br><br>
-      Tras varias experiencias en administraciones (Servicios del Primer Ministro, Sindicato de transportes de la región parisina), eligió especializarse en derecho penal y realizó prácticas tanto en bufetes de abogados penalistas (Henri Leclerc & Associés y Le Borgne Saint-Palais Associés), como en la Sección penal del Tribunal de Apelación de París (Sala 8-1 y 8-2). <br><br>
-      Desde su titulación como abogada en noviembre de 2018, Camille Tardé trabajó como colaboradora en el bufete Chavanne & Witt Abogados. <br><br>
-      En septiembre 2023, se convirtió en socia al lado de Clémence Witt y Matthieu Chavanne. <br><br>
-      Se dedica principalmente al derecho penal, al derecho penal económico y al derecho de la prensa.
+      Camille Tardé es abogada en el Colegio de París desde 2018.
+      <br><br>
+      Graduada de la Escuela de derecho de Sciences Po (París), se formó con abogados penalistas de renombre (Henri Leclerc & Associés y Le Borgne Saint-Palais Associés) y magistrados de la Sección penal del Tribunal de Apelación de París (Sala 8-1 y 8-2).
+      <br><br>
+      Desde su titulación como abogada en noviembre de 2018, Camille Tardé trabajó como colaboradora en el bufete Chavanne & Witt Abogados.
+      <br><br>
+      En septiembre 2023, se convirtió en socia al lado de Clémence Witt y Matthieu Chavanne, antes de fundar Siano en 2024.
+      <br><br>
+      Se dedica principalmente al derecho penal general, al derecho penal económico y al derecho de la prensa. También actúa con regularidad ante los tribunales de menores, tanto en casos penales como de asistencia educativa.
     anais: |
-      Graduada de la Escuela de derecho de Sciences Po Paris (Máster Derecho económico - especialización “Global Governance Studies”, 2017)
-      y de un LLM en Derecho penal internacional y transnacional de la Universidad de Amsterdam (UvA, 2019), Anaïs Sarron es abogada en el Colegio de París desde 2020. <br><br>
-      Entre 2015 y 2019, realizó varias pasantías en derecho penal en el bufete Thierry Lévy et Associés, ante la Sala de Instrucción del Tribunal de Apelación de Paris (Fiscalía general), y con la asociación de alternativa al encarcelamiento “Parmi les Présents”, antes de unirse al bufete Chavanne & Witt Avocats. <br><br>
-      Desde su titulación como abogada en noviembre 2020, Anaïs Sarron ejerce en dicho bufete como colaboradora.
+      Graduada de la Escuela de derecho de Sciences Po París (Máster Derecho económico - especialización “Global Governance Studies”, 2017) y de un LLM en derecho penal internacional y transnacional de la Universidad de Amsterdam (UvA, 2019), Anaïs Sarron es abogada en el Colegio de París desde 2020.
+      <br><br>
+      Entre 2015 y 2019, trabajó en el bufete Thierry Lévy et Associés, en la Sala de Instrucción del Tribunal de Apelación de Paris (Fiscalía general) y con la asociación de alternativa al encarcelamiento “Parmi les Présents”, antes de unirse al bufete Chavanne & Witt Abogados.
+      <br><br>
+      Ejerció en dicho bufete como colaboradora entre 2020 y 2024 antes de incorporarse al equipo de Siano.
+    nicolas: |
+      Graduado de la Escuela de derecho de Sciences Po París (Máster Derecho Económico - especialización “Litigios y Arbitrajes Económicos”), Nicolas Simon es abogado en el Colegio de París desde 2023.
+      <br><br>
+      Entre 2019 y 2022, se formó en reconocidos bufetes de abogados en derecho mercantil (Clifford Chance) y con renombrados abogados penalistas (Clarisse Serre, Presidente del Colegio de Abogados de París Pierre-Olivier Sur). También trabajó con magistrados del Tribunal de Apelación de París especializados en delincuencia organizada.
+      <br><br>
+      Se incorporó al bufete Dordilly Clemenceau Avocats tras su titulación como abogado, antes de unirse a Siano en 2024.
+    theo: |
+      Graduado de la Universidad Queen Mary de Londres (LLB en derecho inglés, 2018) y de la Universidad Panthéon-Assas (Máster II Derechos humanos y derecho humanitario, 2021), Théo Berrebi es abogado en el Colegio de París desde enero de 2024.
+      <br><br>
+      Entre 2019 y 2021, realizó varias prácticas en la Corte Penal Internacional y en el Mecanismo Residual del TPIY y del TPIR en La Haya, así como en un bufete de abogados en derecho migratorio y derecho penal.
+      <br><br>
+      En 2022, se unió al bufete Chavanne & Witt Abogados como abogado pasante hasta su titulación como abogado en enero de 2024, cuando empezó a trabajar como colaborador en el bufete Siano.
+    samuel: |
+      Graduado del Instituto Superior de Aquitania (IJA) en secretariado jurídico (2022) y estudiante de derecho en la Universidad Panthéon-Assas, Samuel Cherki-Tahar ejerció como asistente administrativo en el bufete Chavanne & Witt Avocats desde junio de 2022 antes de unirse a Siano.
 
   skills:
+    firm:
+      fields:
+        - Derecho penal general
+        - Derecho penal económico
+        - Derecho penal internacional
+        - Derecho penal del trabajo
+        - Derecho de la prensa
+        - Derecho penal sanitario
+        - Derecho penal ambiental
+        - Derecho penal del menor y asistencia educativa
+      stages:
+        - Detención preventiva y declaraciones sin detención
+        - Instrucción / sumario penal
+        - Acuerdo de culpabilidad
+        - Alternativas al enjuiciamiento
+        - Juzgado de lo Penal (“Tribunal correctionnel”)
+        - Corte Criminal departamental (“Cour criminelle départementale”)
+        - Corte Criminal (“Cour d’assises”)
+        - Ejecución de penas
+    lea: |
+      Derecho penal general - Derecho penal económico - Derecho penal del menor - Derecho de familia - Derecho de la prensa <br>
+      Idiomas de trabajo: francés, inglés
     clemence: |
-      Derecho penal general – Derecho penal económico – Derecho penal internacional – Derecho de la prensa. <br>
-      Idiomas de trabajo : francés, inglés, español. <br>
+      Derecho penal general - Derecho penal económico - Derecho penal internacional - Derecho de la prensa <br>
+      Idiomas de trabajo: francés, inglés, español <br>
       Asociación de Abogados Penalistas (ADAP), European Criminal Bar Association (ECBA)
-    matthieu: |
-      Derecho penal general – Derecho penal económico – Compliance. <br>
-      Idiomas de trabajo: francés, inglés, español. <br>
-      Asociación de Abogados Penalistas (ADAP), Asociación francesa de Derecho Penal, European Criminal Bar Association (ECBA).
+    simon: |
+      Derecho penal general - Derecho penal económico - Derecho penal laboral - Derecho laboral - Derecho social - Derecho de la prensa <br>
+      Idiomas de trabajo: francés, inglés
     camille: |
-      Derecho penal general – Derecho penal económico – Derecho de la prensa. <br>
-      Idiomas de trabajo: francés, inglés. <br>
-      Asociación de Abogados Penalistas (ADAP), European Criminal Bar Association (ECBA).
+      Derecho penal general - Derecho penal económico - Derecho de la prensa - Derecho penal del menor y asistencia educativa <br>
+      Idiomas de trabajo: francés, inglés
     anais: |
+      Derecho penal general - Derecho penal internacional - Procedimientos de extradición - Derecho penal económico <br>
+      Idiomas de trabajo: francés, inglés, español, portugués, italiano <br>
+      European Criminal Bar Association (ECBA)
+    nicolas: |
+      Derecho penal general - Derecho penal internacional y procedimientos de extradición - Derecho penal económico - Derecho de la prensa <br>
+      Idiomas de trabajo: francés, inglés
+    theo: |
       Derecho penal general - Derecho penal internacional - Derecho penal económico <br>
-      Idiomas de trabajo: francés, inglés, español, portugués, italiano.
-      European Criminal Bar Association.
+      Idiomas de trabajo: francés, inglés <br>
+      European Criminal Bar Association (ECBA)
+    samuel: |
 
   form:
     placeholders:

@@ -1,0 +1,49 @@
+<section class="wrapper bg-gradient px-12 py-24 -nav-h-screen" id="actualites">
+  <div class="w-full">
+    <h4 class="text-center text-white text-3xl niramit-semibold heading-border center mb-5"><%= locale_content_for("home.titles.news") %></h2>
+  </div>
+
+  <div class="wrapper actualites">
+    <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4" style="padding-top: 20px;">
+      <% articles.each do |article|  %>
+        <article class="col-lg-3 col-md-6 col-xs-12">
+          <div class="card">
+            <div class="card-header">
+              <div class="category">
+                <%= article.category %>
+              </div>
+              
+              <div class="date text-sianogreen-500">
+                <%= article.date.strftime("%d. %m. %Y")%>
+              </div>
+            </div>
+
+            <div class="content-card">
+              <h4><%= article.title.upcase.tr('æ-ý','Æ-Ý') %></h4>
+              <p><%= article.description.first(60) %>...</p>
+            </div>
+
+            <%= link_to article_path(article) do %>
+              <div class="py-4 flex items-center justify-center font-semibold w-full h-full border-2 border-t-sianogray-500 text-sianogray-800 hover:text-white hover:bg-sianoblue-500">
+                Lire la suite
+              </div>
+            <% end %>
+          </div>
+        </article>
+      <% end %>
+    </div>
+
+    <nav class="container grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="text-black bg-sianogray-100 flex item-center justify-center">
+        <%= link_to locale_content_for("news.press"), articles_path(category: "Presse"), class: "w-full p-4 block text-center font-semibold text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
+      </div>
+      <div class="text-black bg-sianogray-100 flex item-center justify-center">
+        <%= link_to locale_content_for("news.publications"), articles_path(category: "Publications"), class: "w-full p-4 block text-center font-semibold text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
+      </div>
+      <div class="text-black bg-sianogray-100 flex item-center justify-center">
+        <%= link_to locale_content_for("news.archives"), articles_path(category: "Archives"), class: "w-full p-4 block text-center font-semibold text-sianogold-500 hover:text-white hover:bg-sianogold-500"  %>
+      </div>
+    </nav>
+  </div>
+</section>
+
