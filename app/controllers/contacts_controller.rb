@@ -6,6 +6,7 @@ class ContactsController < ApplicationController
 
     if @form.valid?
       ContactMailer.contact_email(@form.to_hash).deliver_now
+      redirect_to root_path, notice: 'Votre message a bien été envoyé.'
     else
       render 'pages/contact'
     end
