@@ -9,7 +9,7 @@ class PagesController < ApplicationController
   end
 
   def news
-    @articles = Article.order(date: :desc).page(params[:page]).per(8)
+    @articles = Article.order(date: :desc).page(params[:page]).per(4)
   end
 
   def contact
