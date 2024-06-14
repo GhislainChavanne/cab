@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_09_112648) do
+ActiveRecord::Schema.define(version: 2024_06_14_101300) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -39,6 +39,10 @@ ActiveRecord::Schema.define(version: 2020_09_09_112648) do
     t.string "editor"
     t.string "coeditor"
     t.string "category"
+    t.string "coeditor_2"
+    t.string "coeditor_3"
+    t.string "coeditor_4"
+    t.string "link"
   end
 
   create_table "contacts", id: :serial, force: :cascade do |t|

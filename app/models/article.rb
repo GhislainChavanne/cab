@@ -34,6 +34,11 @@ class Article < ApplicationRecord
   end
 
   def self.editor_or_coeditor?(name)
-    where(editor: name).or(where(coeditor: name)).any?
+    where(editor: name)
+      .or(where(coeditor: name))
+      .or(where(coeditor_2: name))
+      .or(where(coeditor_3: name))
+      .or(where(coeditor_4: name))
+      .any?
   end
 end

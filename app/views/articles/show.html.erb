@@ -16,6 +16,10 @@
       <p><strong><%= @article.description %></strong></p>
       <p><%= @article.content.html_safe %></p>
 
+      <% if @article.link.present? %>
+        <p class="mt-5 text-blue-500"><a href="<%= @article.link %>" target="_blank">Source</a></p>
+      <% end %>
+
       <div class="option-article">
         <i class="fa fa-share-alt-square" aria-hidden="true"></i>
       </div>
